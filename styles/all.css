@@ -1,11 +1,17 @@
 #header{
   text-align: center;
   color: white;
-  font-size: 70px;
 }
 
+h1{
+  font-size: 70px;
+  padding-bottom: 0;
+}
 #description{
+  background-color:#6c7c96;
+  margin-top: 10px;
   font-size: 40px;
+  opacity: .8;
 
 }
 
@@ -16,7 +22,28 @@ body{
   background-color: black;
 }
 
-.searchbox {
+#search_icon {
+  max-width: 50%;
+  height: auto;
+}
+
+.button {
+  height:100px;
+  width:100px;
+  background-color: #FFFF;
+  border:none;
+  color: white;
+  image-orientation: center;
+  border-radius: 80%;
+}
+/* #inputs{
+  max-width:80%;
+  height:auto;
+  background-color: #FFFF;
+  align-self: center;
+} */
+
+/* .searchbox {
   width:100%;
 }
 
@@ -49,4 +76,4 @@ body{
   height:25px;
   background: #3973ac;
   cursor: pointer;
-}
+} */
