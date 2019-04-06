@@ -4,9 +4,49 @@
   font-size: 70px;
 }
 
+#description{
+  font-size: 40px;
+
+}
+
 body{
   margin:0;
   padding:0;
   background-image: url("/images/nyc.jpg");
   background-color: black;
+}
+
+.searchbox {
+  width:100%;
+}
+
+.slider {
+  -webkit-appearance:none;
+  width:80%;
+  height:25px;
+  background:#F4EDED;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #3973ac;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height:25px;
+  background: #3973ac;
+  cursor: pointer;
 }

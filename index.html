@@ -3,19 +3,30 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <link rel="stylesheet" type= "text/css" href= "styles/all.css" media="all" />
-    <title id="title">Urban Gems</title>
+
+	<script type="text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
+  <link rel="stylesheet" type= "text/css" href= "styles/all.css" media="all"></link>
+  <title id="title">Urban Gems</title>
 </head>
 
 <body>
   <div id="header">
-  <h1> URBAN GEMS</h1>
+    <h1> URBAN GEMS</h1>
+    <h2 id="description">Explore ideal NYC spaces that align with your schedule and lifestyle.</h2>
   </div>
-  <!--code help from https://www.youtube.com/watch?v=v1PeTDrw6OY -->
   <div class= "search-box">
-    <a class="search-btn" href="#">
+      <input type="range" min="18" max="100" value="50" class="slider" id="myRange">
+      <span id = "demo"></span>
+        <script id="sliders">
+          var slider = document.getElementById("myRange");
+          var output = document.getElementById("demo");
 
-    </a>
+          slider.oninput = function() {
+            output.innerHTML = this.value;
+          }
+        </script>
+    </svg>
+
   </div>
 </body>
 </html>
