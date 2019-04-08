@@ -1,0 +1,81 @@
+#header{
+  text-align: center;
+  color: white;
+}
+
+h1{
+  font-size: 70px;
+  padding-bottom: 0;
+}
+#description{
+  /* background-color:#6c7c96; */
+  margin-top: 10px;
+  font-size: 40px;
+  /* opacity: .8; */
+
+}
+
+body{
+  margin:0;
+  padding:0;
+  background-image: url("/images/nyc.jpg");
+  background-color: black;
+}
+
+#search_icon {
+  max-width: 50%;
+  height: auto;
+}
+
+.button {
+  height:100px;
+  width:100px;
+  background-color: #FFFF;
+  border:none;
+  color: white;
+  image-orientation: center;
+  border-radius: 80%;
+}
+#inputs{
+  width: 100%;
+  height: auto;
+  background-color: #FFFF;
+  align-self: center;
+  /* visibility:hidden; */
+}
+
+/* .searchbox {
+  width:50%;
+  background-color:red;
+} */
+
+.slider {
+  -webkit-appearance:none;
+  width:80%;
+  height:25px;
+  background:#F4EDED;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #3973ac;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height:25px;
+  background: #3973ac;
+  cursor: pointer;
+} */

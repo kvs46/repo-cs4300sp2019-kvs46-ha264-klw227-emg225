@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<script type="text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
+  <link rel="stylesheet" type= "text/css" href= "styles/all.css" media="all"></link>
+  <title id="title">Urban Gems</title>
+</head>
+
+<body>
+  <div id="header">
+    <h1> URBAN GEMS</h1>
+    <h2 id="description">Explore ideal NYC spaces that align with your schedule and lifestyle.</h2>
+      <!--search icon credited below-->
+      <!--<div>Icons made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+      <button class="button" onclick="display_input()">
+        <img id="search_icon" src="/images/magnifying-glass.png"/>
+      </button>
+  </div>
+  <div class= "search-box">
+    <svg id="user_input" width="500" height="500">
+
+    </svg>
+
+    <!-- <script id="svg_script">
+      let inputSVG = d3.select("#user_input");
+      let inputSVGHeight = inputSVG.attr("height");
+      let inputSVGWidth = inputSVG.attr("width");
+      let inputSVGMargin = {"top": 30, "right":30, "bottom":30, "left":30};
+      let inputHeight = inputSVGHeight - inputSVGMargin.top - inputSVGMargin.bottom;
+      let inputWidth = inputSVGWidth - inputSVGMargin.left - inputSVGMargin.right;
+
+      //editable group
+      let canvas = inputSVG.append("g").attr("transform","translate("+inputSVGMargin.lef+","+inputSVGMargin.top+")");
+
+      // let circle = canvas.append("circle").attr("class", "button")
+      //   .attr("cy", inputSVGHeight/2)
+      //   .attr("cx", inputSVGWidth/2)
+      //   .attr("r", 50)
+      //   .attr("opacity", .5)
+      //   .style("fill", "#FFFF");
+      //
+      // circle.append("")
+
+    </script> -->
+
+
+    <!-- <svg id="inputs">
+      <input type="range" min="18" max="100" value="50" class="slider" id="myRange">
+      <span id = "demo"></span>
+        <script id="sliders">
+          var input_svg = d3.select("inputs");
+          var canvas =  input_svg.append("g");
+          var slider = document.getElementById("myRange");
+          var output = document.getElementById("demo");
+
+          canvas.append(slider);
+          canvas.append(output);
+          canvas.append("circle")
+            .attr("cx","100px ")
+            .attr("cy", "50px")
+            .attr("r", "40px")
+            .attr("opacity", 0.8)
+            .style("fill", "red");
+
+          slider.oninput = function() {
+            output.innerHTML = this.value;
+          }
+
+        </script>
+    </svg> -->
+
+  </div>
+</body>
+</html>
