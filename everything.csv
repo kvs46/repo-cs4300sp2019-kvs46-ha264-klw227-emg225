@@ -1,0 +1,1607 @@
+uid,facname,address,boro,zipcode,latitude,longitude,factype,optype
+123715,Brooklyn Botanical Gardens,1000 Washington Avenue,Brooklyn,11225,40.667559,-73.962156,Botanical Garden,Public
+61730,T. Jefferson HS Greenhouse/Gdn,642 Blake Avenue,Brooklyn,11207,40.667579,-73.895128,Botanical Garden,Public
+116546,South Battery,1 Governors Island,Manhattan,10004,40.687603,-74.015516,City-State Park,Public
+116544,Hammock Grove,1 Governors Island,Manhattan,10004,40.689076,-74.019955,City-State Park,Public
+115763,Hudson River Park,Battery Pl to W 59 St,Manhattan,10036,40.76374,-73.99896,City-State Park,Public
+162572,Northtown Park,40 River Road,Manhattan,10044,40.763451,-73.947704,City-State Park,Public
+114695,Southpoint,40 River Road,Manhattan,10044,40.76233,-73.949536,City-State Park,Public
+121551,Brooklyn Bridge Park,146 Furman Street,Brooklyn,11201,40.697792,-73.999304,City-State Park,Public
+10007,Southtown Commons,40 River Road,Manhattan,10044,40.758064,-73.954454,City-State Park,Public
+114690,Franklin D Roosevelt Four Freedoms Park,40 River Road,Manhattan,10044,40.76233,-73.949536,City-State Park,Public
+114689,Southwest Promenade,40 River Road,Manhattan,10044,40.76233,-73.949536,City-State Park,Public
+116547,Liggett Terrace,1 Governors Island,Manhattan,10004,40.689598,-74.019292,City-State Park,Public
+114692,Northwest Promenade,40 River Road,Manhattan,10044,40.76233,-73.949536,City-State Park,Public
+114716,Octagon Park,40 River Road,Manhattan,10044,40.768097,-73.945696,City-State Park,Public
+116535,Nolan Park,1 Governors Island,Manhattan,10004,40.689823,-74.013991,City-State Park,Public
+147486,Parade Ground,1 Governors Island,Manhattan,10004,40.689359,-74.015945,City-State Park,Public
+116541,Play Lawn,1 Governors Island,Manhattan,10004,40.687901,-74.02162,City-State Park,Public
+162580,East Promenade,40 River Road,Manhattan,10044,40.765531,-73.945446,City-State Park,Public
+114681,Manhattan Park Lawn,40 River Road,Manhattan,10044,40.762969,-73.949953,City-State Park,Public
+114670,Rivercross Lawn,40 River Road,Manhattan,10044,40.76233,-73.949536,City-State Park,Public
+21219,Colonels Row,1 Governors Island,Manhattan,10004,40.690715,-74.018823,City-State Park,Public
+114722,Lighthouse Park,40 River Road,Manhattan,10044,40.772294,-73.940703,City-State Park,Public
+61168,Greenthumb Garden,Livonia Avenue,Brooklyn,11212,40.662105,-73.910142,Community Garden,Public
+134425,Green Oasis/Gilbert's Garden,384 East    8 Street,Manhattan,10009,40.723931,-73.977188,Community Garden,Public
+163897,176th Street Community Garden,East 176 Street,Bronx,10453,40.848009,-73.909714,Community Garden,Public
+61699,East End Community Garden,530 Glenmore Avenue,Brooklyn,11207,40.673781,-73.890807,Community Garden,Public
+157318,First Quincy St Block Assoc,397 Quincy Street,Brooklyn,11221,40.687911,-73.944384,Community Garden,Public
+5782,Sterling Comm Group Garden,1707 Sterling Place,Brooklyn,11233,40.671224,-73.922145,Community Garden,Public
+61645,Gregory's Garden,Warwick Street,Brooklyn,11207,40.672591,-73.885921,Community Garden,Public
+120314,Kissena Corridor Park,37-46 Elder Avenue,Queens,11355,40.74869,-73.823122,Community Garden,Public
+123950,TLC Sculpture Park.Garden,275 Glenmore Avenue,Brooklyn,11207,40.672731,-73.90056,Community Garden,Public
+45585,Miracle Garden,196 East    3 Street,Manhattan,10009,40.722637,-73.983491,Community Garden,Public
+157131,Garden Beautiful,1456 Broadway,Brooklyn,11221,40.687715,-73.919317,Community Garden,Public
+156874,El Batey Borincano Garden,815 Eagle Avenue,Bronx,10456,40.820768,-73.909288,Community Garden,Public
+164791,Rocks & Roots Park,1129 Fulton Avenue,Bronx,10456,40.8287,-73.90612,Community Garden,Public
+160202,Harris Garden,St Nicholas Avenue,Manhattan,10032,40.829619,-73.942087,Community Garden,Public
+159904,Mt Hope Garden,2039 Creston Avenue,Bronx,10453,40.852557,-73.905363,Community Garden,Public
+123973,TLC Sculpture Park,271 Glenmore Avenue,Brooklyn,11207,40.672703,-73.900741,Community Garden,Public
+123552,Rincon Criollo Garden,749 Brook Avenue,Bronx,10451,40.820468,-73.912089,Community Garden,Public
+41421,Kelly/PS 52 Playground,941 Avenue St John,Bronx,10455,40.815267,-73.902248,Community Garden,Public
+5271,Hancock T & T Garden,324 Hancock Street,Brooklyn,11216,40.683107,-73.943029,Community Garden,Public
+75560,Daly Ave/Hispanos Unidos Gdn,887 East  179 Street,Bronx,10460,40.844077,-73.88353,Community Garden,Public
+117457,9th Street Community Garden,146 Avenue C,Manhattan,10009,40.725345,-73.977657,Community Garden,Public
+199392,Children's Miracle Garden,Norfolk Street,Manhattan,10002,40.720707,-73.986367,Community Garden,Public
+103139,117th St Community Garden,172 East 117 Street,Manhattan,10035,40.798811,-73.940557,Community Garden,Public
+121441,La Plaza Cultural Garden,East 9 Street,Manhattan,10009,40.725485,-73.979013,Community Garden,Public
+92470,Family Group Garden,420 East  158 Street,Bronx,10451,40.821828,-73.914038,Community Garden,Public
+161468,Santos White Garden,2106 Mermaid Avenue,Brooklyn,11224,40.576038,-73.988193,Community Garden,Public
+61134,Hopkinson R&L Cblk Assoc. Gdn,758 Thomas S Boyland Street,Brooklyn,11212,40.661873,-73.911945,Community Garden,Public
+61696,Clara's Garden,579 Glenmore Avenue,Brooklyn,11207,40.674403,-73.889029,Community Garden,Public
+41371,Morris-Jumel Ecological Garden,455 West 162 Street,Manhattan,10032,40.835752,-73.939086,Community Garden,Public
+164119,Wanaqua Garden,460 East  136 Street,Bronx,10454,40.806768,-73.921968,Community Garden,Public
+155769,Dias Y Flores Garden,522 East 13 Street,Manhattan,10009,40.72907,-73.9799,Community Garden,Public
+169835,Ebenezer Wesleyan Methodist Ch,123 East  100 Street,Manhattan,10029,40.788819,-73.949399,Community Garden,Public
+170798,El Puente/Earth Spirit Garden,207 South    2 Street,Brooklyn,11211,40.712503,-73.959351,Community Garden,Public
+2284,Hoe Ave North Tot Lots Garden,1221 Hoe Avenue,Bronx,10459,40.829456,-73.891148,Community Garden,Public
+104483,Granite St Block Assoc Garden,28 Granite Street,Brooklyn,11207,40.682335,-73.907652,Community Garden,Public
+125785,PS 84 & Playground,59 West 91 Street,Manhattan,10025,40.789479,-73.968423,Community Garden,Public
+134442,6th St & Ave B Comm Garden,82 Avenue B,Manhattan,10009,40.724331,-73.98223,Community Garden,Public
+109365,Doscher St Block Assoc Garden,Doscher Street,Brooklyn,11208,40.673682,-73.871978,Community Garden,Public
+61700,East New York I URA,337 Van Siclen Avenue,Brooklyn,11207,40.67165,-73.889762,Community Garden,Public
+7252,Sunshine Community Garden,101 Mc Kibbin Street,Brooklyn,11206,40.705291,-73.943969,Community Garden,Public
+115231,Powell St Block Assoc Park,Powell Street,Brooklyn,11212,40.658494,-73.900895,Community Garden,Public
+61472,First Temple Of David Park,494 Bradford Street,Brooklyn,11207,40.666683,-73.890948,Community Garden,Public
+117679,Bayview Terrace Park   R-137,Bayview Terrace,Staten Island,10312,40.526884,-74.163482,Community Garden,Public
+122328,Taqwa Commnity Farm,992 Ogden Avenue,Bronx,10452,40.832548,-73.929285,Community Garden,Public
+103232,Peachtree Garden,238 East 2 Street,Manhattan,10009,40.72164,-73.98194,Community Garden,Public
+126877,Bryant Hill Garden,Bryant Avenue,Bronx,10474,40.819829,-73.887215,Community Garden,Public
+168148,Castle Hill Park,202 Castle Hill Avenue,Bronx,10473,40.811764,-73.845977,Community Garden,Public
+7218,St Nicholas-Olive St Garden,25 Olive Street,Brooklyn,11211,40.713344,-73.939057,Community Garden,Public
+101427,Truce Garden,145 St Nicholas Avenue,Manhattan,10026,40.804627,-73.95306,Community Garden,Public
+157308,Hattie Carthan Garden,658 Lafayette Avenue,Brooklyn,11216,40.689947,-73.948699,Community Garden,Public
+5032,Walt L Shemal Garden,1099 Dean Street,Brooklyn,11216,40.677414,-73.953586,Community Garden,Public
+153541,PS4/Paradise Garden,690 Glenmore Avenue,Brooklyn,11207,40.674673,-73.884764,Community Garden,Public
+137364,United We Stand Garden,627 East  137 Street,Bronx,10454,40.805441,-73.91571,Community Garden,Public
+109333,Green Gems Garden,953 Glenmore Avenue,Brooklyn,11208,40.676472,-73.874925,Community Garden,Public
+32225,St Nicholas-Powers St Garden,278 Powers Street,Brooklyn,11211,40.712746,-73.939674,Community Garden,Public
+61624,Herbal Garden,Schenck Avenue,Brooklyn,11207,40.674,-73.888563,Community Garden,Public
+158277,Farmers Garden,1897 Bergen Street,Brooklyn,11233,40.674611,-73.918334,Community Garden,Public
+30127,Harlem Rose Garden,East 129 Street,Manhattan,10035,40.808505,-73.939916,Community Garden,Public
+169269,Cooper St Block Buster Gdn,Cooper Street,Brooklyn,11207,40.684638,-73.910786,Community Garden,Public
+39754,Vernon New Harvest Garden,48 Vernon Avenue,Brooklyn,11206,40.694271,-73.95021,Community Garden,Public
+102473,Family Community Garden,Cleveland Street,Brooklyn,11208,40.665483,-73.881438,Community Garden,Public
+61635,Floral Vineyard Garden,2385 Pitkin Avenue,Brooklyn,11208,40.673783,-73.884383,Community Garden,Public
+118124,Garden Of Happiness Addition,2162 Prospect Avenue,Bronx,10457,40.848613,-73.884921,Community Garden,Public
+173612,De Colores Cmty Yard & Ctr Gar,311 East 8 Street,Manhattan,10009,40.725463,-73.979775,Community Garden,Public
+160923,Garden Of Love,302 West 116 Street,Manhattan,10026,40.804395,-73.956048,Community Garden,Public
+39509,Good Shepherds Garden,557 Shepherd Avenue,Brooklyn,11208,40.670713,-73.879679,Community Garden,Public
+109348,Euclid 500 Block Assoc Garden,149 Doscher Street,Brooklyn,11208,40.673253,-73.871951,Community Garden,Public
+134998,Franklin Memoral Garden,Cauldwell Avenue,Bronx,10456,40.826309,-73.905263,Community Garden,Public
+165520,Elizabeth Langley Memor Garden,121 West 137 Street,Manhattan,10030,40.816109,-73.941,Community Garden,Public
+139705,Is318/Project Roots Garden,110 Walton Street,Brooklyn,11206,40.702776,-73.947957,Community Garden,Public
+117680,Bayview Terrace Park  R-137,Bayview Terrace,Staten Island,10312,40.526986,-74.16327,Community Garden,Public
+137224,Padre Plaza Garden,545 East  139 Street,Bronx,10454,40.807909,-73.917376,Community Garden,Public
+138409,176st Street Community Garden,East 176 Street,Bronx,10453,40.847982,-73.90949,Community Garden,Public
+122313,Taqwa Community Farm,994 Ogden Avenue,Bronx,10452,40.832611,-73.929252,Community Garden,Public
+108092,Risse Street Park,100 Van Cortlandt Park E,Bronx,10468,40.878564,-73.885289,Community Garden,Public
+165336,Locust Manor Civic Assoc Gdn,120 Avenue,Queens,11434,40.683544,-73.773758,Community Garden,Public
+157123,700 Decatur St Bl Assoc Garden,Hopkinson Avenue,Brooklyn,11233,40.683872,-73.914396,Community Garden,Public
+62865,Leave It Better Kids' Garden,1971 Grand Avenue,Bronx,10453,40.852204,-73.911024,Community Garden,Public
+154036,Gardens Of Union,640 Union Street,Brooklyn,11215,40.676859,-73.982302,Community Garden,Public
+139745,Bradhurst Urban Renewal Park,220 West  146 Street,Manhattan,10039,40.82269,-73.940084,Community Garden,Public
+142297,Earth People Garden,East 8 Street,Manhattan,10009,40.725161,-73.978963,Community Garden,Public
+103673,A Better Community Garden,3 Hunterfly Place,Brooklyn,11233,40.678062,-73.928118,Community Garden,Public
+156895,El Flamboyan Garden,588 Tinton Avenue,Bronx,10455,40.813694,-73.905657,Community Garden,Public
+156818,Hart To Hart Garden,104 Hart Street,Brooklyn,11206,40.693084,-73.947492,Community Garden,Public
+81066,Shiloh Garden,Monroe Street,Brooklyn,11216,40.686284,-73.945247,Community Garden,Public
+176420,United Comm Centers Garden,599 Alabama Avenue,Brooklyn,11207,40.661187,-73.895766,Community Garden,Public
+140377,Amboy Neighborhood Ctr Garden,208 Amboy Street,Brooklyn,11212,40.665361,-73.913836,Community Garden,Public
+109337,Green Gems Garden\,933 Glenmore Avenue,Brooklyn,11208,40.676382,-73.875499,Community Garden,Public
+134258,Generation X Garden,270 East 4 Street,Manhattan,10009,40.722584,-73.981453,Community Garden,Public
+6813,Lentol Garden,178 Bayard Street,Brooklyn,11222,40.719995,-73.945256,Community Garden,Public
+45628,Cooper Square URA,287 Bowery,Manhattan,10003,40.724399,-73.991811,Community Garden,Public
+157692,Hull Street Garden,233 Hull Street,Brooklyn,11233,40.680158,-73.907515,Community Garden,Public
+152608,Goodwill Park,Main Avenue,Queens,11102,40.77221,-73.931988,Community Garden,Public
+55661,Madison St Block Assoc Garden,88 Madison Street,Brooklyn,11216,40.683917,-73.955525,Community Garden,Public
+112956,The Backyard Garden,65 Hamilton Avenue,Brooklyn,11231,40.683313,-74.005675,Community Garden,Public
+164794,The Bklyn Bears/Carlton Ave Gd,397 Carlton Avenue,Brooklyn,11238,40.685761,-73.971097,Community Garden,Public
+171098,6bc Botanical Garden,624 East    6 Street,Manhattan,10009,40.723869,-73.980742,Community Garden,Public
+103348,Brownsville II URA,746 Howard Avenue,Brooklyn,11212,40.66365,-73.919511,Community Garden,Public
+134245,Orchard Alley Garden,346 East 4 Street,Manhattan,10009,40.721365,-73.978574,Community Garden,Public
+137354,St Luke's Playground,638 East  138 Street,Bronx,10454,40.805545,-73.915172,Community Garden,Public
+109614,Stars Of Hope,Shell Road,Brooklyn,11224,40.582528,-73.974979,Community Garden,Public
+169863,The Amazing Garden,265 Columbia Street,Brooklyn,11231,40.683083,-74.003371,Community Garden,Public
+200620,Wishing Well Garden,864 Rev James Polite Avenue,Bronx,10459,40.819496,-73.898632,Community Garden,Public
+171201,Jackson Forest Comm Garden,722 Home Street,Bronx,10456,40.82819,-73.902651,Community Garden,Public
+170737,Badillo Community Rose Garden,East 163 Street,Bronx,10451,40.825038,-73.912614,Community Garden,Public
+196165,Ten Eyeck Houses Hdfc Garden,17 Ten Eyck Street,Brooklyn,11206,40.709804,-73.950097,Community Garden,Public
+100478,Joe Holzka Community Garden,104 Barker Street,Staten Is,10310,40.63462,-74.121465,Community Garden,Public
+32354,C.A.U.S.A. Festival Garden,782 Blake Avenue,Brooklyn,11207,40.668403,-73.889641,Community Garden,Public
+62789,Dred Scott Bird Sanctuary Gard,1310 Grant Avenue,Bronx,10456,40.836251,-73.913094,Community Garden,Public
+164587,PS 125 Playground,413 West 123 Street,Manhattan,10027,40.81079,-73.955726,Community Garden,Public
+21310,Vernon T & T Block Assoc Gdn,200 Vernon Avenue,Brooklyn,11206,40.694998,-73.943863,Community Garden,Public
+5800,St Marks Block Assoc Garden,455 Ralph Avenue,Brooklyn,11233,40.673546,-73.921865,Community Garden,Public
+82758,Edith Garden,836 Elton Avenue,Bronx,10451,40.822749,-73.912426,Community Garden,Public
+164241,Hart To Hart Garden Extension,114 Hart Street,Brooklyn,11206,40.693133,-73.947063,Community Garden,Public
+103230,"Eng 28, Lad 11 Parking",218 East 2 Street,Manhattan,10009,40.721953,-73.982683,Community Garden,Public
+164234,Daly Ave./Hispanos Unidos Gdn,2033 Honeywell Avenue,Bronx,10460,40.844138,-73.88348,Community Garden,Public
+157254,Will Washington Memorial Gdn,325 West  126 Street,Manhattan,10027,40.811445,-73.951625,Community Garden,Public
+8485,Garden Of Life,1685 Weeks Avenue,Bronx,10457,40.843919,-73.908092,Community Garden,Public
+45712,Shield Of Faith Garden,81 Montauk Avenue,Brooklyn,11208,40.677551,-73.878503,Community Garden,Public
+117277,West 104th Street Garden,8 West  104 Street,Manhattan,10025,40.796822,-73.961785,Community Garden,Public
+73232,Vernon T & T Block Assoc.Gdn,196 Vernon Avenue,Brooklyn,11206,40.694982,-73.944018,Community Garden,Public
+164793,Demera/Santiago Garden,943 Avenue St John,Bronx,10455,40.815201,-73.902215,Community Garden,Public
+136760,Cs 134 Comm Improvement Garden,1311 Bristow Street,Bronx,10459,40.83093,-73.895016,Community Garden,Public
+40759,Cedar Tree Garden,Greene Avenue,Brooklyn,11238,40.687698,-73.959179,Community Garden,Public
+166117,Berry Street Garden,303 Berry Street,Brooklyn,11249,40.713327,-73.963596,Community Garden,Public
+41360,Joseph Daniel Wilson Garden,219 West 122 Street,Manhattan,10027,40.807621,-73.950533,Community Garden,Public
+137359,Sunflower Garden,639 East  137 Street,Bronx,10454,40.805292,-73.915356,Community Garden,Public
+173550,Firemen's Memorial Garden,364 East    8 Street,Manhattan,10009,40.724225,-73.977888,Community Garden,Public
+61133,Hopkinson R&L Cblk Assoc.Gdn,754 Thomas S Boyland Street,Brooklyn,11212,40.661978,-73.911973,Community Garden,Public
+80375,Clifton Pl Memorial Pk & Gard,1035 Bedford Avenue,Brooklyn,11216,40.68849,-73.954628,Community Garden,Public
+101714,Bklyn Bears Rockwell Place Gdn,65 Flatbush Avenue,Brooklyn,11217,40.686946,-73.979267,Community Garden,Public
+157471,Mckinley's Children's Garden,108-56 Union Hall Street,Queens,11433,40.694655,-73.791358,Community Garden,Public
+118112,Garden Of Happiness,2160 Prospect Avenue,Bronx,10457,40.848556,-73.884968,Community Garden,Public
+43048,Elton St Block Assoc Garden,583 Elton Street,Brooklyn,11208,40.668697,-73.88185,Community Garden,Public
+157453,Rainbow Garden,383 East  159 Street,Bronx,10451,40.823294,-73.914903,Community Garden,Public
+1157,Rev George Warren Hinton Park,36-98 114 Street,Queens,11368,40.755005,-73.854114,Community Garden,Public
+88535,Mosaic Success Garden,1315 Ogden Avenue,Bronx,10452,40.840388,-73.925467,Community Garden,Public
+61575,Prophecy Garden,67 Malta Street,Brooklyn,11207,40.659178,-73.89507,Community Garden,Public
+112983,Human Compass Garden,207 Columbia Street,Brooklyn,11231,40.684897,-74.002502,Community Garden,Public
+19621,Mott Haven North URA Site #2,St Anns Avenue,Bronx,10455,40.817256,-73.911215,Community Garden,Public
+147749,Madison Square Garden Assoc,1258 Madison Street,Brooklyn,11221,40.694746,-73.913037,Community Garden,Public
+92453,Courtlandt Avenue Assoc Garden,364 East  158 Street,Bronx,10451,40.822502,-73.916202,Community Garden,Public
+101369,Community Garden,433 Cleveland Street,Brooklyn,11208,40.674195,-73.884083,Community Garden,Public
+157882,The Claremont Community School,3830 Park Avenue,Bronx,10457,40.838738,-73.90381,Community Garden,Public
+77105,Undeveloped Garden,2014 La Fontaine Avenue,Bronx,10457,40.847674,-73.893323,Community Garden,Public
+163991,Manley's Place Garden,2535 Pitkin Avenue,Brooklyn,11208,40.674639,-73.878671,Community Garden,Public
+169906,Diamante Garden,308 East 118 Street,Manhattan,10035,40.797834,-73.936296,Community Garden,Public
+102943,Metro North Park,313 East  100 Street,Manhattan,10029,40.786659,-73.943861,Community Garden,Public
+169864,Summit St Community Garden,285 Columbia Street,Brooklyn,11231,40.682411,-74.00371,Community Garden,Public
+155488,Convent Garden,481 West 151 Street,Manhattan,10031,40.828337,-73.942681,Community Garden,Public
+2874,Our Little Green Acre/Garden 8,275 West  122 Street,Manhattan,10027,40.808206,-73.952021,Community Garden,Public
+87548,Jardin De La Familia Garden,455 East 171 Street,Bronx,10457,40.83797,-73.903747,Community Garden,Public
+170938,New 123rd St. Block Assoc. Gdn,112 West 123 Street,Manhattan,10027,40.806631,-73.947413,Community Garden,Public
+86205,Carolina Garden,112 East  122 Street,Manhattan,10035,40.802784,-73.940172,Community Garden,Public
+161401,Community Park,1278 Myrtle Avenue,Brooklyn,11221,40.697859,-73.925926,Community Park,Public
+107543,Queensbridge Park,40-50 Vernon Boulevard,Queens,11101,40.757025,-73.947366,Community Park,Public
+113938,Juniper Valley Park,71-01 Juniper Boulevard S,Queens,11379,40.71875,-73.884556,Community Park,Public
+97089,Lindower Park,6120 East 60 Place,Brooklyn,11234,40.612274,-73.911221,Community Park,Public
+169144,Bayswater Park Addition,Norton Drive,Queens,,40.600358,-73.772646,Community Park,Public
+164674,Pedestrian Ramp-W 8 & Surf Ave,805 Surf Avenue,Brooklyn,11224,40.57563,-73.976846,Community Park,Public
+25677,Asser Levy Park,,Brooklyn,11224,40.574731,-73.973531,Community Park,Public
+120359,Fort Washington Park,,Manhattan,10033,40.851432,-73.942505,Community Park,Public
+198962,Roy Wilkins-Southern Qns. Park,116 Avenue,Queens,11434,40.689138,-73.773948,Community Park,Public
+148668,The High Line,,Manhattan,10011,40.745686,-74.005673,Community Park,Public
+175645,Marine Park,3000 Flatbush Avenue,Brooklyn,11234,40.600358,-73.914213,Community Park,Public
+94644,Cambria Playground,Francis Lewis Blvd,Queens,11411,40.689142,-73.74293,Community Park,Public
+9409,Steeplechase Park,1904 Surf Avenue,Brooklyn,11224,40.574586,-73.984394,Community Park,Public
+82722,Lincoln Terrace / Arthur S. Somers Park,Rochester Avenue,Brooklyn,11213,40.666787,-73.926926,Community Park,Public
+104552,Alley Pond Park,240 Street,Queens,11362,40.756416,-73.741743,Community Park,Public
+161872,Clove Lakes Park,1321 Victory Boulevard,Staten Island,10301,40.619462,-74.113743,Community Park,Public
+134411,Asphalt Green,1712 York Avenue,Manhattan,10028,40.77863,-73.944008,Community Park,Public
+97639,Roy Wilkins Southern Qns.Park,116 Avenue,Queens,11434,40.68818,-73.775365,Community Park,Public
+196903,Bloomingdale Park,299 Bloomingdale Road,Staten Island,10309,40.532693,-74.214282,Community Park,Public
+102491,Jhs 68 And Playground (Jop),956 East   82 Street,Brooklyn,11236,40.635177,-73.910882,Community Park,Public
+50394,"Louis J Valentino,Jr Pk & Pier",104 Ferris Street,Brooklyn,11231,40.678345,-74.017939,Community Park,Public
+131287,Thomas Greene Playground,225 Nevins Street,Brooklyn,11217,40.680317,-73.985352,Community Park,Public
+90039,Baisley Pond Park,15-50 Sutphin Boulevard,Queens,11434,40.678009,-73.786712,Community Park,Public
+112532,Brookville Park,Brookville Boulevard,Queens,11422,40.65954,-73.745642,Community Park,Public
+77351,"Phil ""Scooter"" Rizzuto Park",125-02 Atlantic Avenue,Queens,11419,40.694663,-73.821522,Community Park,Public
+102991,Howard Pool,1560 East New York Avenue,Brooklyn,11212,40.671819,-73.91016,Community Park,Public
+21573,John Mullaly Park,951 River Avenue,Bronx,10452,40.830831,-73.925507,Community Park,Public
+179987,Frank Principe Park,60 Street,Queens,11378,40.727467,-73.904739,Community Park,Public
+56682,Todd Memorial Square,Columbia Street,Brooklyn,11231,40.672054,-74.008702,Community Park,Public
+169566,McCarren Park,776 Lorimer Street,Brooklyn,11222,40.720126,-73.949939,Community Park,Public
+163570,Franz Sigel Park,613 Grand Concourse,Bronx,10451,40.823317,-73.925603,Community Park,Public
+115657,Wolfe's Pond Park,Irvington Street,Staten Island,10309,40.520338,-74.190976,Community Park,Public
+169518,Isham Park,,Manhattan,10034,40.870658,-73.919685,Community Park,Public
+97634,Roy Wilkins Recreation Center,117-05 Merrick Boulevard,Queens,11434,40.687763,-73.770132,Community Park,Public
+134946,Faber Pool and Park,Richmond Terrace,Staten Island,10302,40.641002,-74.135721,Community Park,Public
+112948,Lost Battalion Hall Recreation Center,93-29 Queens Boulevard,Queens,11374,40.731804,-73.865513,Community Park,Public
+77098,Manhattan Beach Park,760 Oriental Boulevard,Brooklyn,11235,40.577072,-73.943201,Community Park,Public
+44377,Riverside Park,Henry Hudson Parkway,Manhattan,10025,40.79884,-73.974559,Community Park,Public
+43374,Aqueduct Walk,,Bronx,10453,40.856692,-73.909204,Community Park,Public
+124329,Marcy Playground,753 Myrtle Avenue,Brooklyn,11206,40.695521,-73.950913,Community Park,Public
+79066,St. John's Park,119 Troy Avenue,Brooklyn,11213,40.67437,-73.934754,Community Park,Public
+83320,Detective Keith L Williams Park,Liberty Avenue,Queens,11433,40.701724,-73.784254,Community Park,Public
+156958,Laguardia Landing Lights,78-02 25 Avenue,Queens,11370,40.762428,-73.889922,Community Park,Public
+101521,Dugan Playground,280 Mill Road,Staten Island,10306,40.561431,-74.110847,Community Park,Public
+73317,Breukelen Ballfields,276 Stanley Avenue,Brooklyn,11207,40.653725,-73.893974,Community Park,Public
+100210,Astoria Park,24-02 19 Street,Queens,11105,40.77853,-73.922167,Community Park,Public
+122337,Macombs Dam Park,East 161 Street,Bronx,10452,40.829781,-73.928608,Community Park,Public
+102742,Recreational Area,12 Avenue,Manhattan,10032,40.830641,-73.951807,Community Park,Public
+18761,Joyce Kilmer Park,Grand Concourse,Bronx,10452,40.828526,-73.92266,Community Park,Public
+115406,Dubos Point Wildlife Refuge,Beach 57 Street,Queens,,40.603308,-73.788197,Community Park,Public
+152486,Red Hook Recreation Area,825 Henry Street,Brooklyn,11231,40.671869,-74.0057,Community Park,Public
+118146,Alfred E. Smith Playground,78 Catherine Street,Manhattan,10038,40.710598,-73.997481,Community Park,Public
+165738,Union Square Park,69 East 17 Street,Manhattan,10003,40.735834,-73.990412,Community Park,Public
+115872,Judge Moses Weinstein Playground,Union Turnpike,Queens,11367,40.718684,-73.820437,Community Park,Public
+164152,Big Bush Playground,,Queens,11377,40.739608,-73.902628,Community Park,Public
+34752,Thomas Jefferson Park,2158 1 Avenue,Manhattan,10029,40.793202,-73.93559,Community Park,Public
+8472,Claremont Park,East Mt Eden Avenue,Bronx,10457,40.840459,-73.907437,Community Park,Public
+151908,Rockaway Beach Boulevard,Seagirt Boulevard,Queens,11691,40.593089,-73.752395,Community Park,Public
+138311,St. Mary's Park,St Anns Avenue,Bronx,10455,40.809894,-73.910662,Community Park,Public
+118189,Seton Park,751 West 232 Street,Bronx,10471,40.886052,-73.916719,Community Park,Public
+24416,Aqueduct Walk,West 192 Street,Bronx,10468,40.865127,-73.902162,Community Park,Public
+42114,Dyker Beach Park,9001 7 Avenue,Brooklyn,11228,40.616886,-74.021469,Community Park,Public
+163550,Battery Park City,,Manhattan,,40.712719,-74.01689,Community Park,Public
+164519,Roy Wilkins-Southern Qns Park,17256 Baisley Bouleva,Queens,11434,40.685211,-73.770006,Community Park,Public
+115013,Rockaway Community Park,54-02 Almeda Avenue,Queens,11691,40.603495,-73.780424,Community Park,Public
+156948,Laguardia Landing Lights Park,82 Street,Queens,11370,40.765876,-73.88766,Community Park,Public
+3016,Montbellier Park,138-02 Springfield Blvd,Queens,11413,40.67472,-73.756577,Community Park,Public
+137192,Inwood Hill Park,269 Dyckman Street,Manhattan,10034,40.87256,-73.925513,Community Park,Public
+177861,Damrosch Park,60 Lincoln Center Plaza,Manhattan,10023,40.772213,-73.984994,Community Park,Public
+140948,Shore Park and Parkway,,Brooklyn,11209,40.625764,-74.037051,Community Park,Public
+147720,Crocheron Park,35 Avenue,Queens,11361,40.772045,-73.769361,Community Park,Public
+113841,Seaside Wildlife Nature Park,Nelson Avenue,Staten Island,10308,40.539212,-74.142184,Community Park,Public
+123789,Goodwin Gardens,52 Goodwin Place,Brooklyn,11221,40.691167,-73.923479,Community Park,Public
+131250,Canarsie Park,Seaview Avenue,Brooklyn,11236,40.63598,-73.883202,Community Park,Public
+107557,Cunningham Park,196-10 Union Turnpike,Queens,11366,40.730884,-73.771005,Community Park,Public
+120313,Kissena Corridor Park,37-46 Elder Avenue,Queens,11355,40.748251,-73.82346,Community Park,Public
+100303,CPL. Thompson Park,799 Henderson Avenue,Staten Island,10310,40.638064,-74.118851,Community Park,Public
+6657,Crotona Park,1700 Fulton Avenue,Bronx,10457,40.840135,-73.897104,Community Park,Public
+115391,Dubos Point Wildlife Sanctuary,63-02 Bayfield Avenue,Queens,11692,40.599621,-73.793492,Community Park,Public
+107360,Tudor Park,133-48 84 Street,Queens,11417,40.672599,-73.852181,Community Park,Public
+21769,Carter G. Woodson Children's Park,184 Christopher Avenue,Brooklyn,11212,40.668454,-73.905832,Community Park,Public
+168679,Alley Pond Park (Q-1),223 Street,Queens,11364,40.760803,-73.756032,Community Park,Public
+56632,Red Hook Recreation Area,138 Lorraine Street,Brooklyn,11231,40.673262,-74.005541,Community Park,Public
+111740,Highland Park,Cypress Avenue,Queens,11385,40.690297,-73.88923,Community Park,Public
+77606,Friends Field,1310 East 4 Street,Brooklyn,11230,40.618656,-73.972019,Community Park,Public
+58793,Marine Park,3230 Emmons Avenue,Brooklyn,11234,40.596586,-73.919405,Community Park,Public
+72183,Kissena Park,Kissena Boulevard,Queens,11365,40.745346,-73.804829,Community Park,Public
+91337,Paerdegat Park,4002 Foster Avenue,Brooklyn,11210,40.638057,-73.938137,Community Park,Public
+9270,Marine Park/Jhs 278-K,2135 Stuart Street,Brooklyn,11229,40.607862,-73.937449,Community Park,Public
+110498,Highland Park,241 Highland Boulevard,Brooklyn,11207,40.683153,-73.892924,Community Park,Public
+24294,Alley Pond.Park,39 Avenue,Queens,11363,40.768923,-73.753666,Community Park,Public
+115840,Spring Creek Park,409 Gateway Drive,Brooklyn,11239,40.652045,-73.871632,Community Park,Public
+124543,Glen Oaks Oval,73-80 260 Street,Queens,11004,40.749534,-73.715626,Community Park,Public
+131121,Red Hook Park,140 Lorraine Street,Brooklyn,11231,40.672383,-74.004045,Community Park,Public
+181491,Highbridge Park,506 Edgecombe Avenue,Manhattan,10033,40.846498,-73.930464,Community Park,Public
+42528,Public Place,Brookville Boulevard,Queens,11422,40.649607,-73.742023,Community Park,Public
+158580,Police Officer Edward Byrne Pk,135-16 134 Street,Queens,11420,40.667249,-73.805596,Community Park,Public
+78941,Marcus Garvey Park,18 Mt Morris Park West,Manhattan,10027,40.804486,-73.943669,Community Park,Public
+104559,Alley Park,Horatio Parkway,Queens,11362,40.76033,-73.751684,Community Park,Public
+113955,Elmhurst Park,Grand Avenue,Queens,11373,40.728934,-73.885247,Community Park,Public
+61131,Betsy Head Park,167 Livonia Avenue,Brooklyn,11212,40.663003,-73.912195,Community Park,Public
+114771,Bayswater Park,701 Bay 32 Street,Queens,11691,40.599503,-73.769658,Community Park,Public
+143430,Mullaly Park,River Avenue,Bronx,10452,40.832774,-73.924207,Community Park,Public
+107423,Fort Greene Park,100 Washington Park,Brooklyn,11205,40.691525,-73.975511,Community Park,Public
+83485,Commodore Barry Park,2 Park Avenue,Brooklyn,11205,40.697295,-73.978937,Community Park,Public
+136202,Morningside Park,Morningside Drive,Manhattan,10027,40.80576,-73.95838,Community Park,Public
+130669,Red Hook Recreation Area/Park,597 Columbia Street,Brooklyn,11231,40.670624,-74.007628,Community Park,Public
+87999,Bushwick Playground,817 Flushing Avenue,Brooklyn,11206,40.701868,-73.939377,Community Park,Public
+88913,Kissena Corridor Park,188-00 Peck Avenue,Queens,11365,40.74113,-73.782261,Community Park,Public
+90042,Baisley Pond Park (Q-5),155-01 Foch Boulevard,Queens,11434,40.68139,-73.787224,Community Park,Public
+120269,Kissena Corridor Pk/Qns Bot Gd,43-50 Main Street,Queens,11355,40.751076,-73.82773,Community Park,Public
+70652,Sunset Park,4200 7 Avenue,Brooklyn,11232,40.647976,-74.003743,Community Park,Public
+97081,Mafera Park,65 Place,Queens,11385,40.706035,-73.891337,Community Park,Public
+118084,Abraham Lincoln Playground,5 Avenue,Manhattan,10037,40.812195,-73.937187,Community Park,Public
+60246,Jacob Joffe Fields,1163 East 58 Street,Brooklyn,11234,40.625338,-73.919361,Community Park,Public
+81103,John Golden Park,32 Avenue,Queens,11361,40.774085,-73.767741,Community Park,Public
+131733,Springfield Park,146-02 Springfield Blvd,Queens,11413,40.661314,-73.761948,Community Park,Public
+131581,Springfield Park,145 Road,Queens,11413,40.664015,-73.761663,Community Park,Public
+104541,Motor Parkway,Cloverdale Boulevard,Queens,11364,40.739313,-73.742647,Community Park,Public
+76460,Callahan-Kelly Playground,Truxton Street,Brooklyn,11233,40.67836,-73.905314,Community Park,Public
+96388,Police Officer Edward Byrne Park,135 Avenue,Queens,11420,40.667435,-73.807164,Community Park,Public
+103197,Hamilton Fish Park,East Houston Street,Manhattan,10002,40.719703,-73.980766,Community Park,Public
+4004,St. Albans Park,Merrick Boulevard,Queens,11433,40.69304,-73.779316,Community Park,Public
+164272,Landing Strip Park,24 Avenue,Queens,11370,40.76452,-73.88763,Community Park,Public
+31483,Herbert Von King Park,Tompkins Avenue,Brooklyn,11216,40.689672,-73.94662,Community Park,Public
+119064,John V. Lindsay East River Park,,Manhattan,10002,40.716988,-73.975327,Community Park,Public
+125178,Gen. Douglas MacArthur Park,Jefferson Street,Staten Island,10304,40.58658,-74.100228,Community Park,Public
+102995,Howard Playground,1550 East New York Avenue,Brooklyn,11212,40.671726,-73.908088,Community Park,Public
+90451,Macombs Dam Park,,Bronx,10451,40.828764,-73.928169,Community Park,Public
+3283,Little Bay Park,,Queens,11360,40.79009,-73.787922,Community Park,Public
+71176,Harvey Park,Whitestone Brdg Blvd,Queens,11357,40.782889,-73.823575,Community Park,Public
+113867,Crescent Beach Park,Armstrong Avenue,Staten Island,10308,40.535692,-74.144769,Community Park,Public
+162009,Wagner Houses Pool,2435 1 Avenue,Manhattan,10035,40.801679,-73.932612,Community Park,Public
+63219,Loreto Playground,1100 Morris Park Avenue,Bronx,10461,40.849058,-73.852119,Community Park,Public
+90078,John Jay Park,76-01 Fdr Drive,Manhattan,10075,40.769239,-73.949483,Community Park,Public
+117482,Dry Dock Playground,149 East 10 Street,Manhattan,10009,40.725461,-73.975455,Community Park,Public
+17722,Baisley Pond Park,116 Avenue,Queens,11434,40.684542,-73.786144,Community Park,Public
+7301,Mccarren Park,50 Bedford Avenue,Brooklyn,11222,40.722223,-73.953603,Community Park,Public
+118694,Fort Tryon Park,4565 Broadway,Manhattan,10040,40.86236,-73.932204,Community Park,Public
+25355,Riverside Park South,,Manhattan,,40.777594,-73.991648,Community Park,Public
+86843,DiGilio Playground,102 Avenue F,Brooklyn,11218,40.632756,-73.977268,Community Park,Public
+195939,St. Mary's Park,376 St Anns Avenue,Bronx,10454,40.81147,-73.912219,Community Park,Public
+160327,Sheltering Arms Playground,521 West 126 Street,Manhattan,10027,40.815043,-73.95586,Community Park,Public
+112533,Brookville Park,Brookville Boulevard,Queens,11422,40.660886,-73.74478,Community Park,Public
+155844,Brooklyn Bridge Park,146 Furman Street,Brooklyn,11201,40.697718,-73.997986,Community Park,Public
+75517,Flushing Fields,25-03 149 Street,Queens,11354,40.77596,-73.817166,Community Park,Public
+131237,Canarsie Park,9006 Seaview Avenue,Brooklyn,11236,40.628962,-73.895972,Community Park,Public
+92535,Kaiser Park,2529 Neptune Avenue,Brooklyn,11224,40.578515,-73.995412,Community Park,Public
+122072,Flushing Meadows Corona Park,Long Island Expwy,Queens,11368,40.740942,-73.849102,Flagship Park,Public
+137772,Bronx Park,2855 Bronx Park East,Bronx,10467,40.85664,-73.87582,Flagship Park,Public
+107558,Cunningham Park,Francis Lewis Blvd,Queens,11364,40.736635,-73.770655,Flagship Park,Public
+137820,Central Park,1000 5 Avenue,Manhattan,10023,40.782484,-73.965558,Flagship Park,Public
+104551,Alley Pond Park,238-01 Horace Harding Expwy,Queens,11362,40.753611,-73.746864,Flagship Park,Public
+125810,Pelham Bay Park,,Bronx,,40.868102,-73.804214,Flagship Park,Public
+163263,Prospect Park,95 Prospect Park West,Brooklyn,11215,40.661353,-73.969682,Flagship Park,Public
+143646,Greenbelt Native Plant Center,3808 Victory Boulevard,Staten Island,10314,40.596076,-74.181555,Flagship Park,Public
+110847,Highland Park,375 Jamaica Avenue,Brooklyn,11208,40.684031,-73.885801,Flagship Park,Public
+181965,Crotona Park,1700 Crotona Avenue,Bronx,10457,40.838585,-73.894895,Flagship Park,Public
+161871,Randall's Island Park,203 Randalls Island,Manhattan,10035,40.795653,-73.921784,Flagship Park,Public
+162763,Ferry Point Park,450 Hutchinson Rvr Pkwy,Bronx,10465,40.812382,-73.833292,Flagship Park,Public
+125824,Soundview Park,Randall Avenue,Bronx,10473,40.81158,-73.866233,Flagship Park,Public
+122133,LaTourette Park & Golf Course,1001 Richmond Hill Road,Staten Island,10314,40.577614,-74.149514,Flagship Park,Public
+41666,Van Cortlandt Park,3545 Jerome Avenue,Bronx,10471,40.897109,-73.886668,Flagship Park,Public
+115053,Forest Park,Woodhaven Boulevard,Queens,11385,40.701296,-73.854522,Flagship Park,Public
+61777,Pagan's Garden,992 Sutter Avenue,Brooklyn,11208,40.671159,-73.882093,Garden,Public
+112957,South Brooklyn Children's Garden,202 Columbia Street,Brooklyn,11231,40.685263,-74.002897,Garden,Public
+157114,Tranquility Farm,659 Willoughby Avenue,Brooklyn,11206,40.694831,-73.943096,Garden,Public
+155612,9th St Community Garden Park,Avenue C,Manhattan,10009,40.725372,-73.977461,Garden,Public
+92589,Sh'ma Yisrael,2084 Pacific Street,Brooklyn,11233,40.675571,-73.916043,Garden,Public
+81060,Hattie Carthan Community Garden,700 Marcy Avenue,Brooklyn,11216,40.689819,-73.948541,Garden,Public
+111116,Family Community Garden,156 East 111 Street,Manhattan,10029,40.79512,-73.943782,Garden,Public
+166077,Genesis Park Community Garden,1185 Franklin Avenue,Bronx,10456,40.829637,-73.904552,Garden,Public
+193358,Pirates Cove Garden,Columbia Street,Brooklyn,11231,40.681387,-74.00419,Garden,Public
+161222,Madison Square Garden Association,1260 Madison Street,Brooklyn,11221,40.694804,-73.91298,Garden,Public
+162166,Atkins Gardeners,213 Atkins Avenue,Brooklyn,11208,40.673796,-73.878522,Garden,Public
+76573,Parks Council Success Garden,116 West 134 Street,Manhattan,10030,40.813805,-73.942815,Garden,Public
+134237,Orchard Alley Garden,East 4 Street,Manhattan,10009,40.721319,-73.978454,Garden,Public
+84964,Hull Street Garden,227 Hull Street,Brooklyn,11233,40.680144,-73.907654,Garden,Public
+162694,Marcus Garvey Tenant's Assoc. Garden,Strauss Street,Brooklyn,11212,40.66938,-73.916197,Garden,Public
+117550,Bradhurst Ave Garden,Bradhurst Avenue,Manhattan,10039,40.827666,-73.939326,Garden,Public
+117466,11 BC Serenity Garden,East 11 Street,Manhattan,10009,40.726806,-73.978463,Garden,Public
+113067,Edgecombe Park,Edgecombe Avenue,Manhattan,10031,40.826556,-73.942075,Garden,Public
+42777,Java Garden,Java Street,Brooklyn,11222,40.731427,-73.958816,Garden,Public
+110903,Neighbors Of Vega Baja,East 109 Street,Manhattan,10029,40.791982,-73.940241,Garden,Public
+161653,Collyer Brothers Park,5 Avenue,Manhattan,10027,40.808543,-73.94106,Garden,Public
+61710,East End Community Garden,532 Glenmore Avenue,Brooklyn,11207,40.673666,-73.890784,Garden,Public
+104826,Las Casitas Community Garden,Woodycrest Avenue,Bronx,10452,40.835574,-73.925404,Garden,Public
+167347,B.C.C.A. Mini-park and Garden,115 Drive,Queens,11434,40.683348,-73.792074,Garden,Public
+61708,Clara's Garden,575 Glenmore Avenue,Brooklyn,11207,40.67439,-73.889119,Garden,Public
+73028,Children's Magical Garden,Norfolk Street,Manhattan,10002,40.720725,-73.986498,Garden,Public
+31486,Hattie Carthan Herb Farm,49 Van Buren Street,Brooklyn,11221,40.690256,-73.943577,Garden,Public
+88547,Mosaic Success Garden,Ogden Avenue,Bronx,10452,40.84053,-73.925426,Garden,Public
+6770,Family Group Garden,East 158 Street,Bronx,10451,40.821844,-73.914081,Garden,Public
+162364,La Cuevita Garden,71 East 115 Street,Manhattan,10029,40.79912,-73.944293,Garden,Public
+197792,Sugar Hill Garden,Edgecombe Avenue,Manhattan,10031,40.82627,-73.942285,Garden,Public
+109372,Ten Eyck Houses Garden,15 Ten Eyck Street,Brooklyn,11206,40.709801,-73.95014,Garden,Public
+124458,Madison Street Block Association,90 Madison Street,Brooklyn,11216,40.683923,-73.955492,Garden,Public
+124312,TLC Sculpture Park Garden,Glenmore Avenue,Brooklyn,11207,40.672718,-73.90065,Garden,Public
+159139,Garden,104 Moore Street,Brooklyn,11206,40.703669,-73.941315,Garden,Public
+8490,Garden Of Eden,1664 Weeks Avenue,Bronx,10457,40.843464,-73.907394,Garden,Public
+180446,Allied Productions/Le Petit Versailles,East 2 Street,Manhattan,10009,40.721135,-73.98179,Garden,Public
+129611,Waterfront Garden,2008 Gildersleeve Avenue,Bronx,10473,40.809755,-73.850545,Garden,Public
+40755,Farmers Garden,1901 Bergen Street,Brooklyn,11233,40.674607,-73.918219,Garden,Public
+92456,811 Family and Friends Garden,809 Courtlandt Avenue,Bronx,10451,40.82307,-73.916728,Garden,Public
+160501,United Block Association Garden,34 West 131 Street,Manhattan,10037,40.810697,-73.941244,Garden,Public
+134260,Sage Garden,East 4 Street,Manhattan,10009,40.722824,-73.980871,Garden,Public
+61779,Good Shepherds Garden,555 Shepherd Avenue,Brooklyn,11208,40.670738,-73.879661,Garden,Public
+82754,Edith Garden,838 Elton Avenue,Bronx,10451,40.822751,-73.912424,Garden,Public
+137387,Jane Street Garden,36 Jane Street,Manhattan,10014,40.738019,-74.004563,Garden,Public
+81095,The Feeding Tree,340 Tompkins Avenue,Brooklyn,11216,40.685967,-73.944711,Garden,Public
+61634,Change Garden,,Brooklyn,11207,40.67426,-73.88528,Garden,Public
+23478,Brownsville Community Farm,Herzl Street,Brooklyn,11212,40.66419,-73.913906,Garden,Public
+163289,Highland Park Childrens Garden,375 Jamaica Avenue,Brooklyn,11208,40.684031,-73.885801,Garden,Public
+164889,Yu Suen Garden,209 Avenue B,Manhattan,10009,40.728539,-73.978376,Garden,Public
+150011,Garden,48 Lefferts Place,Brooklyn,11238,40.681255,-73.961915,Garden,Public
+61759,Jerome Gardens,Jerome Street,Brooklyn,11207,40.670644,-73.885824,Garden,Public
+61681,Floral Vineyard,2383 Pitkin Avenue,Brooklyn,11207,40.67377,-73.884485,Garden,Public
+76566,Margrichante Garden,West 133 Street,Manhattan,10030,40.813752,-73.943443,Garden,Public
+169271,Garden,Keap Street,Brooklyn,11211,40.709111,-73.954805,Garden,Public
+162596,6th St and Ave B Community Garden,84 Avenue B,Manhattan,10009,40.724321,-73.982081,Garden,Public
+61461,New Vision Garden,590 Schenck Avenue,Brooklyn,11207,40.666092,-73.887078,Garden,Public
+61132,Hoparkinson R&L Block Association Garden,756 Thomas S Boyland St,Brooklyn,11212,40.661924,-73.911957,Garden,Public
+41593,Granite St Block Association,30 Granite Street,Brooklyn,11207,40.682391,-73.907598,Garden,Public
+103583,"Saratoga Square Urban Renewal Area, Site 164",2039 Fulton Street,Brooklyn,11233,40.678515,-73.911679,Garden,Public
+136754,Model T Senior Citizen's Garden,Rev James A Polite,Bronx,10459,40.830963,-73.894052,Garden,Public
+112981,The Amazing Garden,263 Columbia Street,Brooklyn,11231,40.683136,-74.003344,Garden,Public
+117299,La Perla Garden,West 105 Street,Manhattan,10025,40.798231,-73.963178,Garden,Public
+61451,Victory Garden,613 Hendrix Street,Brooklyn,11207,40.666578,-73.887546,Garden,Public
+162696,Herbal Garden,Glenmore Avenue,Brooklyn,11207,40.674077,-73.888503,Garden,Public
+160715,Joseph Daniel Wilson Garden,West 122 Street,Manhattan,10027,40.807638,-73.95057,Garden,Public
+102779,Her-King Alagantic Garden,Herkimer Street,Brooklyn,11213,40.67932,-73.939657,Garden,Public
+80408,Clifton Pl Memorial Park and Garden,1031 Bedford Avenue,Brooklyn,11216,40.688547,-73.954638,Garden,Public
+77499,Red Gate Garden,604 Marcy Avenue,Brooklyn,11206,40.693722,-73.949183,Garden,Public
+167457,Garden,2801 Surf Avenue,Brooklyn,11224,40.573285,-73.99406,Garden,Public
+34556,Jefferson Market Garden,421 Avenue Of The Amer,Manhattan,10011,40.734443,-73.999514,Garden,Public
+130270,Vamos Sembrar,198 Avenue B,Manhattan,10009,40.728321,-73.979087,Garden,Public
+80300,CEP Community Garden,2351 Fredrick Douglass Bl,Manhattan,10027,40.811074,-73.950923,Garden,Public
+181682,W. 111th St. Harlem Garden,237 West 111 Street,Manhattan,10026,40.800888,-73.956293,Garden,Public
+45560,New 123rd St Block Association Garden,114 West 123 Street,Manhattan,10027,40.80666,-73.947476,Garden,Public
+159889,E. 43 St. Block Assoc. Garden,1087 East 43 Street,Brooklyn,11210,40.628527,-73.934408,Garden,Public
+196854,Hope Garden,East 2 Street,Manhattan,10009,40.722078,-73.984185,Garden,Public
+116783,Clinton Community Garden,West 48 Street,Manhattan,10036,40.762779,-73.991734,Garden,Public
+5268,Hancock T and T,322 Hancock Street,Brooklyn,11216,40.683104,-73.943059,Garden,Public
+181180,Liz Christy Garden,285 Bowery,Manhattan,10002,40.724155,-73.99188,Garden,Public
+137230,Padre Plaza,East 139 Street,Bronx,10454,40.80789,-73.917394,Garden,Public
+61689,Concerned Residents of Barbey Street,Glenmore Avenue,Brooklyn,11207,40.674191,-73.887749,Garden,Public
+162705,Locust Manor Civic Association,120 Avenue,Queens,11434,40.683521,-73.773897,Garden,Public
+77023,Granja Farm OTF,582 Westchester Avenue,Bronx,10455,40.815697,-73.91152,Garden,Public
+68248,Corona Taxpayers Association,52-01 101 Street,Queens,11368,40.741604,-73.859981,Garden,Public
+134433,Earth People,East 8 Street,Manhattan,10009,40.725145,-73.978923,Garden,Public
+165289,First Temple Of David,Bradford Street,Brooklyn,11207,40.666684,-73.890947,Garden,Public
+111124,Dorothy K. McGowan Memorial Garden,West 158 Street,Manhattan,10032,40.834025,-73.942263,Garden,Public
+74276,61 Franklin St Garden,61 Franklin Street,Brooklyn,11222,40.727545,-73.957458,Garden,Public
+139937,Volky Garden & Flowers,851 Hornaday Place,Bronx,10460,40.847018,-73.882535,Garden,Public
+8650,Pleasant Village Community Garden,342 Pleasant Avenue,Manhattan,10035,40.796573,-73.931606,Garden,Public
+55158,Synergi Urban Garden UCFP,1217 Hoe Avenue,Bronx,10459,40.829286,-73.89115,Garden,Public
+148478,Henry Garnet Garden,West 134 Street,Manhattan,10030,40.813931,-73.943115,Garden,Public
+182075,Cypress Hills Change Garden,9 Chestnut Street,Brooklyn,11208,40.687771,-73.876217,Garden,Public
+41794,First Street Garden,48 East 1 Street,Manhattan,10003,40.724013,-73.989603,Garden,Public
+78889,Umoja Garden,Broadway,Brooklyn,11221,40.687729,-73.919465,Garden,Public
+137358,United We Stand Garden,635 East 137 Street,Bronx,10454,40.805366,-73.91553,Garden,Public
+58602,St. Mark's Block Association,457 Ralph Avenue,Brooklyn,11233,40.673447,-73.921873,Garden,Public
+154728,132 St Block Association Park,108 West 132 Street,Manhattan,10027,40.812313,-73.943148,Garden,Public
+7219,St. Nicholas - Powers St. Garden,Powers Street,Brooklyn,11211,40.712737,-73.939715,Garden,Public
+54306,Green Valley Garden,101 New Lots Avenue,Brooklyn,11212,40.658261,-73.901598,Garden,Public
+76596,Unity Gardens,53 West 128 Street,Manhattan,10027,40.809343,-73.942658,Garden,Public
+34044,Shield Of Faith,83 Montauk Avenue,Brooklyn,11208,40.677484,-73.878456,Garden,Public
+178024,McKinley's Children's Garden,Union Hall Street,Queens,11433,40.694809,-73.791022,Garden,Public
+87988,Project Eden,Yellowstone Blvd,Queens,11375,40.716204,-73.857647,Garden,Public
+134974,Franklin Memorial Garden,Cauldwell Avenue,Bronx,10456,40.826285,-73.905273,Garden,Public
+78975,Walter Miller III Memorial Garden,13 West 119 Street,Manhattan,10026,40.803012,-73.945553,Garden,Public
+61155,Isabahlia Community Garden,615 Saratoga Avenue,Brooklyn,11212,40.665839,-73.916234,Garden,Public
+181302,Garden,375 South 5 Street,Brooklyn,11211,40.707972,-73.953618,Garden,Public
+134227,Los Amigos Garden,221 East 3 Street,Manhattan,10009,40.722515,-73.982025,Garden,Public
+122612,Vinegar Hill Community Garden,199 York Street,Brooklyn,11201,40.701516,-73.982636,Garden,Public
+138417,176th Street Community Garden,East 176 Street,Bronx,10453,40.848001,-73.90961,Garden,Public
+169436,W 104th Street Garden,12 West 104 Street,Manhattan,10025,40.796888,-73.961927,Garden,Public
+92414,Garden,1001 Bedford Avenue,Brooklyn,11205,40.689793,-73.954868,Garden,Public
+61668,Garden Party,Glenmore Avenue,Brooklyn,11207,40.674172,-73.887188,Garden,Public
+86251,Life Spire Garden,2015 Lexington Avenue,Manhattan,10035,40.802581,-73.938449,Garden,Public
+162977,Old Croton Aqueduct Gatehouse,1195 Amsterdam Avenue,Manhattan,10027,40.808438,-73.95958,Garden,Public
+87054,Halsey Garden,462 Halsey Street,Brooklyn,11233,40.683205,-73.935662,Garden,Public
+61697,Jordan Magic Garden,335 Van Siclen Avenue,Brooklyn,11207,40.671715,-73.889724,Garden,Public
+92680,Cedar Tree Garden,Greene Avenue,Brooklyn,11238,40.687753,-73.959124,Garden,Public
+154801,Madison Community Greenthumb,Madison Street,Brooklyn,11221,40.687786,-73.921872,Garden,Public
+165188,Leave it Better Kids' Garden,1974 Grand Avenue,Bronx,10453,40.852319,-73.910504,Garden,Public
+76380,American Heart,122 Hart Street,Brooklyn,11206,40.693179,-73.946686,Garden,Public
+126864,Bryant Hill Garden,Bryant Avenue,Bronx,10474,40.819935,-73.887239,Garden,Public
+61767,Elton St Block Association,585 Elton Street,Brooklyn,11208,40.668667,-73.881842,Garden,Public
+194757,Peaceful Valley Garden,1781 Madison Avenue,Manhattan,10035,40.800456,-73.944161,Garden,Public
+134776,Diamante Garden,306 East 118 Street,Manhattan,10035,40.797863,-73.936359,Garden,Public
+78968,W 124th Street Community Garden,77 West 124 Street,Manhattan,10027,40.807051,-73.945271,Garden,Public
+21527,Halsey and Ralph Garden,774 Halsey Street,Brooklyn,11233,40.684662,-73.922883,Garden,Public
+177871,Garden,8 Avenue,Manhattan,10039,40.827268,-73.939051,Garden,Public
+134431,Urban Botanical Soc./Sam and Sadie Koenig Garden,237 East 7 Street,Manhattan,10009,40.724093,-73.978342,Garden,Public
+83124,George Eagle Carr Community Garden,148 Street,Queens,11435,40.703709,-73.807056,Garden,Public
+115004,Edgemere Coalition,480 Beach 43 Street,Queens,11691,40.598132,-73.774777,Garden,Public
+61186,United Community Centers Youth Farm,Newport Street,Brooklyn,11212,40.659697,-73.907876,Garden,Public
+63416,Miracle Garden,Elsmere Place,Bronx,10460,40.84247,-73.887732,Garden,Public
+161620,Hoe Garden,958 Hoe Avenue,Bronx,10459,40.82264,-73.890096,Garden,Public
+40404,El Flamboyan Garden,Tinton Avenue,Bronx,10455,40.813624,-73.905627,Garden,Public
+102476,Family Community Garden,Cleveland Street,Brooklyn,11208,40.665364,-73.881346,Garden,Public
+61719,St. John Cantius Parish,476 New Jersey Avenue,Brooklyn,11207,40.667466,-73.89401,Garden,Public
+81016,Patrick Van Doren Pocket Park,Malcolm X Boulevard,Brooklyn,11221,40.689446,-73.930072,Garden,Public
+76626,St. Ann's Block Association Garden,668 St Anns Avenue,Bronx,10455,40.817225,-73.911199,Garden,Public
+73239,Vernon Tandt Block Association,198 Vernon Avenue,Brooklyn,11206,40.694991,-73.943945,Garden,Public
+80310,William B. Washington Memorial Garden,323 West 126 Street,Manhattan,10027,40.811423,-73.951569,Garden,Public
+198277,Welcome Home Garden,Halsey Street,Brooklyn,11233,40.68486,-73.925311,Garden,Public
+61466,P.S. 53,Bradford Street,Brooklyn,11207,40.666042,-73.890781,Garden,Public
+103664,Garden,19 Hunterfly Place,Brooklyn,11233,40.677606,-73.928058,Garden,Public
+80358,Greene Av United Neighbors Association Inc,490 Greene Avenue,Brooklyn,11216,40.688154,-73.951282,Garden,Public
+42077,Hart To Hart,108 Hart Street,Brooklyn,11206,40.69311,-73.947289,Garden,Public
+197146,Morris-Jumel Ecological Education Garden,457 West 162 Street,Manhattan,10032,40.835766,-73.939116,Garden,Public
+112960,The Backyard,Hamilton Avenue,Brooklyn,11231,40.683249,-74.005609,Garden,Public
+52231,President Street Garden,503 President Street,Brooklyn,11215,40.67814,-73.986353,Garden,Public
+115058,Garden,Beach 36 Street,Queens,11691,40.597016,-73.768579,Garden,Public
+164896,Green Oasis and Gilbert's Garden,East 8 Street,Manhattan,10009,40.723998,-73.977345,Garden,Public
+61843,Upon This Rock Comm Garden,2556 Pitkin Avenue,Brooklyn,11208,40.674317,-73.877811,Garden,Public
+168412,Spencer St Block Association,230a Spencer Street,Brooklyn,11205,40.691449,-73.95482,Garden,Public
+131979,George Washington Carver Botanical Garden,156 Street,Queens,11433,40.692478,-73.794578,Garden,Public
+103113,Magic Garden,1665 Park Avenue,Manhattan,10035,40.800084,-73.942205,Garden,Public
+61758,Nehemiah Ten Garden,567 Barbey Street,Brooklyn,11207,40.668682,-73.886018,Garden,Public
+137175,Jardin De Las Rosas,15 Buchanan Place,Bronx,10453,40.858115,-73.904788,Garden,Public
+157257,St. Nicholas Miracle Garden,St Nicholas Avenue,Manhattan,10027,40.811676,-73.951431,Garden,Public
+157606,Harlem Grown,West 127 Street,Manhattan,10027,40.809457,-73.946044,Garden,Public
+61547,Success Garden,461 Williams Avenue,Brooklyn,11207,40.664696,-73.897501,Garden,Public
+77309,Citizens For A Better Community,742 Monroe Street,Brooklyn,11221,40.68798,-73.926723,Garden,Public
+85448,Block Association #81,Inwood Street,Queens,11435,40.690664,-73.803741,Garden,Public
+89218,Garden,1278 Myrtle Avenue,Brooklyn,11221,40.697819,-73.925948,Garden,Public
+3728,Sparrow's Nest Community Garden,54-01 101 Street,Queens,11368,40.740336,-73.859089,Garden,Public
+192542,Human Compass Garden,209 Columbia Street,Brooklyn,11231,40.684864,-74.002475,Garden,Public
+103205,Community Of Poor People In Action,Stanton Street,Manhattan,10002,40.72001,-73.984457,Garden,Public
+34439,Claremont Neighborhood Garden,1280 Teller Avenue,Bronx,10456,40.834138,-73.910199,Garden,Public
+7251,Sunshine Community Garden,99 Mc Kibbin Street,Brooklyn,11206,40.705289,-73.944011,Garden,Public
+103103,117th St Community Garden,170 East 117 Street,Manhattan,10035,40.798825,-73.940583,Garden,Public
+101376,Community Group of 349 Elton Street,435 Cleveland Street,Brooklyn,11208,40.674163,-73.884074,Garden,Public
+4042,Windmill Community Garden,39-22 29 Street,Queens,11101,40.753103,-73.935212,Garden,Public
+164900,Garden,Bayview Terrace,Staten Island,10312,40.526901,-74.163615,Garden,Public
+95549,Schomberg Academy Garden,Rev James A Polite,Bronx,10459,40.823392,-73.899029,Garden,Public
+61147,Jes Good Rewards Childeren's Garden,155 Amboy Street,Brooklyn,11212,40.666891,-73.913659,Garden,Public
+117480,Campos Garden,East 12 Street,Manhattan,10009,40.727251,-73.977571,Garden,Public
+77505,Vernon New Harvest,44 Vernon Avenue,Brooklyn,11206,40.694261,-73.950304,Garden,Public
+77336,Louis Pl Friends,11a Louis Place,Brooklyn,11233,40.677419,-73.917054,Garden,Public
+25010,El Batey Borincano Garden,813 Eagle Avenue,Bronx,10456,40.820703,-73.909316,Garden,Public
+5545,Imani II Garden,1680 Pacific Street,Brooklyn,11213,40.676513,-73.932984,Garden,Public
+30757,Saratoga Blake Garden,656 Saratoga Avenue,Brooklyn,11212,40.664813,-73.916604,Garden,Public
+162342,Community Garden Association,200 Avenue B,Manhattan,10009,40.728365,-73.979054,Garden,Public
+61693,Mw United Orient Grand Lodge,Barbey Street,Brooklyn,11207,40.673766,-73.887354,Garden,Public
+61704,Glenmore Hendrix Block Association,555 Glenmore Avenue,Brooklyn,11207,40.674246,-73.889907,Garden,Public
+118030,Edgemere Urban Renewal Park,Beach 45 Street,Queens,11691,40.59515,-73.77686,Garden,Public
+109399,Grand St. Community Garden,Grand Street,Brooklyn,11211,40.713788,-73.958933,Garden,Public
+139820,Humacao Community Garden,335 East 108 Street,Manhattan,10029,40.791352,-73.939525,Garden,Public
+143629,Townsend Garden,1735 Walton Avenue,Bronx,10453,40.846915,-73.911015,Garden,Public
+75551,Daly Ave Garden,Honeywell Avenue,Bronx,10460,40.844132,-73.883484,Garden,Public
+61154,Amboy Neighborhood Center,212 Amboy Street,Brooklyn,11212,40.665234,-73.913913,Garden,Public
+129590,Harding Park Beautification Project,Cornell Avenue,Bronx,10473,40.80768,-73.858223,Garden,Public
+103349,Howard Av Block Association,750 Howard Avenue,Brooklyn,11212,40.663629,-73.919337,Garden,Public
+134259,Brisas Del Caribe,237 East 3 Street,Manhattan,10009,40.722282,-73.98147,Garden,Public
+5726,Surfside Garden,2999 Surf Avenue,Brooklyn,11224,40.573527,-73.994705,Garden,Public
+134422,Lower East Side Ecology Center,215 East 7 Street,Manhattan,10009,40.72465,-73.979636,Garden,Public
+163758,110th Street Block Association Garden,1651 Madison Avenue,Manhattan,10029,40.796166,-73.947329,Garden,Public
+158952,Brooklyn Bears Rockwell Pl Garden,Flatbush Avenue,Brooklyn,11217,40.686946,-73.979264,Garden,Public
+85492,Earth Spirit Garden,203 South 2 Street,Brooklyn,11211,40.712534,-73.959429,Garden,Public
+162789,Dias Y Flores,520 East 13 Street,Manhattan,10009,40.729089,-73.979938,Garden,Public
+8448,Jackson-Forest Community Garden,736 Home Street,Bronx,10456,40.828144,-73.902482,Garden,Public
+134235,El Jardin Del Paraiso Park,East 5 Street,Manhattan,10009,40.722309,-73.979214,Garden,Public
+177603,Garden,Livonia Avenue,Brooklyn,11212,40.662117,-73.91007,Garden,Public
+178782,E 4th Street Garden,East 4 Street,Brooklyn,11218,40.648368,-73.977119,Garden,Public
+103204,Siempre Verde Garden,141 Attorney Street,Manhattan,10002,40.719835,-73.984012,Garden,Public
+103233,Kenkeleba House Garden,212 East 3 Street,Manhattan,10009,40.722193,-73.98269,Garden,Public
+174147,100 Quincy Street Community Garden,100 Quincy Street,Brooklyn,11238,40.685967,-73.957236,Garden,Public
+137855,W 87th Street Garden,West 87 Street,Manhattan,10024,40.787091,-73.970926,Garden,Public
+161176,Causa Festival Garden,784 Blake Avenue,Brooklyn,11207,40.668411,-73.889547,Garden,Public
+103559,BSCAH Urban Farm,1969 Fulton Street,Brooklyn,11233,40.678764,-73.916016,Garden,Public
+112975,Summit Street Community Garden,281 Columbia Street,Brooklyn,11231,40.682467,-74.003663,Garden,Public
+117392,Elizabeth Langley Memorial Garden,123 West 137 Street,Manhattan,10030,40.816126,-73.941039,Garden,Public
+134256,6BC Botanical Garden,East 6 Street,Manhattan,10009,40.723842,-73.980675,Garden,Public
+154084,Walt L Shemal Garden,1097 Dean Street,Brooklyn,11216,40.677429,-73.953644,Garden,Public
+125643,River Garden,1086 East 180 Street,Bronx,10460,40.841952,-73.87663,Garden,Public
+92454,Courtlandt Avenue Association Garden,366 East 158 Street,Bronx,10451,40.822478,-73.91612,Garden,Public
+103367,Fantasy Garden,181 Legion Street,Brooklyn,11212,40.664216,-73.916892,Garden,Public
+8360,West 111th St. People's Garden,1040 Amsterdam Avenue,Manhattan,10025,40.803887,-73.963555,Garden,Public
+163528,Garden,9 Rochester Avenue,Brooklyn,11233,40.678783,-73.927109,Garden,Public
+110974,Ebenezer Wesleyan Garden,1574 Lexington Avenue,Manhattan,10029,40.788806,-73.949231,Garden,Public
+7223,Orient Grove,Orient Avenue,Brooklyn,11211,40.71481,-73.940334,Garden,Public
+158612,Brownsville Green,1418 Eastern Parkway,Brooklyn,11233,40.668718,-73.921217,Garden,Public
+103259,Project Roots,108 Walton Street,Brooklyn,11206,40.702734,-73.948021,Garden,Public
+113085,Harris Garden,St Nicholas Avenue,Manhattan,10032,40.829715,-73.942118,Garden,Public
+31406,Stars Of Hope,213 Madison Street,Brooklyn,11216,40.684918,-73.950691,Garden,Public
+161334,Pleasant Park Garden,437 East 114 Street,Manhattan,10029,40.794167,-73.934497,Garden,Public
+5713,Davidson Ave. Community Gardeners Group,2502 Davidson Avenue,Bronx,10468,40.86421,-73.900849,Garden,Public
+170012,La Plaza Cultural,143 Avenue C,Manhattan,10009,40.725292,-73.978649,Garden,Public
+162853,Jackie Robinson Community Garden,103 East 122 Street,Manhattan,10035,40.803087,-73.939773,Garden,Public
+158911,El Garden,120 Jefferson Street,Brooklyn,11206,40.69952,-73.930604,Garden,Public
+115222,Powell Street Livonia Garden,Powell Street,Brooklyn,11212,40.663362,-73.901846,Garden,Public
+153642,Patchen Community Square Garden,Patchen Avenue,Brooklyn,11221,40.686515,-73.927074,Garden,Public
+165885,Moffat Garden,9 Moffat Street,Brooklyn,11207,40.683582,-73.910651,Garden,Public
+109350,Green Gems,941 Glenmore Avenue,Brooklyn,11208,40.676496,-73.875265,Garden,Public
+41961,P.S. 76 Garden,203 West 120 Street,Manhattan,10027,40.806225,-73.951107,Garden,Public
+115541,Oasis Garden,505 West 52 Street,Manhattan,10019,40.76631,-73.991225,Garden,Public
+74514,400 Montauk Av Block Assn,New Lots Avenue,Brooklyn,11208,40.668657,-73.87678,Garden,Public
+48116,TRUCE Garden,143 St Nicholas Avenue,Manhattan,10026,40.80459,-73.953068,Garden,Public
+87561,Jardin De La Familia,1507 Washington Avenue,Bronx,10457,40.837979,-73.903559,Garden,Public
+86934,Brooklyn Bears Carlton Ave Garden,401 Carlton Avenue,Brooklyn,11238,40.685708,-73.971064,Garden,Public
+36273,Carolina Garden,East 122 Street,Manhattan,10035,40.80268,-73.939967,Garden,Public
+196837,Our Little Green Acre/garden Eight,277 West 122 Street,Manhattan,10027,40.808218,-73.952041,Garden,Public
+122331,La Isla Garden,96 West 163 Street,Bronx,10452,40.83191,-73.929264,Garden,Public
+74851,Cooper St Block Buster Association,41 Cooper Street,Brooklyn,11207,40.684688,-73.910734,Garden,Public
+136761,CS 134 Community Improvement Garden,Bristow Street,Bronx,10459,40.830998,-73.895027,Garden,Public
+103591,Sumpter Community Garden,182 Sumpter Street,Brooklyn,11233,40.680044,-73.917526,Garden,Public
+61566,Prophecy Garden,69 Malta Street,Brooklyn,11207,40.659156,-73.895049,Garden,Public
+45711,Manley's Pl,186 Montauk Avenue,Brooklyn,11208,40.674733,-73.87843,Garden,Public
+80291,Pueble Unido Garden,1659 Madison Avenue,Manhattan,10029,40.796399,-73.947113,Garden,Public
+171203,Garden Of Life,1665 Weeks Avenue,Bronx,10457,40.843508,-73.907954,Garden,Public
+110893,Havemeyer Garden,2311 Lacombe Avenue,Bronx,10473,40.81759,-73.844197,Garden,Public
+61640,Gregory's Garden,Warwick Street,Brooklyn,11207,40.672628,-73.885927,Garden,Public
+92468,Vogue Garden,747 Elton Avenue,Bronx,10451,40.820562,-73.914061,Garden,Public
+73224,All People's Church of the Apostolic Faith Community Garden,147 Tompkins Avenue,Brooklyn,11206,40.694396,-73.945841,Garden,Public
+81367,Fishbridge Garden,Pearl Street,Manhattan,10038,40.70907,-74.001377,Garden,Public
+60231,Concerned Residents of Montauk Avenue,212 Montauk Avenue,Brooklyn,11208,40.673876,-73.878208,Garden,Public
+61570,United Community Centers - E New York Farms Project,291 New Lots Avenue,Brooklyn,11207,40.661044,-73.89558,Garden,Public
+134898,Garden Of Love,304 West 116 Street,Manhattan,10026,40.804408,-73.956077,Garden,Public
+61687,Jerry and The Senior Gents,349 Schenck Avenue,Brooklyn,11207,40.672344,-73.888065,Garden,Public
+7221,St. Nicholas - Olive St. Garden,Olive Street,Brooklyn,11211,40.7133,-73.939052,Garden,Public
+193710,Harlem Rose Garden,6 East 129 Street,Manhattan,10035,40.808533,-73.939978,Garden,Public
+122326,Woodycrest Community Garden,94 West 162 Street,Bronx,10452,40.831272,-73.929395,Garden,Public
+78829,Vernon/Throop Ave Block Association,253 Throop Avenue,Brooklyn,11206,40.6952,-73.943091,Garden,Public
+130272,Children's Garden,194 Avenue B,Manhattan,10009,40.728101,-73.979258,Garden,Public
+61511,Georgia Ave Garden,328 New Lots Avenue,Brooklyn,11207,40.661007,-73.894441,Garden,Public
+164753,Positive Seeds of Life Garden,558 Snediker Avenue,Brooklyn,11207,40.661248,-73.899203,Garden,Public
+92253,Eastern Parkway Coalition,Eastern Parkway,Brooklyn,11225,40.670346,-73.959244,Garden,Public
+60420,Lincoln Rd Block Association,316 Lincoln Road,Brooklyn,11225,40.661233,-73.952252,Garden,Public
+81013,Victory Garden's Group,953 Gates Avenue,Brooklyn,11221,40.689086,-73.927643,Garden,Public
+161565,Ponderosa Garden,East 105 Street,Brooklyn,11236,40.649227,-73.89699,Garden,Public
+137355,138th St. Community Garden,East 138 Street,Bronx,10454,40.805637,-73.915384,Garden,Public
+49846,Preston Community Garden,Park Place,Brooklyn,11233,40.67208,-73.92068,Garden,Public
+91390,Angie Lee Gonzales Garden,1768 Bryant Avenue,Bronx,10460,40.836681,-73.884667,Garden,Public
+82774,Rainbow Garden,379 East 159 Street,Bronx,10451,40.82332,-73.914987,Garden,Public
+42017,Neighborhood Community Garden,1123 St Marks Avenue,Brooklyn,11213,40.674524,-73.932566,Garden,Public
+78865,700 Decatur St Block Association,45 Thomas S Boyland St,Brooklyn,11233,40.683817,-73.914382,Garden,Public
+134221,The Secret Garden,53 Avenue C,Manhattan,10009,40.722494,-73.980357,Garden,Public
+82812,Kosciuszko Street Garden,387 Kosciuszko Street,Brooklyn,11221,40.692245,-73.939249,Garden,Public
+61654,P.S. 4 Paradise Garden,Glenmore Avenue,Brooklyn,11207,40.674609,-73.884853,Garden,Public
+42018,Sterling Community Group,535 Ralph Avenue,Brooklyn,11233,40.671226,-73.922142,Garden,Public
+106851,Taylor-Soundview Block Assoc. Garden,564 Soundview Avenue,Bronx,10473,40.816997,-73.86119,Garden,Public
+173095,Firemen's Memorial Garden,East 8 Street,Manhattan,10009,40.72426,-73.977968,Garden,Public
+115070,Culinary Kids Garden,30-15 Seagirt Boulevard,Queens,11691,40.595586,-73.763592,Garden,Public
+168354,Gethsemane Garden,148 Newport Street,Brooklyn,11212,40.659016,-73.909644,Garden,Public
+136740,P.S. 186 Day Treatment Program,745 Jennings Street,Bronx,10456,40.831978,-73.898308,Garden,Public
+103676,Garden,808 Herkimer Street,Brooklyn,11233,40.678194,-73.926641,Garden,Public
+165287,East New York Farms Garden,Hendrix Street,Brooklyn,11207,40.665488,-73.887794,Garden,Public
+82778,Little Green Garden,377 East 160 Street,Bronx,10451,40.824043,-73.914947,Garden,Public
+92473,Garden,East 157 Street,Bronx,10451,40.821508,-73.915565,Garden,Public
+81071,Shiloh Garden,Monroe Street,Brooklyn,11216,40.68629,-73.945212,Garden,Public
+134228,Generation X,272 East 4 Street,Manhattan,10009,40.722568,-73.981413,Garden,Public
+103227,Peachtree Garden,236 East 2 Street,Manhattan,10009,40.721659,-73.981978,Garden,Public
+92472,Latinos Unidos Garden,427 East 157 Street,Bronx,10451,40.821559,-73.914124,Garden,Public
+103007,Mobilization For Change,955 Columbus Avenue,Manhattan,10025,40.799707,-73.962181,Garden,Public
+77027,Isla Verde Garden,625 Wales Avenue,Bronx,10455,40.814927,-73.906826,Garden,Public
+135906,La Finca del Sur Community Garden,East 138 Street,Bronx,10451,40.812672,-73.930182,Garden,Public
+161611,Centro Cultural Garden,755 Brook Avenue,Bronx,10451,40.82053,-73.912058,Garden,Public
+159019,Frank White Memorial Garden,506 West 143 Street,Manhattan,10031,40.824242,-73.949856,Garden,Public
+57301,Garden,Linden Boulevard,Queens,11412,40.691549,-73.76185,Garden,Public
+42178,The Creative Little Garden,East 6 Street,Manhattan,10009,40.724651,-73.982588,Garden,Public
+41804,Brook Park,494 East 141 Street,Bronx,10454,40.809545,-73.918739,Garden,Public
+180409,Santos White Garden,2110 Mermaid Avenue,Brooklyn,11224,40.576035,-73.988235,Garden,Public
+76597,Rev. Linnette C Williamson Memorial Park,52 West 129 Street,Manhattan,10027,40.809757,-73.942904,Garden,Public
+122306,Taqwa Community Farm,90 West 164 Street,Bronx,10452,40.832578,-73.929023,Garden,Public
+61448,United Community Center Garden,Schenck Avenue,Brooklyn,11207,40.665414,-73.886867,Garden,Public
+134254,5th St Slope Garden,East 5 Street,Manhattan,10009,40.723606,-73.980861,Garden,Public
+124327,P.S. 149 Artsy Bloom Community Garden,367 Wyona Street,Brooklyn,11207,40.669705,-73.892081,Garden,Public
+107663,College Avenue Greenthumb,1420 College Avenue,Bronx,10456,40.838033,-73.90992,Garden,Public
+41839,Warwick Street Greenery Glow Garden,601 Warwick Street,Brooklyn,11207,40.668671,-73.88438,Garden,Public
+4387,Gardens Of Union,636 Union Street,Brooklyn,11215,40.676926,-73.982468,Garden,Public
+162923,Crystal Wells Block Association,Fountain Avenue,Brooklyn,11208,40.678075,-73.875397,Garden,Public
+171135,Garden,227 West 115 Street,Manhattan,10026,40.803355,-73.954352,Garden,Public
+123788,Goodwin Gardens,54 Goodwin Place,Brooklyn,11221,40.691133,-73.923452,Garden,Public
+168393,Lefferts Pl Block Association,162 Lefferts Place,Brooklyn,11238,40.680371,-73.957627,Garden,Public
+47027,El Gallo Garden,1893 Lexington Avenue,Manhattan,10035,40.799709,-73.94054,Garden,Public
+100294,Joe Holzka Community Garden,1171 Castleton Avenue,Staten Island,10310,40.634528,-74.121574,Garden,Public
+196846,Miracle Garden,194 East 3 Street,Manhattan,10009,40.722653,-73.983528,Garden,Public
+134426,De Colores Community Yard and Cultural Center,313 East 8 Street,Manhattan,10009,40.72545,-73.979741,Garden,Public
+115362,Red Shed Garden,Skillman Avenue,Brooklyn,11211,40.716102,-73.94027,Garden,Public
+88741,El Batey de DoÃ±a Provi Garden,1956 Bathgate Avenue,Bronx,10457,40.847826,-73.896338,Garden,Public
+165839,Student Farm Project,518 Rockaway Avenue,Brooklyn,11212,40.667389,-73.910472,Garden,Public
+168928,97th Street Block Association,97 Street,Queens,11368,40.756148,-73.871435,Garden,Public
+83329,William Simmons Community Garden Club,173 Street,Queens,11433,40.701633,-73.783033,Garden,Public
+115228,Garden,495 Osborn Street,Brooklyn,11212,40.659556,-73.905928,Garden,Public
+61742,Big Red Garden,436 Van Siclen Avenue,Brooklyn,11207,40.668735,-73.889584,Garden,Public
+177904,El Sol Brilliante Jr,537 East 12 Street,Manhattan,10009,40.728583,-73.979534,Garden,Public
+119097,Berry Street Garden,301 Berry Street,Brooklyn,11249,40.713354,-73.963538,Garden,Public
+82760,Jardin de la Roca,843 Elton Avenue,Bronx,10451,40.822966,-73.912889,Garden,Public
+162077,St. Mark's Garden,415 East 117 Street,Manhattan,10035,40.796551,-73.934015,Garden,Public
+118123,Garden Of Happiness,2158 Prospect Avenue,Bronx,10457,40.848537,-73.884985,Garden,Public
+81072,First Quincy St Block Association,Quincy Street,Brooklyn,11221,40.687921,-73.944316,Garden,Public
+95567,Libertad Urban Farm,Simpson Street,Bronx,10459,40.82198,-73.892572,Garden,Public
+156120,Two Coves Community Garden,Astoria Boulevard,Queens,11102,40.772287,-73.932024,Garden,Public
+159229,A Better Community Garden,1 Hunterfly Place,Brooklyn,11233,40.678119,-73.928169,Garden,Public
+109359,Euclid Garden,Euclid Avenue,Brooklyn,11208,40.673663,-73.871857,Garden,Public
+117361,Harlem Valley Garden,197 West 134 Street,Manhattan,10030,40.814613,-73.943552,Garden,Public
+105047,Jerome Park,Goulden Avenue,Bronx,10468,40.878654,-73.891973,Neighborhood Park,Public
+40553,Bridge Park,,Bronx,10452,40.846313,-73.927064,Neighborhood Park,Public
+82899,East River Esplanade,,Manhattan,10016,40.745869,-73.969685,Neighborhood Park,Public
+129420,St. Nicholas Park,48 St Nicholas Avenue,Manhattan,10031,40.817271,-73.948819,Neighborhood Park,Public
+162150,MacDonald Park,,Queens,11375,40.722237,-73.846803,Neighborhood Park,Public
+50200,Barrier Playground,,Queens,11375,40.73627,-73.854934,Neighborhood Park,Public
+157552,Leif Ericson Park,,Brooklyn,11220,40.63334,-74.015959,Neighborhood Park,Public
+134761,Canal Park,,Manhattan,10013,40.725344,-74.010581,Neighborhood Park,Public
+121754,Vladeck Park,656 Water Street,Manhattan,10002,40.712414,-73.98202,Neighborhood Park,Public
+86849,Dean Playground,500 Dean Street,Brooklyn,11217,40.680879,-73.973187,Neighborhood Park,Public
+6269,Heritage Park,Richmond Terrace,Staten Island,10310,40.641152,-74.122598,Neighborhood Park,Public
+56659,Underbridge Dog Run,64-02 Grand Central Pkwy,Queens,11375,40.733862,-73.845219,Neighborhood Park,Public
+101417,Green Central Knoll,55 Evergreen Avenue,Brooklyn,11206,40.701933,-73.933035,Neighborhood Park,Public
+77306,P.O. Reinaldo Salgado Playground,750 Monroe Street,Brooklyn,11221,40.687921,-73.925837,Neighborhood Park,Public
+131763,John Paul Jones Park,Bobby Bello Field,Brooklyn,11209,40.632068,-74.03874,Neighborhood Park,Public
+24101,Hallets Cove Playground,4 1 Street,Queens,11102,40.772088,-73.934912,Neighborhood Park,Public
+130801,Maple Playground,136-50 Maple Avenue,Queens,11355,40.755955,-73.826084,Neighborhood Park,Public
+155597,Sutton Place Park,East 57 Street,Manhattan,10022,40.756693,-73.960211,Neighborhood Park,Public
+162873,Bryant Park,476 5 Avenue,Manhattan,10018,40.753497,-73.982964,Neighborhood Park,Public
+162606,Washington Market Park,Greenwich Street,Manhattan,10007,40.717091,-74.011553,Neighborhood Park,Public
+77426,Butterfly Gardens,7 Avenue,Brooklyn,11215,40.660197,-73.986457,Neighborhood Park,Public
+163295,St. Andrew's Playground,1405 Atlantic Avenue,Brooklyn,11216,40.678685,-73.942234,Neighborhood Park,Public
+83659,Cobble Hill Park,172 Congress Street,Brooklyn,11201,40.688212,-73.996014,Neighborhood Park,Public
+94667,Reiff Playground,59-25 Fresh Pond Road,Queens,11378,40.718847,-73.901935,Neighborhood Park,Public
+79910,Umma Park Bmt Row,108 Woodruff Avenue,Brooklyn,11226,40.653503,-73.962543,Neighborhood Park,Public
+68927,Moore Homestead Playground,82-02 Broadway,Queens,11373,40.742333,-73.882356,Neighborhood Park,Public
+162074,Mill Pond Park,Maj Wm Deegan Blvd,Bronx,10451,40.822807,-73.931726,Neighborhood Park,Public
+102963,Cherry Tree Park,1785 3 Avenue,Manhattan,10029,40.787239,-73.947206,Neighborhood Park,Public
+7463,Herman Dolgon Playground,3595 Nostrand Avenue,Brooklyn,11229,40.596625,-73.93972,Neighborhood Park,Public
+101580,Samuel N. Bennerson 2nd Playground,200 West 64 Street,Manhattan,10023,40.773824,-73.986954,Neighborhood Park,Public
+78863,Saratoga Park,842 Halsey Street,Brooklyn,11233,40.684981,-73.919,Neighborhood Park,Public
+91397,Eae J Mitchell Park,995 East 174 Street,Bronx,10460,40.836461,-73.884391,Neighborhood Park,Public
+129456,Hunter's Point South Park,2 Street,Queens,11101,40.742513,-73.960954,Neighborhood Park,Public
+76448,J.J. Byrne Playground,298 3 Street,Brooklyn,11215,40.673059,-73.984711,Neighborhood Park,Public
+7508,Msgr. McGolrick Park,110 Russell Street,Brooklyn,11222,40.72446,-73.943229,Neighborhood Park,Public
+180486,Glenwood Playground,5818 Farragut Road,Brooklyn,11234,40.636741,-73.919788,Neighborhood Park,Public
+113859,Blueberry Park,Blueberry Lane,Staten Island,10312,40.528573,-74.160201,Neighborhood Park,Public
+91641,Taaffe Playground,390 Park Avenue,Brooklyn,11205,40.69528,-73.960712,Neighborhood Park,Public
+113252,Bicentennial Veterans Memorial Park,Shore Drive,Bronx,10465,40.823507,-73.813858,Neighborhood Park,Public
+107587,Robert E. Venable Park,1411 Sutter Avenue,Brooklyn,11208,40.6744,-73.865073,Neighborhood Park,Public
+61619,George Walker Jr. Park,57 Vermont Street,Brooklyn,11207,40.678618,-73.895113,Neighborhood Park,Public
+122468,WNYC Transmitter Park,,Manhattan,,40.729784,-73.961991,Neighborhood Park,Public
+139830,De Matti Park,Tompkins Avenue,Staten Island,10305,40.614533,-74.074185,Neighborhood Park,Public
+104957,Nelson Ave Family Park,1633 Nelson Avenue,Bronx,10453,40.846787,-73.919301,Neighborhood Park,Public
+163769,Stuyvesant Square,,Manhattan,10003,40.733642,-73.983989,Neighborhood Park,Public
+86125,Carl Schurz Park,97 East End Avenue,Manhattan,10028,40.77514,-73.9435,Neighborhood Park,Public
+88743,Tremont Park,530 East Tremont Avenue,Bronx,10457,40.845272,-73.895245,Neighborhood Park,Public
+82768,O'Neill Triangle,East 161 Street,Bronx,10451,40.823656,-73.911349,Neighborhood Park,Public
+178768,Monsignor Kett Playground,500 West 204 Street,Manhattan,10034,40.862528,-73.920913,Neighborhood Park,Public
+842,Memorial Field Of Flushing,Bayside Avenue,Queens,11354,40.771867,-73.816594,Neighborhood Park,Public
+56687,Mae Grant Playground,1565 Madison Avenue,Manhattan,10029,40.79244,-73.94944,Neighborhood Park,Public
+41881,Brust Park,West 242 Street,Bronx,10471,40.889896,-73.903871,Neighborhood Park,Public
+76592,Fiorello La Guardia Park,535 La Guardia Place,Manhattan,10012,40.7286,-73.99827,Neighborhood Park,Public
+74250,Utopia Playground,Utopia Parkway,Queens,11365,40.730726,-73.792776,Neighborhood Park,Public
+136952,Jhs 145 & Playground (Jop),1000 Teller Avenue,Bronx,10456,40.827723,-73.913812,Neighborhood Park,Public
+1876,Centreville Playground,149-48 Centreville Street,Queens,11417,40.670358,-73.839042,Neighborhood Park,Public
+88679,Coffey Park,85 Richards Street,Brooklyn,11231,40.677659,-74.008472,Neighborhood Park,Public
+77647,Bowne Park,155-01 32 Avenue,Queens,11354,40.770416,-73.806334,Neighborhood Park,Public
+168525,McKinley Park,7 Avenue,Brooklyn,11220,40.626562,-74.016732,Neighborhood Park,Public
+155064,John J Carty Park,9941 Ft Hamilton Parkway,Brooklyn,11209,40.611821,-74.031652,Neighborhood Park,Public
+104918,Rev Lena Irons Unity Park,1216 Washington Avenue,Bronx,10456,40.831044,-73.906657,Neighborhood Park,Public
+60269,Amersfort Park,1041 East 38 Street,Brooklyn,11210,40.628656,-73.939011,Neighborhood Park,Public
+9524,North Shore Esplanade,Richmond Terrace,Staten Island,10301,40.646691,-74.089347,Neighborhood Park,Public
+62316,Watson Gleason Playground,Gleason Avenue,Bronx,10472,40.828442,-73.868964,Neighborhood Park,Public
+87038,Grover Cleveland Playground,3-96 Grandview Avenue,Queens,11385,40.710887,-73.910948,Neighborhood Park,Public
+113268,Harold Ickes Playground,100 Hamilton Avenue,Brooklyn,11231,40.682536,-74.005942,Neighborhood Park,Public
+163268,West Farms Rapids,Bronx Street,Bronx,10460,40.841153,-73.877794,Neighborhood Park,Public
+163189,Harry Maze Playground,5601 Avenue D,Brooklyn,11203,40.643418,-73.923176,Neighborhood Park,Public
+103553,Marion Hopkinson Playground,89 Thomas S Boyland St,Brooklyn,11233,40.681781,-73.91332,Neighborhood Park,Public
+5652,Brower Park,195 Brooklyn Avenue,Brooklyn,11213,40.673839,-73.943392,Neighborhood Park,Public
+41762,Harris Park,3034 Goulden Avenue,Bronx,10468,40.876281,-73.891882,Neighborhood Park,Public
+116790,Hell's Kitchen Park,670 10 Avenue,Manhattan,10036,40.762968,-73.992583,Neighborhood Park,Public
+123274,Van Dyke Playground,603 Mother Gaston Blvd,Brooklyn,11212,40.663595,-73.904949,Neighborhood Park,Public
+105865,Dr. Gertrude B. Kelly Playground,317 West 16 Street,Manhattan,10011,40.741655,-74.002008,Neighborhood Park,Public
+170001,Cadman Plaza Park,172 Cadman Plaza East,Brooklyn,11201,40.698381,-73.990566,Neighborhood Park,Public
+181892,The Olde Towne of Flushing Burial Ground,165 Street,Queens,11358,40.75464,-73.802353,Neighborhood Park,Public
+68250,Simeone Park,,Queens,11368,40.74098,-73.859924,Neighborhood Park,Public
+89191,Peters Field,Liberty Avenue,Queens,11423,40.706427,-73.77466,Neighborhood Park,Public
+60199,Power Playground,4902 Avenue N,Brooklyn,11234,40.61813,-73.927322,Neighborhood Park,Public
+162352,Cedar Playground,Cedar Avenue,Bronx,10453,40.855122,-73.917389,Neighborhood Park,Public
+163210,Railroad Park,East 162 Street,Bronx,10451,40.82513,-73.915377,Neighborhood Park,Public
+103052,Cypress Hills Playground,Euclid Avenue,Brooklyn,11208,40.670742,-73.871082,Neighborhood Park,Public
+21604,Col. Young Playground,680 Lenox Avenue,Manhattan,10037,40.819211,-73.93554,Neighborhood Park,Public
+160338,Crowley Playground,,Queens,11373,40.729561,-73.879614,Neighborhood Park,Public
+46801,Holcombe Rucker Park,2930 8 Avenue,Manhattan,10039,40.829294,-73.935974,Neighborhood Park,Public
+163300,City Hall Park,52 Chambers Street,Manhattan,10007,40.712805,-74.006157,Neighborhood Park,Public
+134447,Tompkins Square Park,144 Avenue A,Manhattan,10009,40.726452,-73.981713,Neighborhood Park,Public
+34444,Bleecker Playground,580 Hudson Street,Manhattan,10014,40.736379,-74.005497,Neighborhood Park,Public
+117561,Harlem Lane Playground,7 Avenue,Manhattan,10039,40.82598,-73.934877,Neighborhood Park,Public
+60575,Tilden Playground,4802 Tilden Avenue,Brooklyn,11203,40.647622,-73.931425,Neighborhood Park,Public
+83338,Northerleigh Park,90 North Avenue,Staten Island,10302,40.622833,-74.134087,Neighborhood Park,Public
+77422,Detective Joseph Mayrose Park,,Brooklyn,11215,40.661484,-73.987664,Neighborhood Park,Public
+123846,Sherman Creek,3725 10 Avenue,Manhattan,10040,40.858233,-73.921386,Neighborhood Park,Public
+121444,Amelia Gorman Park,Broadway,Manhattan,10040,40.855705,-73.932412,Neighborhood Park,Public
+68238,Corona Golf Playground,109-02 46 Avenue,Queens,11368,40.74775,-73.854034,Neighborhood Park,Public
+90455,Electric Playground,65-40 164 Street,Queens,11365,40.735764,-73.805419,Neighborhood Park,Public
+47719,Dream Street Park,227 East 124 Street,Manhattan,10035,40.802736,-73.935037,Neighborhood Park,Public
+5893,McDonald Playground,2099 Mc Donald Avenue,Brooklyn,11223,40.601149,-73.972169,Neighborhood Park,Public
+177891,Ralph Demarco Park,,Queens,,40.784596,-73.917301,Neighborhood Park,Public
+161662,Washington Square Park,3 Washington Square N,Manhattan,10011,40.730891,-73.997603,Neighborhood Park,Public
+162014,Von Briesen Park,Bay Street,Staten Island,10305,40.607751,-74.058623,Neighborhood Park,Public
+129618,Castle Hill Park,201 Castle Hill Avenue,Bronx,10473,40.811903,-73.847503,Neighborhood Park,Public
+73138,Kelly Park Playground,1301 Avenue S,Brooklyn,11229,40.603667,-73.957559,Neighborhood Park,Public
+169531,Battery Park City,401 South End Avenue,Manhattan,10282,40.711882,-74.016893,Neighborhood Park,Public
+75567,Vidalia Park,2070 Daly Avenue,Bronx,10460,40.843865,-73.881431,Neighborhood Park,Public
+131077,Valentino Pier,,Brooklyn,,40.678326,-74.018793,Neighborhood Park,Public
+112955,Mother Cabrini Park,35 President Street,Brooklyn,11231,40.684428,-74.005149,Neighborhood Park,Public
+88582,Peter Detmold Park,454 East 51 Street,Manhattan,10022,40.753303,-73.96389,Neighborhood Park,Public
+155562,University Woods,Cedar Avenue,Bronx,10468,40.859189,-73.914983,Neighborhood Park,Public
+54857,Seward Park,57 Essex Street,Manhattan,10002,40.71479,-73.989228,Neighborhood Park,Public
+21806,Pratt Playground,233 Willoughby Avenue,Brooklyn,11205,40.692637,-73.962526,Neighborhood Park,Public
+100196,Hero Park,Victory Boulevard,Staten Island,10301,40.630271,-74.08807,Neighborhood Park,Public
+82846,Marconi Park,155-01 109 Avenue,Queens,11433,40.693286,-73.795582,Neighborhood Park,Public
+86945,South Oxford Park,187 South Oxford Street,Brooklyn,11217,40.683748,-73.972467,Neighborhood Park,Public
+162842,Haffen Park,1750 Burke Avenue,Bronx,10469,40.873683,-73.839166,Neighborhood Park,Public
+161837,Thomas Boyland Park,Furman Avenue,Brooklyn,11207,40.681743,-73.907547,Neighborhood Park,Public
+45637,First Park,2 2 Avenue,Manhattan,10002,40.723518,-73.989639,Neighborhood Park,Public
+113942,Breininger Park,239-12 Braddock Avenue,Queens,11426,40.726023,-73.728897,Neighborhood Park,Public
+137547,James J Walker Park,410 Hudson Street,Manhattan,10014,40.729799,-74.006152,Neighborhood Park,Public
+48118,Robert L. Clinkscales Playground and Community Garden,218 West 146 Street,Manhattan,10039,40.822692,-73.940081,Neighborhood Park,Public
+114326,Laurelton Playground,,Queens,11422,40.670001,-73.736532,Neighborhood Park,Public
+83205,Hoyt Playground,Hoyt Avenue,Queens,11102,40.771582,-73.917214,Neighborhood Park,Public
+164547,Harmony Park,1589 Atlantic Avenue,Brooklyn,11213,40.677932,-73.934432,Neighborhood Park,Public
+108083,Virginia Park,Westchester Avenue,Bronx,10472,40.833479,-73.86218,Neighborhood Park,Public
+101339,Carlton Park,Drumgoole Road West,Staten Island,10309,40.533072,-74.202308,Neighborhood Park,Public
+73112,Mellett Playground,1301 Avenue V,Brooklyn,11229,40.59707,-73.95739,Neighborhood Park,Public
+88697,Bathgate Playground,2130 Washington Avenue,Bronx,10457,40.852805,-73.894266,Neighborhood Park,Public
+161684,Frank Golden Park,15 Avenue,Queens,11356,40.784836,-73.833739,Neighborhood Park,Public
+8713,Jennifer's Playground,250 Regis Drive,Staten Island,10314,40.620053,-74.16313,Neighborhood Park,Public
+107539,Francis Lewis Park,301 3 Avenue,Queens,11357,40.796259,-73.825666,Neighborhood Park,Public
+122074,Flushing Meadows Park,114 Street,Queens,11368,40.751273,-73.848553,Neighborhood Park,Public
+70695,Yellowstone Park,68-01 Yellowstone Blvd,Queens,11375,40.726232,-73.847892,Neighborhood Park,Public
+157830,South Oxford Park,193 South Oxford Street,Brooklyn,11217,40.683588,-73.972601,Neighborhood Park,Public
+95513,Harvard Playground,90-73 179 Place,Queens,11432,40.70912,-73.78156,Neighborhood Park,Public
+86234,Dr. Ronald E. McNair Playground,163 East 122 Street,Manhattan,10035,40.802533,-73.938088,Neighborhood Park,Public
+169246,Frederick B. Judge Playground,111-01 134 Street,Queens,11420,40.683114,-73.807928,Neighborhood Park,Public
+8932,Veterans Park,Park Avenue,Staten Island,10302,40.637197,-74.131769,Neighborhood Park,Public
+104861,Beach 17 Playground,9-01 Seagirt Boulevard,Queens,11691,40.59449,-73.748804,Neighborhood Park,Public
+137120,Bennett Park,521 Ft Washington Avenue,Manhattan,10033,40.85285,-73.938111,Neighborhood Park,Public
+162472,Devoe Park,101 West Fordham Road,Bronx,10468,40.863312,-73.906246,Neighborhood Park,Public
+33509,Jackie Robinson Park,319 West 145 Street,Manhattan,10039,40.826585,-73.94113,Neighborhood Park,Public
+137386,Corporal John A. Seravalli Playground,638 Hudson Street,Manhattan,10014,40.739071,-74.004794,Neighborhood Park,Public
+81023,Ravenswood Playground,34-00 21 Street,Queens,11106,40.762175,-73.935636,Neighborhood Park,Public
+42026,Grant Park,Grant Avenue,Bronx,10456,40.836844,-73.912933,Neighborhood Park,Public
+113910,Hinton Park,34-02 114 Street,Queens,11368,40.756011,-73.854943,Neighborhood Park,Public
+152479,Louis Cuvillier Park,2590 1 Avenue,Manhattan,10035,40.800902,-73.930891,Neighborhood Park,Public
+164951,Gravesend Park,5521 18 Avenue,Brooklyn,11204,40.623976,-73.98492,Neighborhood Park,Public
+167106,Rainey Park,Vernon Boulevard,Queens,11106,40.765338,-73.941041,Neighborhood Park,Public
+48601,Sara D. Roosevelt Park,106 Chrystie Street,Manhattan,10002,40.719632,-73.992614,Neighborhood Park,Public
+92243,Dr. Ronald McNair Park,Washington Avenue,Brooklyn,11225,40.670702,-73.962001,Neighborhood Park,Public
+109841,"Martin Luther King, Jr. Playground",62 Lenox Avenue,Manhattan,10026,40.800208,-73.950389,Neighborhood Park,Public
+8604,Playground 103 CIII,Fdr Drive,Manhattan,10029,40.786993,-73.939135,Neighborhood Park,Public
+97506,Squibb Park,68 Columbia Heights,Brooklyn,11201,40.700896,-73.995475,Neighborhood Park,Public
+162784,Barretto Point Park,1121 Viele Avenue,Bronx,10474,40.805001,-73.888364,Neighborhood Park,Public
+63524,Williamsbridge Oval,3324 Reservoir Oval East,Bronx,10467,40.877627,-73.877386,Neighborhood Park,Public
+123282,Livonia Park,393 Powell Street,Brooklyn,11212,40.664784,-73.902129,Neighborhood Park,Public
+9465,Mahoney Playground,Beechwood Avenue,Staten Island,10301,40.643342,-74.085856,Neighborhood Park,Public
+119122,Osborn Playground,1461 Linden Boulevard,Brooklyn,11212,40.655738,-73.905946,Neighborhood Park,Public
+125626,Carroll Park,375 Court Street,Brooklyn,11231,40.681099,-73.995475,Neighborhood Park,Public
+103714,London Planetree Playground,88-02 Atlantic Avenue,Queens,11416,40.685908,-73.853135,Neighborhood Park,Public
+115597,De Witt Clinton Park,641 West   52 Street,Manhattan,10019,40.768198,-73.994636,Neighborhood Park,Public
+160875,Stanley Isaacs Playground,,Manhattan,10128,40.783086,-73.944366,Neighborhood Park,Public
+4971,Underwood Park,336 Waverly Avenue,Brooklyn,11205,40.688577,-73.96642,Neighborhood Park,Public
+109369,Rodney Playground Center,349 Rodney Street,Brooklyn,11211,40.710256,-73.955571,Neighborhood Park,Public
+51461,Seaside Wildlife Nature Park,Nelson Avenue,Staten Island,10308,40.540133,-74.141771,Neighborhood Park,Public
+138673,Starlight Park,1490 Sheridan Expressway,Bronx,10460,40.832634,-73.882498,Neighborhood Park,Public
+72042,Frank D. O'Connor Playground,78-08 Broadway,Queens,11373,40.744383,-73.88686,Neighborhood Park,Public
+134991,Estella Diggs Park,3 Avenue,Bronx,10456,40.828938,-73.906177,Neighborhood Park,Public
+134099,St. Catherine's Park,1245 1 Avenue,Manhattan,10065,40.765194,-73.958721,Neighborhood Park,Public
+117267,Frederick Douglass Playground,825 Amsterdam Avenue,Manhattan,10025,40.797099,-73.96753,Neighborhood Park,Public
+92572,South Pacific Playground,338 Howard Avenue,Brooklyn,11233,40.675653,-73.920297,Neighborhood Park,Public
+81834,Neighborhood Park,138 Street,Queens,11357,40.790049,-73.831705,Neighborhood Park,Public
+135024,Charlton Garden,592 East 164 Street,Bronx,10456,40.824681,-73.907103,Neighborhood Park,Public
+162531,Tompkinsville Park,Bay Street,Staten Island,10301,40.637438,-74.076392,Neighborhood Park,Public
+131345,Macneil Park,Poppenhusen Avenue,Queens,11356,40.79306,-73.851707,Neighborhood Park,Public
+99960,Scarangella Park,Avenue U,Brooklyn,11223,40.594666,-73.984339,Neighborhood Park,Public
+124514,Owl's Head Park,Colonial Road,Brooklyn,11220,40.639289,-74.031997,Neighborhood Park,Public
+194284,Vesuvio Playground,85 Thompson Street,Manhattan,10012,40.725392,-74.00258,Neighborhood Park,Public
+64820,Gorman Playground,84-11 30 Avenue,Queens,11370,40.761931,-73.884156,Neighborhood Park,Public
+121722,Steuben Playground,Steuben Street,Brooklyn,11205,40.697445,-73.963458,Neighborhood Park,Public
+33097,Greenwood Playground,83 East 5 Street,Brooklyn,11218,40.650458,-73.976579,Neighborhood Park,Public
+97831,Daniel M. O'Connell Playground,113-01 196 Street,Queens,11412,40.700179,-73.758242,Neighborhood Park,Public
+165331,Rappaport Playground,5202 Ft Hamilton Parkway,Brooklyn,11219,40.636775,-74.000794,Neighborhood Park,Public
+135521,Playground One Thirty Four CXXXIV,,Bronx,10454,40.803193,-73.917558,Neighborhood Park,Public
+75945,Colucci Playground,2011 Mayflower Avenue,Bronx,10461,40.852779,-73.834582,Neighborhood Park,Public
+119114,Christopher J. Igneri Playground,Schmidts Lane,Staten Island,10314,40.60869,-74.119578,Neighborhood Park,Public
+161745,West Playground,2536 West Street,Brooklyn,11223,40.587084,-73.970071,Neighborhood Park,Public
+50170,Long Island Mews,51 Avenue,Queens,11377,40.736097,-73.890204,Neighborhood Park,Public
+83720,Owen F. Dolen Park,,Bronx,10461,40.840549,-73.842865,Neighborhood Park,Public
+32967,Cuyler Gore Park,797 Fulton Street,Brooklyn,11238,40.685658,-73.971932,Neighborhood Park,Public
+99326,St. Michael's Playground,64-02 30 Avenue,Queens,11377,40.758305,-73.90028,Neighborhood Park,Public
+82247,Powells Cove Park Addition,11 Avenue,Queens,11356,40.787854,-73.834169,Neighborhood Park,Public
+176566,Grand Ferry Park,,Manhattan,,40.716841,-73.967387,Neighborhood Park,Public
+133582,Cooper Park,350 Maspeth Avenue,Brooklyn,11211,40.715982,-73.937319,Neighborhood Park,Public
+104843,Beach 30th Street Playground,102 Beach 32 Street,Queens,11691,40.592461,-73.762489,Neighborhood Park,Public
+75954,Sean's Place,31-19 38 Street,Queens,11103,40.760772,-73.918327,Neighborhood Park,Public
+158944,Maria Hernandez Park,64 Irving Avenue,Brooklyn,11237,40.70299,-73.924039,Neighborhood Park,Public
+141671,Kaltenmeier Playground,,Staten Island,10305,40.614829,-74.0688,Neighborhood Park,Public
+78771,General Hart Playground,65-01 37 Avenue,Queens,11377,40.748778,-73.897233,Neighborhood Park,Public
+90280,J. Hood Wright Park,301 Ft Washington Avenue,Manhattan,10033,40.846534,-73.941254,Neighborhood Park,Public
+143641,Sakura Park,Riverside Drive,Manhattan,10027,40.813069,-73.962079,Neighborhood Park,Public
+121192,White Park,Lyman Avenue,Staten Island,10305,40.60758,-74.063136,Neighborhood Park,Public
+90309,Woodtree Playground,20 Avenue,Queens,11105,40.777509,-73.902556,Neighborhood Park,Public
+104866,Beach 9 Playground,9-01 Seagirt Boulevard,Queens,11691,40.595295,-73.745026,Neighborhood Park,Public
+63857,Police Officer Nicholas Demutiis Park,101-05 101 Street,Queens,11417,40.681835,-73.839674,Neighborhood Park,Public
+63472,St. James Park,2550 Jerome Avenue,Bronx,10468,40.86516,-73.897791,Neighborhood Park,Public
+168399,Madison Square Park,2 Madison Avenue,Manhattan,10010,40.742205,-73.987969,Neighborhood Park,Public
+42219,Concrete Plant Park,1040 Edgewater Road,Bronx,10472,40.825639,-73.885105,Neighborhood Park,Public
+77371,Colgate Close,1445 Bruckner Boulevard,Bronx,10472,40.824158,-73.881488,Neighborhood Park,Public
+129584,Harding Park,201 Bolton Avenue,Bronx,10473,40.809309,-73.856606,Neighborhood Park,Public
+167240,Socrates Sculpture Park,31-30 Vernon Boulevard,Queens,11106,40.768808,-73.936582,Neighborhood Park,Public
+108105,Risse Street Park,100 Van Cortlandt Park E,Bronx,10468,40.878565,-73.885286,Neighborhood Park,Public
+162911,Irving Square Park,Knickerbocker Avenue,Brooklyn,11207,40.692443,-73.909184,Neighborhood Park,Public
+110629,Henry Hudson Park,Independence Avenue,Bronx,10463,40.881329,-73.919963,Neighborhood Park,Public
+123935,Tanahey Playground,394 Water Street,Manhattan,10002,40.71016,-73.99518,Neighborhood Park,Public
+77657,Park Of The Americas,103-02 41 Avenue,Queens,11368,40.748946,-73.861777,Neighborhood Park,Public
+129547,Murray Playground,11-01 45 Road,Queens,11101,40.747229,-73.948823,Neighborhood Park,Public
+112939,Newtown Playground,92-02 56 Avenue,Queens,11373,40.736242,-73.869824,Neighborhood Park,Public
+153832,Highbridge Park,1345 University Avenue,Bronx,10452,40.842077,-73.926789,Neighborhood Park,Public
+59085,Junction Playground,95-02 34 Avenue,Queens,11368,40.754707,-73.872143,Neighborhood Park,Public
+83142,Rufus King Park,150-05 Jamaica Avenue,Queens,11432,40.70333,-73.803381,Neighborhood Park,Public
+106008,Brookfield Park,Arthur Kill Road,Staten Island,10308,40.565427,-74.161106,Neighborhood Park,Public
+90521,Broad Channel Park,16-26 Cross Bay Boulevard,Queens,11693,40.60102,-73.819769,Neighborhood Park,Public
+98790,Haggerty Park,202-02 Jamaica Avenue,Queens,11423,40.713132,-73.758101,Neighborhood Park,Public
+72138,Washington's Walk,,Bronx,10468,40.873641,-73.899623,Neighborhood Park,Public
+91356,Golconda Playground,233 Gold Street,Brooklyn,11201,40.697826,-73.982285,Neighborhood Park,Public
+91403,Rock Garden Park,Longfellow Avenue,Bronx,10460,40.835282,-73.885114,Neighborhood Park,Public
+161605,Ewen Park,3036 Johnson Avenue,Bronx,10463,40.882191,-73.910021,Neighborhood Park,Public
+198826,Fulton Park,70 Chauncey Street,Brooklyn,11233,40.679758,-73.932577,Neighborhood Park,Public
+5425,Bill Brown Playground,2401 Avenue Y,Brooklyn,11235,40.591761,-73.945596,Neighborhood Park,Public
+58244,William F Moore Park,,Queens,11368,40.743665,-73.855452,Neighborhood Park,Public
+97519,Hillside Dog Park,4 Vine Street,Brooklyn,11201,40.7014,-73.99427,Neighborhood Park,Public
+162040,Ranaqua Playground,452 East 136 Street,Bronx,10454,40.806713,-73.922181,Neighborhood Park,Public
+102698,Riverside Park,675 Riverside Drive,Manhattan,10031,40.82607,-73.953658,Neighborhood Park,Public
+114648,Jacob's Ladder Playground,557 Kent Avenue,Brooklyn,11249,40.704869,-73.967028,Neighborhood Park,Public
+103469,Penn South Playground,346 West 26 Street,Manhattan,10001,40.747592,-73.998693,Neighborhood Park,Public
+6028,Hope Ballfield,204 Menahan Street,Brooklyn,11237,40.697484,-73.917135,Neighborhood Park,Public
+83394,Mariners Harbor Playground,Harbor Road,Staten Island,10303,40.636564,-74.160471,Neighborhood Park,Public
+162864,Goodhue Park,Brighton Avenue,Staten Island,10301,40.636187,-74.096785,Neighborhood Park,Public
+5978,Seth Low Playground/ Bealin Square,7217 Bay Parkway,Brooklyn,11204,40.608254,-73.986505,Neighborhood Park,Public
+165155,Clement Clarke Moore Park,480 West 22 Street,Manhattan,10011,40.746631,-74.004303,Neighborhood Park,Public
+99945,Marlboro Playground,West 11 Street,Brooklyn,11223,40.591347,-73.981062,Neighborhood Park,Public
+134045,Bellevue South Park,315 East 26 Street,Manhattan,10016,40.739999,-73.978085,Neighborhood Park,Public
+93050,Dome Playground,384 Dahill Road,Brooklyn,11218,40.638207,-73.980194,Neighborhood Park,Public
+81375,St. Vartan Park,613 1 Avenue,Manhattan,10016,40.745242,-73.97395,Neighborhood Park,Public
+109719,Middle Village Playground,78-38 68 Road,Queens,11379,40.710095,-73.873626,Neighborhood Park,Public
+81114,Kennedy Playground,32 Avenue,Queens,11361,40.770997,-73.779035,Neighborhood Park,Public
+134302,Schmul Park,150 Melvin Avenue,Staten Island,10314,40.588946,-74.186335,Neighborhood Park,Public
+83075,Howard Von Dohlen Playground,138-02 91 Avenue,Queens,11435,40.699641,-73.813088,Neighborhood Park,Public
+161997,Joseph C. Sauer Park,532 East 12 Street,Manhattan,10009,40.728173,-73.979735,Neighborhood Park,Public
+75604,P.O. Serrano Playground,800 Olmstead Avenue,Bronx,10473,40.8234,-73.851016,Neighborhood Park,Public
+161702,Luther Gulick Park,21 Columbia Street,Manhattan,10002,40.715884,-73.981857,Neighborhood Park,Public
+83337,Westerleigh Park,Maine Avenue,Staten Island,10314,40.619826,-74.13446,Neighborhood Park,Public
+86018,Andrew Haswell Green Park,Fdr Drive,Manhattan,10065,40.759507,-73.957625,Neighborhood Park,Public
+90181,Captain Tilly Park,165-01 Highland Avenue,Queens,11432,40.711429,-73.79824,Neighborhood Park,Public
+159246,Gilbert Ramirez Park,62 White Street,Brooklyn,11206,40.705959,-73.93455,Neighborhood Park,Public
+134243,El Jardin Del Paraiso Park,712 East    5 Street,Manhattan,10009,40.722383,-73.979119,Neighborhood Park,Public
+46668,Nicholas Naquan Heyward Jr. Park,160 Wyckoff Street,Brooklyn,11217,40.684584,-73.987867,Neighborhood Park,Public
+104436,Lopez Playground,Targee Street,Staten Island,10304,40.611487,-74.085054,Neighborhood Park,Public
+124387,Printer's Park,1045 Hoe Avenue,Bronx,10459,40.824213,-73.890882,Neighborhood Park,Public
+155851,Fort Totten Park,,Queens,11359,40.793201,-73.777846,Neighborhood Park,Public
+60452,Hamilton Metz Field,608 Lefferts Avenue,Brooklyn,11203,40.662566,-73.940965,Neighborhood Park,Public
+121718,The Battery,10 Battery Park,Manhattan,10004,40.702878,-74.015504,Neighborhood Park,Public
+19821,Powell's Cove Park,7 Avenue,Queens,,40.790225,-73.835778,Neighborhood Park,Public
+92316,Lawrence Virgilio Playground,52-01 39 Drive,Queens,11377,40.747486,-73.910599,Neighborhood Park,Public
+157795,Harlem Art Park,,Manhattan,10035,40.801036,-73.938799,Neighborhood Park,Public
+163893,Richman (Echo) Park,1980 Ryer Avenue,Bronx,10457,40.849286,-73.901565,Neighborhood Park,Public
+102957,Blake Hobbs Playground,1851 3 Avenue,Manhattan,10029,40.788807,-73.944198,Neighborhood Park,Public
+8366,Hoover - Manton Playgrounds,Manton Street,Queens,11435,40.710515,-73.820108,Neighborhood Park,Public
+123705,Mount Prospect Park,Flatbush Avenue,Brooklyn,11238,40.671578,-73.966644,Neighborhood Park,Public
+61292,Railroad Playground,9101 Ditmas Avenue,Brooklyn,11236,40.649231,-73.914039,Neighborhood Park,Public
+25055,Hunts Point Riverside Park,,Bronx,10474,40.817682,-73.881601,Neighborhood Park,Public
+139833,Hudson Park,534 West 35 Street,Manhattan,10001,40.755503,-74.000653,Neighborhood Park,Public
+121777,Corlears Hook Park,397 Fdr Drive,Manhattan,10002,40.711776,-73.979513,Neighborhood Park,Public
+94390,The Big Park,110 Brabant Street,Staten Island,10303,40.63081,-74.164513,Neighborhood Park,Public
+99330,Liotti Ikefugi Playground,Winter Avenue,Staten Island,10301,40.638748,-74.083899,Neighborhood Park,Public
+122210,Ruppert Park,2 Avenue,Manhattan,10128,40.780958,-73.950131,Neighborhood Park,Public
+5347,Milestone Park,8101 18 Avenue,Brooklyn,11214,40.609509,-73.999486,Neighborhood Park,Public
+82755,A. Badillo Community Rose Garden and Park,420 East 163 Street,Bronx,10451,40.82489,-73.91261,Neighborhood Park,Public
+124325,Dr. Martin Luther King Jr Park,757 Dumont Avenue,Brooklyn,11207,40.667413,-73.890204,Park,Public
+81147,Mary O'Connor Playground,327 East   42 Street,Manhattan,10017,40.749544,-73.970795,Park,Public
+32218,Transmitter Park,1 Kent Street,Brooklyn,11222,40.73013,-73.962487,Park,Public
+102844,Collect Pond Pk/Leonold St Fld,93 Centre Street,Manhattan,10013,40.716328,-74.001822,Park,Public
+55552,Park,Baychester Avenue,Bronx,10475,40.863597,-73.829577,Park,Public
+78776,Triangular Landscaped Property,Jay Avenue,Queens,11378,40.72912,-73.895778,Park,Public
+54960,Landscaped Area To Be New Park,2 Blueberry Lane,Staten Is,10312,40.528538,-74.160201,Park,Public
+148413,James Madison Plaza,Madison Street,Manhattan,10038,40.711469,-74.000465,Park,Public
+135011,Rocks And Roots Park,Fulton Avenue,Bronx,10456,40.828489,-73.906254,Park,Public
+74953,Martin Luther King Memorial Pk,Shakespeare Avenue,Bronx,10452,40.838308,-73.923352,Park,Public
+55416,La Tourette Park & Golfcourse,Cicero Avenue,Staten Island,10308,40.562071,-74.162286,Park,Public
+112153,South Beach State Park,541 Seaview Avenue,Staten Is,10305,40.582832,-74.081657,Park,Public
+164351,East Harlem Art Park,171 East  120 Street,Manhattan,10035,40.800984,-73.93868,Park,Public
+78986,Richard Tucker Park,120 Columbus Avenue,Manhattan,10023,40.773546,-73.981894,Park,Public
+112293,Kimlau Square.Park,427-55 Park Row,Manhattan,10038,40.713498,-73.998135,Park,Public
+133966,Fort Tryon Park,Ft Washington Avenue,Manhattan,10040,40.858132,-73.93374,Park,Public
+171123,Idlewild Park,230-11 Rockaway Boulevard,Queens,11413,40.649049,-73.748227,Park,Public
+109990,Walton Ave Ab Park,2096 Morris Avenue,Bronx,10453,40.854367,-73.904251,Park,Public
+165572,Park,2 Washington Street,Brooklyn,11201,40.704825,-73.989599,Park,Public
+160913,Beach Street Park/Tribeca Park,256 West Broadway,Manhattan,10013,40.720247,-74.005776,Park,Public
+164696,IS 2 Playground/Midland Field,Midland Avenue,Staten Island,10306,40.575865,-74.098212,Park,Public
+113763,Hanover Square Park,Beaver Street,Manhattan,10004,40.704747,-74.009341,Park,Public
+160877,Stanley M Isaacs Park,1840 1 Avenue,Manhattan,10128,40.782724,-73.944626,Park,Public
+165807,Huguenot Ponds Park  R131,Comely Street,Staten Island,10312,40.530263,-74.18993,Park,Public
+180099,Twenty Four Sycamores Park,501 East 60 Street,Manhattan,10022,40.759454,-73.958669,Park,Public
+78908,Baisley Pond Park,150 Street,Queens,11434,40.669118,-73.788666,Park,Public
+113303,East River Park,Grand Street,Manhattan,10002,40.7255,-73.972054,Park,Public
+157329,Ralph J. Bunche Park,741 1 Avenue,Manhattan,10017,40.749274,-73.969824,Park,Public
+426,Park,Harlem River Drive,Manhattan,10035,40.810287,-73.93318,Park,Public
+123746,Leif Ericson Park And Square,6 8 Avenue,Brooklyn,11217,40.675723,-73.97177,Park,Public
+165669,Harding Park.Beautification Pk,Cornell Avenue,Bronx,10473,40.807679,-73.858225,Park,Public
+182302,Hancock Park,Manhattan Avenue,Manhattan,10027,40.809532,-73.953277,Park,Public
+47694,Wagner Houses.Pool,349 East  124 Street,Manhattan,10035,40.801554,-73.932706,Park,Public
+107597,Wards Island Park/NYs Hospital,1 Wards Island,Manhattan,10035,40.785589,-73.92949,Park,Public
+135750,Pulaski Park,Willis Avenue,Bronx,10454,40.805241,-73.924567,Park,Public
+141695,Pier 83 - L.U.W,Marginal Street,Manhattan,10036,40.762724,-74.002126,Park,Public
+154981,Poe Park,2640 Grand Concourse,Bronx,10458,40.86503,-73.894696,Park,Public
+178022,Van Wyck Playground,140 Street,Queens,11436,40.675141,-73.801257,Park,Public
+30121,Lincoln Ter/Arthur Somers Memo,345 Buffalo Avenue,Brooklyn,11213,40.667526,-73.925434,Park,Public
+170778,Washington Bridge Park,Major Deegan Express,Bronx,10453,40.846451,-73.926324,Park,Public
+197127,Givan Square Park/3 Triangles,2910 Eastchester Road,Bronx,10469,40.867896,-73.842367,Park,Public
+138313,Jhs 155 Playground,439 Jackson Avenue,Bronx,10455,40.809897,-73.910485,Park,Public
+155195,Devoe Park,West Fordham Road,Bronx,10468,40.863043,-73.907448,Park,Public
+115242,Hybrid Oaks Woods Park,Joline Avenue,Staten Island,10307,40.503065,-74.233129,Park,Public
+129586,Harding Park,125 Bolton Avenue,Bronx,10473,40.808305,-73.856385,Park,Public
+107270,Herald Square.Park,1 Herald Square,Manhattan,10001,40.750291,-73.987649,Park,Public
+114328,Laurelton Playground,136-20 Brookville Boulevard,Queens,11422,40.670544,-73.736073,Park,Public
+47434,Former Pier 80/Hudson Riv Cntr,451 12 Avenue,Manhattan,10018,40.760493,-74.003388,Park,Public
+55801,Fd Roosevelt Boardwald & Beach,Fr Capodanno Blvd,Staten Island,10305,40.574938,-74.083322,Park,Public
+22073,Bridge Playground,1459 University Avenue,Bronx,10452,40.844309,-73.924147,Park,Public
+150093,Park,1 East 8 Street,Brooklyn,11218,40.650038,-73.973523,Park,Public
+123233,Sailors Snug Harbor Park,Richmond Terrace,Staten Island,10310,40.645125,-74.101499,Park,Public
+160165,Staten Island Marine Park,,Staten Island,,40.534111,-74.121052,Park,Public
+104774,Union Square Park,Union Square,Manhattan,10003,40.734816,-73.990239,Park,Public
+30786,Jackie Robinson Park,341 Malcolm X Boulevard,Brooklyn,11233,40.680195,-73.928015,Park,Public
+42607,Bill Rainey Memorial Park,811-95 Kelly Street,Bronx,10459,40.818971,-73.897806,Park,Public
+159566,Douglaston Park,42 Avenue,Queens,11363,40.76789,-73.747056,Park,Public
+7820,Marcy Green South,153 Marcy Avenue,Brooklyn,11211,40.708818,-73.957427,Park,Public
+113319,John J Murphy Park,F D R Drive,Manhattan,10009,40.729895,-73.972799,Park,Public
+113773,W. 125th Street Esplanade,Marginal Street,Manhattan,10027,40.81909,-73.961134,Park,Public
+42746,Addition To Astoria Park,Shore Boulevard,Queens,,40.78388,-73.918579,Park,Public
+141662,Crosson Greeen Park,68 Street,Queens,11377,40.742321,-73.896682,Park,Public
+195868,Erasmus Hall H.S Athletic Faci,1405 Mc Donald Avenue,Brooklyn,11230,40.620826,-73.974774,Park,Public
+57000,University Park,201 West  180 Street,Bronx,10468,40.8584,-73.916084,Park,Public
+134240,El Jardin De Paraiso Park,706 East    5 Street,Manhattan,10009,40.722485,-73.979357,Park,Public
+81346,Peck Slip Park,Peck Slip,Manhattan,10038,40.707569,-74.001389,Park,Public
+23947,Park,Avenue Z,Brooklyn,11235,40.58865,-73.947156,Park,Public
+122224,Ruppert Park,1751 2 Avenue,Manhattan,10128,40.781579,-73.949622,Park,Public
+104414,Canarsie Park,Seaview Avenue,Brooklyn,11239,40.639841,-73.879092,Park,Public
+134271,Owl Hollow Park,Arthur Kill Road,Staten Island,10312,40.561112,-74.196784,Park,Public
+123259,Sailor's Snug Harbor Pk-Addtn,Richmond Terrace,Staten Island,10301,40.645005,-74.100216,Park,Public
+101741,Jhs 166/Linden Houses Plgd,2022 Linden Boulevard,Brooklyn,11207,40.658679,-73.88738,Park,Public
+156984,Leif Ericson Drive Park,Ridge Boulevard,Brooklyn,11220,40.639092,-74.025539,Park,Public
+6002,Bealin Square Seth Low Plgd,Bay Parkway,Brooklyn,11204,40.607486,-73.987669,Park,Public
+158860,Bedford Green Park,Waverly Place,Staten Island,10304,40.618011,-74.085173,Park,Public
+168920,Sitting Area (Park),5 Avenue,Brooklyn,11215,40.662994,-73.989652,Park,Public
+177413,Jerome Hill Park,Jerome Avenue,Bronx,10452,40.832497,-73.925913,Park,Public
+21572,Mount Eden Housing,50 West Mt Eden Avenue,Bronx,10452,40.844561,-73.91636,Park,Public
+140411,Conrad Grauer Field,141 West 233 Street,Bronx,10463,40.880291,-73.901422,Park,Public
+119273,I.L. Peretz Square Park,93 1 Avenue,Manhattan,10003,40.726289,-73.986573,Park,Public
+160970,Park Strip,East 5 Street,Brooklyn,11218,40.652076,-73.976557,Park,Public
+115245,Tottenville Pool,Hylan Boulevard,Staten Island,10307,40.505452,-74.236068,Park,Public
+119120,Brownsville Rec Center&Plygrnd,1555 Stone Avenue,Brooklyn,11212,40.656223,-73.902784,Park,Public
+117611,Park,Ionia Avenue,Staten Island,10312,40.540806,-74.184981,Park,Public
+108433,Clove Lakes Park,1050 Clove Road,Staten Is,10301,40.61963,-74.108756,Park,Public
+17861,Park,Marginal St,Manhattan,,40.821101,-73.960394,Park,Public
+163883,South Oxford Park,183 South Oxford Street,Brooklyn,11217,40.683876,-73.972655,Park,Public
+128905,Joseph Rodman Drake Park,Oak Point Avenue,Bronx,10474,40.810262,-73.882531,Park,Public
+103229,Gustave Hartman Square,10 Avenue C,Manhattan,10009,40.720767,-73.980811,Park,Public
+155159,Rockaway Freeway,Beach 68 Street,Queens,11692,40.591094,-73.797414,Park,Public
+123504,Ahearn Park,Grand Street,Manhattan,10002,40.714784,-73.983569,Park,Public
+112958,Mother Cabrini Park,39 President Street,Brooklyn,11231,40.684409,-74.005037,Park,Public
+74944,Corporal Irwin Fischer Park,1340 Nelson Avenue,Bronx,10452,40.840518,-73.922991,Park,Public
+107346,Joseph P Addabbo Memorial Park,North Conduit Avenue,Queens,11417,40.671659,-73.848701,Park,Public
+108423,Bushwick Inlet Park,40 North   10 Street,Brooklyn,11249,40.722,-73.960334,Park,Public
+47547,Pier 81- Circle Line,465 12 Avenue,Manhattan,10036,40.761994,-74.00313,Park,Public
+46450,Ida Court,Edgegrove Avenue,Staten Island,10312,40.538662,-74.186813,Park,Public
+114427,Brooklyn Borough Hall/Park,209 Joralemon Street,Brooklyn,11201,40.692758,-73.990296,Park,Public
+96589,Southern Parkway Ballfield,114-30 North Conduit Avenue,Queens,11420,40.665747,-73.825934,Park,Public
+169278,Siren Slope/Park Strip,151 West 230 Street,Bronx,10463,40.876722,-73.903893,Park,Public
+100080,Owen F Dolen Golden Age Center,1400 Westchester Square,Bronx,10461,40.84076,-73.842856,Park,Public
+169730,Macombs Road Park,75 West  175 Street,Bronx,10453,40.848604,-73.915692,Park,Public
+171112,Roger Morris Park,65 Jumel Terrace,Manhattan,10032,40.834497,-73.93848,Park,Public
+1131,Vest Pocket Park,98 Street,Queens,11369,40.757874,-73.870838,Park,Public
+116214,Woodtree Playground,19-60 37 Street,Queens,11105,40.77854,-73.902889,Park,Public
+100793,Frmr Richmond Terr Storehouse,Richmond Terrace,Staten Island,10310,40.638328,-74.12194,Park,Public
+156222,Parks Park Addition Northern,38 Road,Queens,,40.779744,-73.767026,Park,Public
+115780,Pier 83- Circle Line,West 43 Street,Manhattan,10036,40.763198,-74.002487,Park,Public
+193834,West 186th Basketball Court,556 West  186 Street,Manhattan,10033,40.851878,-73.930931,Park,Public
+129595,Pugsley's Creek Park,,Bronx,,40.813079,-73.850313,Park,Public
+104725,Creedmoor Farm Park,74-03 Commonwealth Boulevard,Queens,11426,40.745687,-73.725705,Park,Public
+58756,Old Oak Pond Addition,Douglaston Parkway,Queens,11363,40.766789,-73.746992,Park,Public
+113244,Bicentennial Veterans Park Add,Shore Drive,Bronx,10465,40.822228,-73.813381,Park,Public
+167959,Old Fort #4 Park,Webb Avenue,Bronx,10468,40.873999,-73.899992,Park,Public
+111322,Fd Roosevelt Boardwalk & Beach,Patterson Avenue,Staten Island,10305,40.567501,-74.089371,Park,Public
+91355,Trinity Park,180 Sands Street,Brooklyn,11201,40.699158,-73.984229,Park,Public
+79035,Park,New Utrecht Avenue,Brooklyn,11219,40.642946,-73.99444,Park,Public
+125712,Columbus Park,55 Mulberry Street,Manhattan,10013,40.714854,-74.000057,Park,Public
+160149,Lowry Triangle,Underhill Avenue,Brooklyn,11238,40.680561,-73.964516,Park,Public
+144754,Jerome Playground South,Jerome Avenue,Bronx,10457,40.844801,-73.914005,Park,Public
+109608,Dreier-Offerman Park,2700 West   21 Street,Brooklyn,11214,40.580368,-73.989271,Park,Public
+23746,Brook Park,505 East  140 Street,Bronx,10454,40.809357,-73.918884,Park,Public
+170666,Collyer Brothers Park,2078 5 Avenue,Manhattan,10027,40.808541,-73.941061,Park,Public
+117638,Part Of Lot 67  R-98,Huguenot Avenue,Staten Island,10312,40.533688,-74.19221,Park,Public
+77510,Kosciusko Pool,658 Dekalb Avenue,Brooklyn,11216,40.691294,-73.948752,Park,Public
+86866,Brooklyn Academy Of Music,30 Lafayette Avenue,Brooklyn,11217,40.686466,-73.977698,Park,Public
+90105,Lozada Playground,361 East  135 Street,Bronx,10454,40.807822,-73.925079,Park,Public
+21733,Park,26 Avenue,Queens,11360,40.777797,-73.785349,Park,Public
+134205,Fresh Kills Park,Richmond Avenue,Staten Island,10314,40.591389,-74.17892,Park,Public
+34563,St Gregory's Park,136 West 90 Street,Manhattan,10024,40.789516,-73.972027,Park,Public
+166190,James A Young Memorial Park,Van Nest Avenue,Bronx,10460,40.839843,-73.870878,Park,Public
+83336,Clearview Beach Pk/Cross Isl,201-10 Cross Island Parkway,Queens,11360,40.786626,-73.792324,Park,Public
+42226,Ogden Plimpton Playground,1365 Plimpton Avenue,Bronx,10452,40.841962,-73.923698,Park,Public
+163226,Conference House Park.R-6,850 Page Avenue,Staten Island,10307,40.502039,-74.228166,Park,Public
+161053,Graham Square Park,3 Avenue,Bronx,10451,40.810543,-73.927632,Park,Public
+91264,"Eng 264, Eng 328, Lad 134",16-37 Central Avenue,Queens,11691,40.604313,-73.752472,Park,Public
+42414,PS 126 & Alfred E. Smith Park,86 Catherine Street,Manhattan,10038,40.710709,-73.997028,Park,Public
+159807,Hudson Park,535 West   34 Street,Manhattan,10001,40.755641,-74.000563,Park,Public
+160417,Nehemiah Park,405 Watkins Street,Brooklyn,11212,40.662316,-73.905701,Park,Public
+181437,Keltch Memorial Park,Jerome Avenue,Bronx,10452,40.839971,-73.918128,Park,Public
+117603,Park  R-98,Drumgoole Road East,Staten Island,10312,40.534408,-74.191651,Park,Public
+114699,Marine Park,Beach Channel Drive,Queens,11694,40.581809,-73.841479,Park,Public
+117640,Park,Drumgoole Road East,Staten Island,10312,40.538576,-74.187086,Park,Public
+159834,Rodney Playground North Park,381 Rodney Street,Brooklyn,11211,40.711101,-73.954973,Park,Public
+94687,Frank Frontera Park,Brown Place,Queens,11378,40.724866,-73.895405,Park,Public
+109346,E N Y Vocational HS Plgd,79 Fountain Avenue,Brooklyn,11208,40.679522,-73.876242,Park,Public
+113814,Ft. Washington Park Addition,West 133 Street,Manhattan,10027,40.820549,-73.959184,Park,Public
+47841,Franz Sigel Park,Gerard Avenue,Bronx,10451,40.822466,-73.927377,Park,Public
+170267,Spring Creek Park,Sheridan Avenue,Queens,11414,40.65704,-73.861479,Park,Public
+164312,Kosciusko Street Park,385 Kosciuszko Street,Brooklyn,11221,40.692232,-73.939347,Park,Public
+170920,Cecil F. Sledge Playground,East 95 Street,Brooklyn,11236,40.638169,-73.897816,Park,Public
+40866,Park,8 Colita Court,Staten Island,10307,40.50217,-74.231752,Park,Public
+47460,Former Pier 80/Hudson Riv Cntr,451 12 Avenue,Manhattan,10018,40.760493,-74.003388,Park,Public
+117727,Huguenot Ponds Park,Comely Street,Staten Island,10312,40.530166,-74.189012,Park,Public
+83744,Park,Sedgwick Avenue,Bronx,10453,40.846234,-73.925844,Park,Public
+30987,La Tourette Park.& Golfcourse,721 Arthur Kill Road,Staten Island,10314,40.563174,-74.166669,Park,Public
+55413,Addition To Ft Washington Pk,Riverside Drive,Manhattan,10034,40.86535,-73.933781,Park,Public
+137782,Bronx Communication Office,1129 East 180 Street,Bronx,10462,40.850865,-73.870593,Park,Public
+55319,Pier 5,268 Furman Street,Brooklyn,11201,40.694644,-74.00097,Park,Public
+160798,Highbridge Park,Laurel Hill Terrace,Manhattan,10033,40.854811,-73.924714,Park,Public
+106000,Glenwood Landing,39 Road,Queens,11363,40.775093,-73.739974,Park,Public
+117341,Silver Lake Park,Victory Boulevard,Staten Island,10301,40.622351,-74.098079,Park,Public
+118106,Mapes Avenue Ballfield,2101 Mapes Avenue,Bronx,10460,40.846802,-73.885709,Park,Public
+103578,Marion & Hopkinson Playground,Marion Street,Brooklyn,11233,40.68161,-73.913765,Park,Public
+25579,Cooper Gore/Orient Grive,2 Orient Avenue,Brooklyn,11211,40.714808,-73.940336,Park,Public
+130544,Long Pond Park Addition,Damon Street,Staten Island,10309,40.51006,-74.227068,Park,Public
+20115,La Tourette Park.& Golf Course,Forest Hill Road,Staten Island,10314,40.57239,-74.161775,Park,Public
+157646,Motor Parkway,Oceania Street,Queens,11364,40.736653,-73.75656,Park,Public
+103544,PS 192 Plgrd/Jacob Schiff,500 West  138 Street,Manhattan,10031,40.820993,-73.953069,Park,Public
+123232,Snug Harbor Cultural Center,1000 Richmond Terrace,Staten Is,10310,40.644051,-74.101757,Park,Public
+62864,Acqueduct Lands,1810 University Avenue,Bronx,10453,40.85081,-73.914818,Park,Public
+160008,Spuyten Duyvil Park,Edsall Avenue,Bronx,10463,40.879036,-73.92128,Park,Public
+163999,Abyssinian Tot Lot,130 West  139 Street,Manhattan,10030,40.817195,-73.940895,Park,Public
+24812,Stapleton  Comfort Station.R84,Water Street,Staten Island,10304,40.626629,-74.077839,Park,Public
+110802,Verdi Square Park,2098 Broadway,Manhattan,10023,40.779181,-73.981495,Park,Public
+135013,Rocks & Roots Park,Fulton Avenue,Bronx,10456,40.828791,-73.906044,Park,Public
+148943,Clove's Tail Park,Victory Boulevard,Staten Island,10301,40.613136,-74.11383,Park,Public
+164719,Cough Triangle Park,566 Court Street,Brooklyn,11231,40.674497,-73.999895,Park,Public
+113900,Crescent Beach.Park,Winchester Avenue,Staten Island,10312,40.533671,-74.149857,Park,Public
+115201,Floyd Patterson Park,701 Mother Gaston Blvd,Brooklyn,11212,40.660874,-73.904089,Park,Public
+113818,Crescent Beach Park,Point Avenue,Staten Island,10308,40.536202,-74.145685,Park,Public
+160464,Pier 98- Con Edison,West 58 Street,Manhattan,10019,40.772797,-73.995174,Park,Public
+125751,Hamilton Fish Park,50 East Houston Street,Manhattan,10002,40.725106,-73.994432,Park,Public
+178559,Furman St Tunnel/Pier 4,4 East River,Brooklyn,,40.696521,-73.999874,Park,Public
+158464,Chelsea Park,294 10 Avenue,Manhattan,10001,40.749921,-74.000686,Park,Public
+102830,Foley Square / T.Paine Park,517 Lafayette Street,Manhattan,10007,40.714371,-74.003117,Park,Public
+177368,Railroad Park,176 Street,Queens,11434,40.678422,-73.768176,Park,Public
+154387,Van Nest Memorial Park,666 Mead Street,Bronx,10462,40.842985,-73.865526,Park,Public
+192785,Bensonhurst Park,2122 Cropsey Avenue,Brooklyn,11214,40.597861,-74.000001,Park,Public
+99360,Joseph T Mcguire Park,2333 Bergen Avenue,Brooklyn,11234,40.618574,-73.898791,Park,Public
+5023,Jennings Park,67 Street,Queens,11377,40.742038,-73.897065,Park,Public
+165869,Elmhurst/Veterans Grove Park,87-20 Whitney Avenue,Queens,11373,40.742648,-73.87758,Park,Public
+130271,Joseph C Sauer Plgd,544 East   12 Street,Manhattan,10009,40.728106,-73.979449,Park,Public
+186449,Parks,68 Street,Queens,11377,40.740839,-73.897002,Park,Public
+101476,Park,Great Kills Lane,Staten Island,10306,40.551259,-74.112264,Park,Public
+107347,Joseph P Addabbo Memorial Pk,80 Street,Queens,11417,40.67352,-73.85577,Park,Public
+79018,Dante Park,1897 Broadway,Manhattan,10023,40.771809,-73.982544,Park,Public
+194331,Islington Pond Park,Miles Avenue,Staten Island,10308,40.560897,-74.152124,Park,Public
+160944,Stanley M. Isaacs Park,1860 1 Avenue,Manhattan,10029,40.783462,-73.944099,Park,Public
+77269,Laguardia Landing Lights,78-02 25 Avenue,Queens,11370,40.762428,-73.889922,Park,Public
+167916,Yellowstone Park Addition,68 Avenue,Queens,11375,40.726458,-73.846935,Park,Public
+160657,Park,Boston Road,Bronx,10460,40.83934,-73.883343,Park,Public
+115249,Conference House Park,Clermont Avenue,Staten Island,10307,40.501121,-74.246556,Park,Public
+21375,Genesee Park,Drumgoole Road West,Staten Island,10312,40.552557,-74.176154,Park,Public
+99357,Douglaston Park Golf Course,61 60 Avenue,Queens,11362,40.754661,-73.73346,Park,Public
+157459,Schneider Sampson Park,Baisley Avenue,Bronx,10461,40.836828,-73.825967,Park,Public
+117700,Blue Heron Park  R-119,Lipsett Avenue,Staten Island,10312,40.528845,-74.170343,Park,Public
+154795,West 4th Street Courts,320 Avenue Of The Amer,Manhattan,10014,40.731215,-74.000938,Park,Public
+22497,Vest Pocket Park,2503 Albemarle Road,Brooklyn,11226,40.64818,-73.954093,Park,Public
+164064,Albany Crescent Park,3165 Albany Crescent,Bronx,10463,40.879748,-73.90212,Park,Public
+146813,Tudor Grove Playground,328 East   42 Street,Manhattan,10017,40.749047,-73.971152,Park,Public
+156825,Ten Eyck Plaza,30 Ten Eyck Street,Brooklyn,11206,40.709298,-73.94934,Park,Public
+90175,"T Edison Voc HS,Ath Fld& Plygd",165-65 84 Avenue,Queens,11432,40.716385,-73.798793,Park,Public
+41017,Q-341d,68 Street,Queens,11377,40.740954,-73.897196,Park,Public
+166027,Straus Park,2761 Broadway,Manhattan,10025,40.801745,-73.968179,Park,Public
+122546,La Tourette Park,1 Scheffelin Avenue,Staten Island,10314,40.573902,-74.165825,Park,Public
+156919,Davidson Ave. Comm. Gardeners,2502 Davidson Avenue,Bronx,10468,40.86421,-73.900849,Park,Public
+154527,Spargo Park,67 Street,Queens,11377,40.741399,-73.897289,Park,Public
+116697,Riverside Park,Riverside Park,Manhattan,10023,40.783461,-73.985296,Park,Public
+45724,Park,Gaynor Street,Staten Island,10309,40.52607,-74.220101,Park,Public
+118188,Seton Hospital Site,Arlington Avenue,Bronx,10471,40.886209,-73.9156,Park,Public
+164090,Carmine Recreation Center,2 7 Avenue,Manhattan,10011,40.729626,-74.005441,Park,Public
+137195,Peoples Park Exchange,461 East  135 Street,Bronx,10454,40.806491,-73.922066,Park,Public
+169114,Sara D. Roosevelt Parkway Plgd,263 Grand Street,Manhattan,10002,40.716876,-73.994019,Park,Public
+4812,Bennett Rest Playground,100 Chittenden Avenue,Manhattan,10033,40.856899,-73.938043,Park,Public
+134811,Triborough Bridge Approach,2570 1 Avenue,Manhattan,10035,40.800655,-73.929337,Park,Public
+63519,Varian House Pk,3266 Bainbridge Avenue,Bronx,10467,40.87738,-73.879431,Park,Public
+164494,Calvert Vaux Park,Cropsey Avenue,Brooklyn,11214,40.587561,-73.990416,Park,Public
+128793,Barretto Park,636 Barretto Street,Bronx,10474,40.812848,-73.888632,Park,Public
+83322,Liberty/Keith Williams Park,173 Street,Queens,11433,40.701631,-73.783034,Park,Public
+156947,Landing Strip Park,24 Avenue,Queens,11370,40.76452,-73.88763,Park,Public
+36316,Pier 84-C/L/Floating The Apple,555 12 Avenue,Manhattan,10036,40.763645,-74.000546,Park,Public
+129254,Southern Parkway Median Additi,South Conduit Avenue,Queens,11413,40.66584,-73.748337,Park,Public
+95850,Coney Island Boat Basin,2690 Bay   49 Street,Brooklyn,11214,40.58244,-73.995298,Park,Public
+170792,Major John W. Mark Park,Hillside Avenue,Queens,11432,40.711668,-73.788542,Park,Public
+137867,PS 166 Playground,120 West   89 Street,Manhattan,10024,40.788643,-73.971894,Park,Public
+115678,Lemon Creek Park,91 Trenton Court,Staten Island,10309,40.515523,-74.199768,Park,Public
+137223,Willis Playground,388 East  141 Street,Bronx,10454,40.810882,-73.922034,Park,Public
+104632,Bronx River Parkwaypark,Bullard Avenue,Bronx,10470,40.901925,-73.858997,Park,Public
+182279,Riverdale Park Addition,Palisade Avenue,Bronx,10471,40.8933,-73.918202,Park,Public
+122309,Summit Avenue Park,995 Summit Avenue,Bronx,10452,40.833169,-73.930505,Park,Public
+107308,Pelham Bay Little League.Park,2696 Westchester Avenue,Bronx,10461,40.841814,-73.839043,Park,Public
+126048,Hunts Point Market,410 Halleck Street,Bronx,10474,40.813075,-73.877176,Park,Public
+88556,Church Triangle,Cross Bronx Expwy,Bronx,10462,40.829901,-73.850376,Park,Public
+105844,The High Line,410 West   16 Street,Manhattan,10011,40.742555,-74.00605,Park,Public
+164130,Harlem River Drive Park,2181 Lexington Avenue,Manhattan,10037,40.807783,-73.934621,Park,Public
+112010,Ocean Breeze Park,625 Fr Capodanno Blvd,Staten Island,10305,40.586991,-74.079363,Park,Public
+169839,William E Kelly Park/PS 255,1519 Avenue S,Brooklyn,11229,40.603954,-73.956345,Park,Public
+167222,Fairmount Playground,Fairmount Place,Bronx,10460,40.842777,-73.889586,Park,Public
+61557,Alabama Avenue Playground,461 Williams Avenue,Brooklyn,11207,40.664694,-73.897501,Park,Public
+118068,Harlem River Driveway Garden,135,Manhattan,,40.812473,-73.933363,Park,Public
+73640,Glendale Playground,2869 Central Avenue,Queens,11385,40.704931,-73.881757,Park,Public
+121585,Ft Washington Park Addition,Riverside Drive,Manhattan,10033,40.865998,-73.933143,Park,Public
+39785,Throgs Neck Park,Bruckner Boulevard,Bronx,10461,40.833979,-73.828034,Park,Public
+131866,Arden Heights Woods Park,Radnor Street,Staten Island,10312,40.561206,-74.189773,Park,Public
+163318,PS 179/Holy Cow Playground,Peck Avenue,Queens,11365,40.741362,-73.776438,Park,Public
+177791,V Ciccarone Playground,Arthur Avenue,Bronx,10458,40.855965,-73.886705,Park,Public
+36255,Abraham Levy Memorial Park,133 Jewett Avenue,Staten Island,10302,40.633912,-74.12894,Park,Public
+57204,Willowbrook Parkway,Pinewood Avenue,Staten Island,10306,40.570254,-74.131898,Park,Public
+117706,Blue Heron Park (R119),Amboy Road,Staten Island,10312,40.539052,-74.170926,Park,Public
+137122,Dyckman House Museum,4901 Broadway,Manhattan,10034,40.867457,-73.922866,Park,Public
+2753,Marine Park/Dep Pier,Brigham Street,Brooklyn,11235,40.583122,-73.931507,Park,Public
+117622,Annadale Park,Annadale Road,Staten Island,10312,40.541435,-74.177653,Park,Public
+96613,Lefferts Playground,120-04 North Conduit Avenue,Queens,11420,40.665476,-73.821256,Park,Public
+155420,Gowanus Houses Playground,160 Wyckoff Street,Brooklyn,11217,40.684584,-73.987867,Park,Public
+115568,Pier 96,801 12 Avenue,Manhattan,10019,40.771139,-73.995312,Park,Public
+63517,Henry A Whalen Park,293 East 205 Street,Bronx,10467,40.874343,-73.877746,Park,Public
+165462,Carter G Woodson Childrens Pk,114 Belmont Avenue,Brooklyn,11212,40.668841,-73.906074,Park,Public
+197085,Quarry Road Ballfields Park,565 Quarry Road,Bronx,10457,40.851211,-73.891958,Park,Public
+21962,Land Under Queensboro Br/Park,405 East   59 Street,Manhattan,10022,40.759525,-73.961323,Park,Public
+106890,Aqueduct Walk,West Fordham Road,Bronx,10468,40.862552,-73.904391,Park,Public
+39679,One Room Schoolhouse Park,25-10 90 Street,Queens,11369,40.763359,-73.879358,Park,Public
+42696,PS 14 & Stapleton HSes Playgd,Tompkins Avenue,Staten Island,10304,40.623455,-74.079762,Park,Public
+118248,Isham Park,581 West  214 Street,Manhattan,10034,40.871605,-73.919412,Park,Public
+165843,Hayes Square,Bryant Avenue,Bronx,10459,40.826612,-73.888591,Park,Public
+125818,Soundview Park,Bronx River Avenue,Bronx,10473,40.816245,-73.870096,Park,Public
+134186,East River Park/Marine Co 6,Grand Street,Manhattan,10002,40.719138,-73.973413,Park,Public
+159475,Powell's Cove Park,Seventh Avenue,Queens,,40.791487,-73.833189,Park,Public
+146569,Martins Field Playground,164 Street,Queens,11358,40.754983,-73.802622,Park,Public
+104441,Luis R Lopez Park,Oder Avenue,Staten Island,10304,40.611182,-74.085161,Park,Public
+24013,PS 232 &Playground (Jop),153-23 83 Street,Queens,11414,40.665689,-73.850759,Park,Public
+161010,Fort Hill Park,Fort Hill Circle,Staten Island,10301,40.641322,-74.081715,Park,Public
+81286,Pier 1,42 Furman Street,Brooklyn,11201,40.703116,-73.995223,Park,Public
+19750,Latham Park,43 Avenue,Queens,11377,40.741877,-73.897971,Park,Public
+7426,William E. Kelly Park/PS 255,1840 East 16 Street,Brooklyn,11229,40.604382,-73.956482,Park,Public
+112531,Brookville Park,143-10 Brookville Boulevard,Queens,11422,40.662833,-73.742999,Park,Public
+101512,SI Levee Project Phase 1,Mill Road,Staten Island,10306,40.555834,-74.110202,Park,Public
+134820,Louis Cuvillier Park/Rfk Ramps,2412 1 Avenue,Manhattan,10035,40.800546,-73.930883,Park,Public
+76595,Playground,2122 5 Avenue,Manhattan,10037,40.810069,-73.94012,Park,Public
+117615,Park R-98,Drumgoole Road East,Staten Island,10312,40.536671,-74.188927,Park,Public
+157980,Fresh Meadows Park,Horace Harding Expwy,Queens,11365,40.740822,-73.785205,Park,Public
+75577,Park,Drumgoole Road West,Staten Island,10312,40.538519,-74.188903,Park,Public
+113783,Sheltering Arms Park,500 West  129 Street,Manhattan,10027,40.815175,-73.955596,Park,Public
+74852,Stephen A Rudd Playground,Furman Avenue,Brooklyn,11207,40.683846,-73.905649,Park,Public
+94418,Bryant Park,5 Avenue,Manhattan,10018,40.753817,-73.983729,Park,Public
+160458,Pier 95,West 55 Street,Manhattan,10019,40.770509,-73.995763,Park,Public
+91400,Seabury Park,1700 Southern Boulevard,Bronx,10460,40.836401,-73.888012,Park,Public
+162780,Martins Field Playground Addit,165 Street,Queens,11358,40.755575,-73.801934,Park,Public
+155490,St Albans Memorial Park,Sayres Avenue,Queens,11433,40.69225,-73.780746,Park,Public
+170757,Leif Ericson Playground,6524 8 Avenue,Brooklyn,11220,40.63268,-74.013496,Park,Public
+123299,South Shore Residue Landfill,157 Road,Queens,11414,40.658712,-73.859648,Park,Public
+137777,NY Botanical Garden/BX Park,2600 Southern Boulevard,Bronx,10458,40.864333,-73.87771,Park,Public
+99551,Nellie Bly Park,1842 Shore Parkway,Brooklyn,11214,40.590842,-73.994462,Park,Public
+122305,Macombs Dam Park,Maj Wm Deegan Blvd,Bronx,10452,40.828671,-73.931229,Park,Public
+159165,Zion Park/Loew Square,Pitkin Avenue,Brooklyn,11212,40.668694,-73.918673,Park,Public
+138667,Bronx River Park/Starlight Pk,1374 East 172 Street,Bronx,10472,40.831136,-73.883372,Park,Public
+90298,Bryan Park,321 East Fordham Road,Bronx,10458,40.86214,-73.894185,Park,Public
+134306,Greenbelt Native Plant Center,Victory Boulevard,Staten Island,10314,40.594263,-74.182093,Park,Public
+155917,Abingdon Square.Park,608 Hudson Street,Manhattan,10014,40.737333,-74.005431,Park,Public
+117729,Huguenot Ponds Park  R-131,Billiou Street,Staten Island,10312,40.530637,-74.189769,Park,Public
+163533,Allison Park,Prospect Avenue,Staten Island,10301,40.637096,-74.101303,Park,Public
+107540,Francis Lewis Park,3 Avenue,Queens,11357,40.797425,-73.825683,Park,Public
+101412,Rheingold Indsutrial Park,34 Central Avenue,Brooklyn,11206,40.701906,-73.932316,Park,Public
+155421,Addition To Socrates Park,Vernon Boulevard,Queens,11106,40.767994,-73.93614,Park,Public
+167827,Corona Mac Park,5401 First Street,Queens,11368,40.740335,-73.85909,Park,Public
+117636,Part Of Lot 78  R-98,Huguenot Avenue,Staten Island,10312,40.534088,-74.192269,Park,Public
+834,Hugh J. Grant Circle Park,East 177 Street,Bronx,10472,40.832975,-73.860968,Park,Public
+80020,Linnaeus Playground,57 Avenue,Queens,11364,40.753804,-73.750748,Park,Public
+155912,Pier 86- Intrepid,West 46 Street,Manhattan,10036,40.765132,-74.000661,Park,Public
+130670,Todd Memorial Square,Columbia Street,Brooklyn,11231,40.672054,-74.008702,Park,Public
+113865,Nelson Avenue Waterfront Park,Nelson Avenue,Staten Island,10308,40.540309,-74.14287,Park,Public
+79944,M. Fidler/Wycoff House Park,375 East   59 Street,Brooklyn,11203,40.6447,-73.92054,Park,Public
+113931,Juniper Valley Park,Juniper Blvd North,Queens,11379,40.721658,-73.874116,Park,Public
+153440,Field Of Dreams Park,1115 Southern Boulevard,Bronx,10459,40.826514,-73.892273,Park,Public
+88590,Gen. Douglas Macarthur Park,436 East   49 Street,Manhattan,10017,40.752398,-73.965034,Park,Public
+42737,Woodland Memorial Park,4327 Oneida Avenue,Bronx,10470,40.899128,-73.873146,Park,Public
+34578,Bronx River Houses Playground,East 174 Street,Bronx,10472,40.834347,-73.877765,Park,Public
+52327,Seeley Street Park,Seeley Street,Brooklyn,11218,40.65338,-73.977843,Park,Public
+123245,Randolph Walker Park,88 Delafield Place,Staten Is,10310,40.643717,-74.108828,Park,Public
+118602,Ingram Wood Park,Warwick Avenue,Staten Island,10314,40.609175,-74.136614,Park,Public
+48993,Samuel H Young Park,East Tremont Avenue,Bronx,10461,40.841647,-73.838759,Park,Public
+107278,Pelham Bay Park,St Lawrence Avenue,Bronx,10475,40.858591,-73.827931,Park,Public
+148884,Breukelen Ballfields,925 Williams Avenue,Brooklyn,11207,40.653173,-73.89309,Park,Public
+107606,Astoria Park,20-80 Shore Boulevard,Queens,11105,40.784616,-73.917167,Park,Public
+134945,Park,596 East  164 Street,Bronx,10456,40.824792,-73.906841,Park,Public
+101509,Great Kills Park,Kissam Avenue,Staten Island,10306,40.553992,-74.110422,Park,Public
+120353,Manh Br Anchor/Coleman Sq Plgd,Pike Street,Manhattan,10002,40.711228,-73.992883,Park,Public
+161323,Stuyvesant Square Park,512 Stuyvesant Square,Manhattan,10003,40.733454,-73.983554,Park,Public
+164856,Belmont Playground,670 East 182 Street,Bronx,10457,40.850287,-73.887694,Park,Public
+5658,Brower Park/PS 289 Playground,171 Brooklyn Avenue,Brooklyn,11213,40.67397,-73.943689,Park,Public
+117812,Huguenot Ponds Park R-131,Comely Street,Staten Island,10312,40.530009,-74.189404,Park,Public
+163333,Heisser Square Park,247 Bleecker Street,Brooklyn,11237,40.698729,-73.917904,Park,Public
+160308,Future Amusement Park,12 Street,Brooklyn,11224,40.573696,-73.979676,Park,Public
+6334,Bushwick HS & Playground(Jop),400 Irving Avenue,Brooklyn,11237,40.696813,-73.911847,Park,Public
+96139,Park,1005 Fulton Street,Brooklyn,11238,40.682558,-73.961836,Park,Public
+136175,Trump Riverside South Project,Miller Highway,Manhattan,10069,40.777853,-73.988959,Park,Public
+165976,Overlook Park,22-08 99 Street,Queens,11369,40.770378,-73.872168,Park,Public
+174971,North Shore Esplanade,Richmond Terrace,Staten Island,10301,40.647178,-74.088486,Park,Public
+23177,Randalls Island Park,Wards Island,Manhattan,,40.780697,-73.927372,Park,Public
+139936,Dream Street Park,223 East  124 Street,Manhattan,10035,40.802788,-73.935164,Park,Public
+104628,Bronx River Parkway Park,5501 Bullard Avenue,Bronx,10466,40.902241,-73.859358,Park,Public
+111318,IS 2 Playground/Ballfield,Lincoln Avenue,Staten Island,10306,40.575564,-74.100443,Park,Public
+122129,La Tourette Park & Golf Course,Richmond Town Road,Staten Island,10306,40.570822,-74.145988,Park,Public
+134223,El Jardin Del Paraiso Park,704 East    5 Street,Manhattan,10009,40.722518,-73.979436,Park,Public
+5073,PS 3 & Playground,70 Jefferson Avenue,Brooklyn,11216,40.682383,-73.955299,Park,Public
+161361,Jackson Square.Park,Jackson Square,Manhattan,10014,40.738925,-74.002847,Park,Public
+159014,Alexander Hamilton Square.Park,1684 Amsterdam Avenue,Manhattan,10031,40.824086,-73.948668,Park,Public
+117673,Blue Heron Park,Jansen Street,Staten Island,10312,40.53242,-74.169521,Park,Public
+95831,Dreier Offerman Park,Cropsey Avenue,Brooklyn,11214,40.58783,-73.989764,Park,Public
+100191,Hero Park,Victory Boulevard,Staten Island,10301,40.63005,-74.088626,Park,Public
+20332,Brady's Pond Park,Hylan Boulevard,Staten Island,10305,40.604975,-74.07902,Park,Public
+110787,West 70th Street Bulkhead,West 72 Street,Manhattan,10069,40.780614,-73.988481,Park,Public
+8734,Park,Van Name Avenue,Staten Island,10303,40.624932,-74.154773,Park,Public
+23840,Bowling Green Park,Whitehall Street,Manhattan,10004,40.704996,-74.013641,Park,Public
+62375,Benjamin Gladstone Square,West Farms Road,Bronx,10459,40.825363,-73.890996,Park,Public
+81228,Hammarskjold Plaza Park,833 1 Avenue,Manhattan,10017,40.752277,-73.968895,Park,Public
+117699,Bayview Terrace Park,Bayview Terrace,Staten Island,10312,40.526184,-74.165224,Park,Public
+122641,Under Brooklyn Bridge,11 Water Street,Brooklyn,11201,40.703481,-73.994128,Park,Public
+61299,Sam Curtis Park,8102 Foster Avenue,Brooklyn,11236,40.640797,-73.917599,Park,Public
+24408,Brooklyn Children's Museum,145 Brooklyn Avenue,Brooklyn,11213,40.674483,-73.944004,Park,Public
+31712,Asser Levy Park Expansion,495 East 23 Street,Manhattan,10010,40.736628,-73.97586,Park,Public
+81922,Frank Golden Memorial Park,15 Avenue,Queens,11356,40.784938,-73.831165,Park,Public
+23376,HS Graphic Comm Arts & Park,439 West   49 Street,Manhattan,10019,40.763798,-73.990398,Park,Public
+8703,Brooklyn Marine Park,Flatbush Avenue,Brooklyn,11234,40.57987,-73.888702,Park,Public
+39673,Sherry Park,66 Street,Queens,11377,40.74137,-73.898823,Park,Public
+117581,Park,2 West 145 Street,Manhattan,10039,40.819557,-73.933833,Park,Public
+156974,Lt Frank J Mcconnel Pk (Q-217),Atlantic Avenue,Queens,11419,40.693974,-73.827396,Park,Public
+26224,Ingersoll Houses,65 Park Avenue,Brooklyn,11205,40.697236,-73.977962,Park,Public
+81861,Rose Hill Park,East Fordham Road,Bronx,10458,40.862029,-73.89039,Park,Public
+75572,Walton Slope (Park Grass Area),Walton Avenue,Bronx,10453,40.845134,-73.911648,Park,Public
+116539,Pier 6,Atlantic Avenue,Brooklyn,11201,40.692896,-74.002142,Park,Public
+164087,Highland Park,58-02 Vermont Avenue,Queens,11385,40.685539,-73.892392,Park,Public
+82803,Waterbury Park/Bufano Plgd,1300 Bradford Avenue,Bronx,10461,40.838008,-73.831001,Park,Public
+25250,Randall's Island Park Addition,,Manhattan,,40.791612,-73.915276,Park,Public
+43211,Foley Square/ T. Paine Park,501 Centre Street,Manhattan,10007,40.714178,-74.002745,Park,Public
+107468,Queensbridge Park,Queens Plaza,Queens,11101,40.753639,-73.946924,Park,Public
+156955,Laguardia Landing Lights Park,79-02 25 Avenue,Queens,11370,40.762578,-73.889257,Park,Public
+160636,Fresh Kills /Owl Hollow Park,1315 Arthur Kill Road,Staten Island,10314,40.568859,-74.187909,Park,Public
+85446,Redfern Houses Playground,15-01 Redfern Avenue,Queens,11691,40.611352,-73.749472,Park,Public
+160522,Bailey Playground,3607 Bailey Avenue,Bronx,10463,40.883347,-73.899034,Park,Public
+163951,Longfellow Garden,1070 Longfellow Avenue,Bronx,10459,40.825593,-73.887559,Park,Public
+170524,F W Plaut Triangle,169-02 Northern Boulevard,Queens,11358,40.758372,-73.797259,Park,Public
+161046,Peoples Park,535 East 141 Street,Bronx,10454,40.809485,-73.917005,Park,Public
+118061,Park,Harlem River Drive,Manhattan,10039,40.816986,-73.933812,Park,Public
+122139,Latourette Park/S.I. Hist Soc,441 Clarke Avenue,Staten Is,10306,40.571268,-74.145923,Park,Public
+102785,Harmony Park,1569 Troy Avenue,Brooklyn,11213,40.677932,-73.934435,Park,Public
+158471,Vinmont Veteran Park,Mosholu Avenue,Bronx,10471,40.902847,-73.904268,Park,Public
+164682,Walton Ave Aa Park,2115 Walton Avenue,Bronx,10453,40.855257,-73.905182,Park,Public
+129626,Pugsley Creek  Park,Compton Avenue,Bronx,10473,40.812144,-73.849155,Park,Public
+123811,Sherman Creek Wetlands,3759 10 Avenue,Manhattan,10034,40.858458,-73.920874,Park,Public
+157826,Cuyler Gore Garden,815 Fulton Street,Brooklyn,11238,40.685325,-73.971465,Park,Public
+123826,PS 5,3703 10 Avenue,Manhattan,10034,40.858402,-73.922311,Park,Public
+160929,Hines Park,Fulton Avenue,Bronx,10456,40.828601,-73.905657,Park,Public
+143075,Lillian D Wald Playground,356 Cherry Street,Manhattan,10002,40.711973,-73.984266,Park,Public
+161461,Father Fagan Pk/Charlton Plaza,201 Avenue Of The Americas,Manhattan,10014,40.727274,-74.003514,Park,Public
+168858,Park,8 Featherbed Lane,Bronx,10452,40.845427,-73.914478,Park,Public
+8301,Starlight Park Addition,East 174 Street,Bronx,10472,40.83424,-73.880751,Park,Public
+118064,Park,120 East 138 Street,Manhattan,10037,40.814206,-73.93388,Park,Public
+125001,Fd Roosevelt Broadwalk & Beach,Fr Capodanno Blvd,Staten Island,10305,40.578804,-74.078705,Park,Public
+126472,Backhoe Gulch Garden,3 Ave,Brooklyn,11215,40.666389,-73.99592,Park,Public
+136157,Riverside Park South,72 Street,Manhattan,,40.7795,-73.989796,Park,Public
+82716,Bath Beach Playground,17 Ave,Brooklyn,11214,40.602446,-74.011102,Park,Public
+160248,Park,West Street,Brooklyn,11224,40.582612,-73.970954,Park,Public
+8645,Pleasant Village Community Pk,342 Pleasant Avenue,Manhattan,10035,40.796619,-73.931595,Park,Public
+55646,Park,East 163 Street,Bronx,10459,40.820732,-73.890747,Park,Public
+20101,Peter Minuit Plaza/Battery Pk,Peter Minuit Plaza,Manhattan,10004,40.701953,-74.013146,Park,Public
+160113,Nelson Ave Playground Addition,1074 Nelson Avenue,Bronx,10452,40.834564,-73.927226,Park,Public
+159313,Sobel Court Park,Vanderbilt Avenue,Staten Island,10304,40.614963,-74.083938,Park,Public
+129609,Park,Husson Avenue,Bronx,10473,40.809494,-73.850422,Park,Public
+157426,College Point Industrial Park,20 Avenue,Queens,11356,40.784457,-73.832925,Park,Public
+119079,Baruch & Baruch Addition HSes,605 Fdr Drive,Manhattan,10002,40.718169,-73.975518,Park,Public
+198301,Tratman Playground,2470 Tratman Avenue,Bronx,10461,40.838727,-73.84556,Park,Public
+161526,Daniel Carter Beard Mem Sq,37 Avenue,Queens,11354,40.763628,-73.82931,Park,Public
+169920,Park,43 Avenue,Queens,11377,40.741602,-73.897401,Park,Public
+21188,Tygre Lie Plaza Sitting Area,725 1 Avenue,Manhattan,10017,40.748583,-73.97038,Park,Public
+42743,Queensbridge.Park,Queens Plaza South,Queens,11101,40.754023,-73.947805,Park,Public
+78854,Park Strip (Grassy Area),Monroe Avenue,Bronx,10457,40.845204,-73.906346,Park,Public
+112897,Walt Whitman Park,Cadman Plaza East,Brooklyn,11201,40.698225,-73.989368,Park,Public
+103209,PS 140 & Playground (Jop),178 Rivington Street,Manhattan,10002,40.719148,-73.983774,Park,Public
+129540,John Andrews Playground,5-32 49 Avenue,Queens,11101,40.743476,-73.955063,Park,Public
+24394,Sound View Park,1124 Harding Park,Bronx,10473,40.808478,-73.858476,Park,Public
+152905,Reinhard E Kaltenmeier Plgd,Virginia Avenue,Staten Island,10305,40.614693,-74.06868,Park,Public
+180306,J. Driscoll Tucker Place Plgd,Sheepshead Bay Road,Brooklyn,11235,40.583473,-73.941397,Park,Public
+82707,Triangle,Washington Avenue,Bronx,10451,40.824562,-73.910859,Park,Public
+178061,Park,5 Ave,Brooklyn,11215,40.662933,-73.988873,Park,Public
+74860,Tom Mcdonald Triangle,8307 6 Avenue,Brooklyn,11209,40.621916,-74.022597,Park,Public
+153486,Socrates Sculpture Park,757 Vernon Boulevard,Queens,,40.769857,-73.935344,Park,Public
+155309,Alice Austen House & Park,Edgewater Street,Staten Island,10304,40.616452,-74.063812,Park,Public
+43646,NYC Aids Memorial Park,76 Greenwich Avenue,Manhattan,10011,40.737199,-74.00118,Park,Public
+107709,Hugh J. Grant Circle,Hugh J Grant Circle,Bronx,10462,40.83334,-73.860993,Park,Public
+84971,Park Strip,West 234 Street,Bronx,10463,40.881441,-73.901073,Park,Public
+137780,Bronx & Pelham Pkwy,Boston Road,Bronx,10462,40.8569,-73.86972,Park,Public
+115642,Wolfes Pond Park   R-31,Hylan Boulevard,Staten Island,10312,40.522323,-74.187713,Park,Public
+45977,Park,East River,Brooklyn,11201,40.694153,-74.000483,Park,Public
+148877,Duffy Square Park,202 West   47 Street,Manhattan,10036,40.759068,-73.984973,Park,Public
+104480,Thomas Boyland Park,Furman Avenue,Brooklyn,11207,40.682003,-73.907516,Park,Public
+168344,Claremont Park,1641 Clay Avenue,Bronx,10457,40.842695,-73.905308,Park,Public
+115193,Lions Pride Playground,587 Van Sinderen Avenue,Brooklyn,11207,40.66264,-73.899746,Park,Public
+107561,Robert Venable Playground,Sutter Avenue,Brooklyn,11208,40.674094,-73.864515,Park,Public
+164345,Williamsburg Bridge Plaza,215 Broadway,Brooklyn,11211,40.710033,-73.960164,Park,Public
+55651,Paerdegat Basin Park,1440 Paerdegat Avenue North,Brooklyn,11236,40.628414,-73.907547,Park,Public
+191482,South Shore Country Club Park,Rumba Place,Staten Island,10312,40.547019,-74.20346,Park,Public
+113871,Crescent Beach Park Addition,266 Wiman Avenue,Staten Is,10308,40.537944,-74.143718,Park,Public
+76427,J.J. Byrne Memorial Park,4 Ave,Brooklyn,11215,40.673055,-73.985584,Park,Public
+26799,Park,16 Street,Brooklyn,11215,40.667325,-73.995033,Park,Public
+157950,Peter Detmold Park,East 52 Street,Manhattan,10022,40.753763,-73.963376,Park,Public
+118218,Van Cortlandt Park,6200 Broadway,Bronx,10471,40.899993,-73.892219,Park,Public
+101392,Bushwick Green/Central Knoll,20 Central Avenue,Brooklyn,11206,40.702203,-73.932831,Park,Public
+157326,John Golden Park,32 Avenue,Queens,11361,40.773569,-73.766632,Park,Public
+19611,St Nicholas Park,48 St Nicholas Terrace,Manhattan,10027,40.817271,-73.948821,Park,Public
+110630,Riverdale Park,,Bronx,,40.8872,-73.923017,Park,Public
+118167,Raoul Wallenberg Park,3600 Palisade Avenue,Bronx,10471,40.887599,-73.917689,Park,Public
+160227,River Avenue Park,802 River Avenue,Bronx,10451,40.825825,-73.926759,Park,Public
+138626,Ellen M. Whalen Park,Grote Street,Bronx,10457,40.851049,-73.8859,Park,Public
+166085,Hendrick I Lott House,1951 East   35 Street,Brooklyn,11234,40.610427,-73.932603,Park,Public
+131938,Park   R-100,Woodrow Road,Staten Island,10312,40.5494,-74.179891,Park,Public
+169370,Marcy Green Center,151 Marcy Avenue,Brooklyn,11211,40.709343,-73.957131,Park,Public
+156826,Shore Pkwy/Bensonhurst Park,Shore Parkway,Brooklyn,,40.60242,-74.017053,Park,Public
+122189,Evergreen/Siedenburg Park,Evergreen Street,Staten Island,10308,40.55612,-74.14425,Park,Public
+165888,Marcy Park South,195 Marcy Avenue,Brooklyn,11211,40.707498,-73.958045,Park,Public
+117410,Sara D Roosevelt Park,Chrystie Street,Manhattan,10002,40.721707,-73.991551,Park,Public
+47718,Alice Kornegay Triangle,165 East  128 Street,Manhattan,10035,40.80654,-73.935582,Park,Public
+130662,Van Voorhees Park,50 Columbia Street,Brooklyn,11201,40.690425,-73.999293,Park,Public
+103402,General Worths Square Park,952 Broadway,Manhattan,10010,40.74271,-73.988975,Park,Public
+21299,La Tourette Park R-13,Elverton Avenue,Staten Island,10314,40.567875,-74.161671,Park,Public
+154628,Kissena Park,Kissena Boulevard,Queens,11365,40.745567,-73.806298,Park,Public
+23700,Tribeca Dog Run,114 Warren Street,Manhattan,10007,40.716212,-74.012081,Park,Public
+52720,Waterfront Garden,2008 Gildersleeve Avenue,Bronx,10473,40.809755,-73.850548,Park,Public
+45659,Bloomingdale Park (R-106),Drumgoole Road West,Staten Island,10309,40.533056,-74.209497,Park,Public
+107280,Pellham Bay Park,Bruckner Boulevard,Bronx,10469,40.858757,-73.82712,Park,Public
+124516,69th Street Pier,Colonial Road,Brooklyn,11220,40.639248,-74.03674,Park,Public
+101343,Richmond Parkway,Amboy Road,Staten Island,10309,40.530764,-74.197241,Park,Public
+92409,Fort Totten (Us Army),318 Cross Island Parkway,Queens,11359,40.793,-73.778843,Park,Public
+155216,Rodney Park South,282 South    9 Street,Brooklyn,11211,40.707528,-73.957262,Park,Public
+160130,Henry Hudson/Pauls Park,Kappock Street,Bronx,10463,40.881861,-73.91881,Park,Public
+115039,Grand Ferry Park,1 Grand Street,Brooklyn,11249,40.716716,-73.966908,Park,Public
+164633,Jerome Park/Harris Park Annex,3001 Goulden Avenue,Bronx,10468,40.878134,-73.895075,Park,Public
+96605,Southern Pkwy,North Conduit Avenue,Queens,11420,40.665869,-73.830072,Park,Public
+165596,Hoe Avenue Park,958 Hoe Avenue,Bronx,10459,40.822703,-73.890104,Park,Public
+99997,Skyline Playground,Prospect Avenue,Staten Island,10301,40.639058,-74.089337,Park,Public
+182366,S.I. Community College Park,Mohn Place,Staten Island,10301,40.60643,-74.109029,Park,Public
+103570,Park,Marion Street,Brooklyn,11233,40.681787,-73.912903,Park,Public
+105904,William H. Seward Park,57 Essex Street,Manhattan,10002,40.717341,-73.989323,Park,Public
+107461,Castle Hill Park,Castle Hill Avenue,Bronx,10473,40.811759,-73.845656,Park,Public
+157872,Sunrise Hill Park,Westwood Avenue,Staten Island,10314,40.606411,-74.141863,Park,Public
+83549,Kelly Street Park,826 Kelly Street,Bronx,10459,40.818545,-73.897062,Park,Public
+154971,Park,Richmond Road,Staten Island,10304,40.610861,-74.08824,Park,Public
+110628,Spuyten Duyvil Park/Ctr Plots,Palisade Avenue,Bronx,10463,40.879252,-73.920607,Park,Public
+134808,Louis Cuvillier Park,2550 1 Avenue,Manhattan,10035,40.800246,-73.929232,Park,Public
+21106,Detective Joseph Mayrose Park,6 Ave,Brooklyn,11215,40.662011,-73.988051,Park,Public
+119061,Public Bath House,326 Delancey Street,Manhattan,10002,40.716844,-73.9771,Park,Public
+111154,Fort Washington Park,672 Riverside Drive,Manhattan,10031,40.840767,-73.946063,Park,Public
+41086,Park Strip,Cross Bronx Expwy,Bronx,10472,40.835524,-73.869676,Park,Public
+166093,Crotona Park,Fulton Avenue,Bronx,10457,40.835993,-73.899182,Park,Public
+54944,Fresh Kills Landfill,2458 Richmond Avenue,Staten Is,10314,40.578765,-74.171971,Park,Public
+150510,Brooklyn Bridge Park,65 Plymouth Street,Brooklyn,11201,40.704188,-73.990605,Park,Public
+166254,The High Line/Ems Station 7,507 West   22 Street,Manhattan,10011,40.747571,-74.004988,Park,Public
+26856,Thomas J. Cuite Park,648 18 Street,Brooklyn,11218,40.654508,-73.97816,Park,Public
+30170,St. Nicholas Houses & Playgrd,2406 Frederick Douglass Boule,Manhattan,10027,40.811515,-73.948374,Park,Public
+117678,Bayview Terrace Park  R-137,Boardwalk Avenue,Staten Island,,40.52679,-74.162579,Park,Public
+77195,Thomas J Cutie Park,619 19 Street,Brooklyn,11218,40.654233,-73.978657,Park,Public
+106814,Grand Army Plaza,5 Avenue,Manhattan,10019,40.764133,-73.97355,Park,Public
+42529,Norelli Hargreaves Plgd,106 Avenue,Queens,11435,40.690179,-73.808738,Park,Public
+153812,Grant Avenue Park,1311 Grant Avenue,Bronx,10456,40.836312,-73.913691,Park,Public
+110740,Whitney Museum/High Line,820 Washington Street,Manhattan,10014,40.73974,-74.008536,Park,Public
+159341,Bronx River Parkway.Park,4551 Bullard Avenue,Bronx,10470,40.906161,-73.856045,Park,Public
+115331,Southern Parkway,North Conduit Avenue,Queens,11430,40.666892,-73.792872,Park,Public
+155721,Father Macris Park,Caswell Avenue,Staten Island,10314,40.616623,-74.161637,Park,Public
+106001,Catherine Turner Richardson Pk,42-01 Douglaston Parkway,Queens,11363,40.76833,-73.747213,Park,Public
+117464,Dry Dock Playground,149 East   10 Street,Manhattan,10003,40.72546,-73.975456,Park,Public
+195985,Goodhue Park,323 Brighton Avenue,Staten Is,10301,40.636616,-74.097674,Park,Public
+165078,Park Butter Avenue,Tiber Place,Staten Island,10301,40.605155,-74.110575,Park,Public
+169272,Rodney Park Center,293 Rodney Street,Brooklyn,11211,40.708497,-73.956717,Park,Public
+32798,Minetta Green Park,294 Avenue Of The Amer,Manhattan,10014,40.730304,-74.001616,Park,Public
+75449,Aqueduct Walk/Barnwell Square,2690 Reservoir Avenue,Bronx,10468,40.868112,-73.89969,Park,Public
+109598,New Dorp Park,8 Street,Staten Island,10306,40.569786,-74.118414,Park,Public
+5729,Fordham Landing Playground,Landing Road,Bronx,10468,40.863366,-73.910279,Park,Public
+159310,Maple Woods Park,Richmond Road,Staten Island,10304,40.61127,-74.088284,Park,Public
+137774,Bronx Park,Southern Boulevard,Bronx,10458,40.866734,-73.882308,Park,Public
+148448,Graniteville Quarry.Park,Forest Avenue,Staten Island,10303,40.625523,-74.15462,Park,Public
+52788,Greenpoint Park,34 Commercial Street,Brooklyn,11222,40.735731,-73.95902,Park,Public
+88519,Merriam Playground,Ogden Avenue,Bronx,10452,40.838802,-73.926456,Park,Public
+77310,PS 309 Playground,794 Monroe Street,Brooklyn,11221,40.688119,-73.924395,Park,Public
+156925,Park,36 East 5 Street,Brooklyn,11218,40.652419,-73.977548,Park,Public
+19980,Freedom Square,Vleigh Place,Queens,11367,40.723228,-73.820285,Park,Public
+107359,Loring Park (Q-95),90-20 149 Avenue,Queens,11417,40.670098,-73.84461,Park,Public
+130398,Long Pond Park,Adelphi Avenue,Staten Island,10309,40.516035,-74.231135,Park,Public
+138411,Jerome Playground.North,1 East  174 Street,Bronx,10453,40.845564,-73.913476,Park,Public
+88912,Fresh Meodows Park,Horace Harding Expwy,Queens,11365,40.74044,-73.786278,Park,Public
+87547,Claremont Comm School Garden,3826 Park Avenue,Bronx,10457,40.838577,-73.9038,Park,Public
+120785,Farm Colony,415 Rockland Avenue,Staten Is,10314,40.59183,-74.13974,Park,Public
+3950,Castle Hill Houses Playground,2180 Randall Avenue,Bronx,10473,40.8193,-73.849601,Park,Public
+143816,Pier 4 Park,300 Furman Street,Brooklyn,11201,40.69681,-73.999888,Park,Public
+134107,Astoria Houses Playground,1 Street,Queens,11102,40.772008,-73.934288,Park,Public
+117805,Arbutus Woods Park  R-133,Colon Street,Staten Island,10312,40.528953,-74.185595,Park,Public
+140458,Kissena Corridor Park,Fresh Meadow Lane,Queens,11365,40.746434,-73.793672,Park,Public
+47472,Public Park,Laurel Hill Blvd,Queens,11378,40.73464,-73.923843,Park,Public
+118183,Wave H/Perkins Botanical Grdns,675 West  252 Street,Bronx,10471,40.900135,-73.912477,Park,Public
+156722,West Farms/Vidalia Park,2080 Daly Avenue,Bronx,10460,40.843906,-73.88185,Park,Public
+47209,Park,355 Front Street,Staten Island,10304,40.630913,-74.073249,Park,Public
+104513,Willowbrook Park,Victory Boulevard,Staten Island,10314,40.605271,-74.157188,Park,Public
+118484,Windmuller Park (Q-31),39-02 54 Street,Queens,11377,40.747124,-73.90958,Park,Public
+20482,Park,Drumgoole Road West,Staten Island,10312,40.537124,-74.19096,Park,Public
+169389,Marcy Green North Park,129 Marcy Avenue,Brooklyn,11211,40.710007,-73.95672,Park,Public
+105007,Fort Independence Park,Sedgwick Avenue,Bronx,10463,40.88176,-73.895384,Park,Public
+155321,Montefiore Square Park,3394 Broadway,Manhattan,10031,40.821587,-73.953529,Park,Public
+161491,Weeping Beech Park,143-35 37 Avenue,Queens,11354,40.763606,-73.824152,Park,Public
+102864,Thomas Paine Park/Foley Square,520 Pearl Street,Manhattan,10007,40.715062,-74.002705,Park,Public
+115079,Fox Park,744 Fox Street,Bronx,10455,40.815162,-73.898509,Park,Public
+77268,Laguardia Approach Lights Park,2413-15 81 Street,Queens,11370,40.764257,-73.887664,Park,Public
+163272,Addition To Fort Stirling Park,154 Columbia Heights,Brooklyn,11201,40.698528,-73.996495,Park,Public
+117239,Graniteville Swamp Park,Forest Avenue,Staten Island,10303,40.625062,-74.173564,Park,Public
+47023,Wood Park,1381 Thieriot Avenue,Bronx,10460,40.835159,-73.865325,Park,Public
+107343,Noble Playground,Bronx River Avenue,Bronx,10460,40.837408,-73.873058,Park,Public
+2005,Graniteville Quarry State Park,Van Name Avenue,Staten Island,10303,40.624328,-74.154909,Park,Public
+171200,Youth Village Park,705 Home Street,Bronx,10456,40.828703,-73.902929,Park,Public
+166420,Annuniciation Park/Gatehouse,1491 Amsterdam Avenue,Manhattan,10031,40.817692,-73.952494,Park,Public
+19876,Park,Bronx Boulevard,Bronx,10467,40.868718,-73.879467,Park,Public
+55822,River Garden,1086 East  180 Street,Bronx,10460,40.841951,-73.876631,Park,Public
+58556,Jack Breininger Park,239-12 Braddock Avenue,Queens,11426,40.725827,-73.728978,Park,Public
+113581,South St Seaport/Burling Slip,2 Fulton Street,Manhattan,10038,40.706319,-74.00342,Park,Public
+198281,Mcdonald Square Park,Gowanus Expressway,Brooklyn,11228,40.625568,-74.017684,Park,Public
+107556,Cunningham Park,Francis Lewis Blvd,Queens,11364,40.739228,-73.765092,Park,Public
+139711,Grand Canal Court Park,Thompson Street,Manhattan,10013,40.722303,-74.00504,Park,Public
+40060,Epiphany Park,437 Berry Street,Brooklyn,11249,40.708648,-73.965507,Park,Public
+106091,Park,43 Avenue,Queens,11363,40.767798,-73.743392,Park,Public
+134741,Duane Street Park,35 Hudson Street,Manhattan,10013,40.717173,-74.009368,Park,Public
+169727,Alley Pond Park Addition,235 Street,Queens,11363,40.767009,-73.748135,Park,Public
+82864,Robert Moses Playground,724 1 Avenue,Manhattan,10017,40.748081,-73.968695,Park,Public
+152434,Center Plots/University Mall,University Avenue,Bronx,10453,40.847991,-73.918866,Park,Public
+159899,William C Bergen Park,Grand Concourse,Bronx,10457,40.854741,-73.901326,Park,Public
+165443,Shore Road Park,Wakeman Place,Brooklyn,11220,40.640426,-74.027687,Park,Public
+118141,Smith Houses,60 Madison Street,Manhattan,10038,40.711654,-73.99732,Park,Public
+167573,Pugsley's Creek,2009 Cornell Avenue,Bronx,10473,40.808874,-73.85012,Park,Public
+156447,Manton Playground,80-20 134 Street,Queens,11435,40.715208,-73.82455,Park,Public
+51416,Maurice Muller Park,East Fordham Road,Bronx,10468,40.862503,-73.898129,Park,Public
+53091,St Vartan Park,35 2 Avenue,Manhattan,10016,40.7456,-73.97481,Park,Public
+167683,Greeley Square Park,894 Avenue Of The Amer,Manhattan,10001,40.748611,-73.988321,Park,Public
+163368,Vinmont Memorial Playground Ad,Riverdale Avenue,Bronx,10471,40.902543,-73.905469,Park,Public
+95828,Calvert Vaux Park Addition,Hunter Avenue,Brooklyn,11214,40.586181,-73.996511,Park,Public
+167829,Twu Park,101 Street,Queens,11368,40.741371,-73.86012,Park,Public
+165782,Park,Stephens Avenue,Bronx,10473,40.810933,-73.85315,Park,Public
+123231,Sailors Snug Harbor,Richmond Terrace,Staten Island,10310,40.645403,-74.101822,Park,Public
+115239,Conference House Park R-6,Page Avenue,Staten Island,10309,40.50379,-74.227554,Park,Public
+100335,Blissenbach Marina,Richmond Terrace,Staten Island,10310,40.641016,-74.121117,Park,Public
+158459,"Rockaway Ind, Park Q219",Beach 84 Street,Queens,11692,40.591528,-73.808823,Park,Public
+42469,Rodney Park North,315 Rodney Street,Brooklyn,11211,40.709073,-73.956324,Park,Public
+137546,Bronx Park Addition,11 East 180 Street,Bronx,10462,40.84754,-73.869417,Park,Public
+160888,Cavala Park,68 Varick Street,Manhattan,10013,40.722026,-74.006111,Park,Public
+54990,Carlton Park,467 Carlton Boulevard,Staten Is,10312,40.551915,-74.184475,Park,Public
+123482,"Piers 35 & 36, Ems St.4/Div.1",271 Marginal Street,Manhattan,10002,40.70958,-73.986344,Park,Public
+76472,Frances Hamburger Sternberg Pk,286 Lorimer Street,Brooklyn,11206,40.705851,-73.947174,Park,Public
+122285,Staten Island Historic House,74 Center Street,Staten Is,10306,40.570239,-74.146857,Park,Public
+126852,John Allen Payne Park,6400 3 Avenue,Brooklyn,11220,40.639775,-74.023574,Park,Public
+56040,Cooper Park,3 Avenue,Manhattan,10003,40.728786,-73.990763,Park,Public
+75576,Inwood Park (Sitting Area),Inwood Avenue,Bronx,10452,40.844789,-73.915339,Park,Public
+101534,Kissam Ave. Wetlands,Kissam Avenue,Staten Island,10306,40.556816,-74.11336,Park,Public
+148903,Leif Ericson Park & Square,7 Avenue,Brooklyn,11220,40.632306,-74.014368,Park,Public
+163576,Holy Cow Playground/P.S. 179,198 Street,Queens,11366,40.733523,-73.771892,Park,Public
+117709,Brougham Cottage,4746 Amboy Road,Staten Is,10312,40.539673,-74.170005,Park,Public
+99998,Playground,Harvard Avenue,Staten Island,10301,40.639278,-74.088771,Park,Public
+117747,Blue Heron Park Preserve,Community Lane,Staten Island,10312,40.533158,-74.178819,Park,Public
+154871,Maurice Park,60 Street,Queens,11378,40.728201,-73.905312,Park,Public
+72501,Boston Road Garden,2700 Boston Road,Bronx,10467,40.86572,-73.861789,Park,Public
+155140,Cyclone Site,817 Boardwalk West,Brooklyn,11235,40.573574,-73.977829,Park,Public
+154103,Fulton Park,Lewis Avenue,Brooklyn,11213,40.679705,-73.934599,Park,Public
+169564,Park Strip,Slosson Avenue,Staten Island,10301,40.611859,-74.114905,Park,Public
+160157,Ennis Park,124 11 Street,Brooklyn,11215,40.670806,-73.99381,Park,Public
+178146,Grand Avenue Playground,2132 Grand Avenue,Bronx,10453,40.855967,-73.907278,Park,Public
+157802,Mcnair Park,152 East  123 Street,Manhattan,10035,40.802702,-73.938079,Park,Public
+164850,John Mullaly Park,1015 River Avenue,Bronx,10452,40.831654,-73.924888,Park,Public
+124952,Fd Roosevelt Boarkwalk & Beach,Fr Capodanno Blvd,Staten Island,10305,40.572253,-74.085068,Park,Public
+19956,St. Albans Memorial Park,Marne Place,Queens,11433,40.694136,-73.777883,Park,Public
+46740,Delury Square Park,60 Gold Street,Manhattan,10038,40.70909,-74.005075,Park,Public
+129604,Pugsley Creek Park,1979 Cornell Avenue,Bronx,10473,40.807412,-73.849426,Park,Public
+181315,Park,118 Street,Queens,11420,40.666344,-73.823488,Park,Public
+136333,Dorrence Brook Square,Edgecombe Avenue,Manhattan,10030,40.818261,-73.947267,Park,Public
+146852,Battery Park City,Marginal Street,Manhattan,10013,40.718648,-74.013129,Park,Public
+134273,Freshkills Park,Arthur Kill Road,Staten Island,10312,40.564659,-74.170089,Park,Public
+136846,Mitchel Square Park,3962 Broadway,Manhattan,10032,40.840163,-73.940007,Park,Public
+55317,Vietnam Veterans Plaza,24 South Street,Manhattan,10004,40.702609,-74.0099,Park,Public
+83774,PS 370 Playground (Jop),Brighton Beach Ave,Brooklyn,11224,40.576987,-73.970284,Park,Public
+42415,St James Square Park,51 St James Place,Manhattan,10038,40.712696,-73.998536,Park,Public
+151521,Ozone Playground,101-05 101 Street,Queens,11417,40.681771,-73.839286,Park,Public
+55220,Park/Plot,Riverside Drive,Manhattan,10033,40.848338,-73.942804,Park,Public
+32956,Queensboro Bridge/Man 81&63sec,1130 2 Avenue,Manhattan,10022,40.760416,-73.962935,Park,Public
+116808,Ramon Aponte Park,345 West   47 Street,Manhattan,10036,40.761445,-73.989351,Park,Public
+155545,White Pot Junction R.O.W,Myrtle Avenue,Queens,11385,40.703683,-73.853498,Regional Park,Public
+115056,Queens Communication Office,83-98 Forest Parkway,Queens,11385,40.701782,-73.866871,Regional Park,Public
+115055,Forest Park,107-02 Myrtle Avenue,Queens,11385,40.701106,-73.84298,Regional Park,Public
+137288,Ferry Point Park,351 Balcom Avenue,Bronx,10465,40.818281,-73.827334,Regional Park,Public
+122066,Flushing Meadow Corona Park,Grand Central Pkwy,Queens,11367,40.722931,-73.827109,Regional Park,Public
+62960,Flushing Meadows/Corona Park,32-20 Harper Street,Queens,11368,40.76368,-73.842728,Regional Park,Public
+107277,Pelham Bay Park,Bruckner Boulevard,Bronx,10465,40.856235,-73.827431,Regional Park,Public
+144121,Van Cortlandt Park,East 233 Street,Bronx,10470,40.901136,-73.875027,Regional Park,Public
+155686,Corona Yard Substation,Roosevelt Avenue,Queens,11368,40.754004,-73.846785,Regional Park,Public
+122065,Flushing Meadows Corona Park,Grand Centrl Parkway,Queens,11367,40.717477,-73.829343,Regional Park,Public
+150473,Gantry Plaza,,Queens,,40.744352,-73.959045,State Park,Public
+197611,East River,,Brooklyn,11249,40.721425,-73.962058,State Park,Public
+77583,Bayswater,34-30 Mott Avenue,Queens,11691,40.612818,-73.772553,State Park,Public
+116208,Roberto Clemente,500 Mac Cracken Avenue,Bronx,10453,40.855364,-73.920043,State Park,Public
