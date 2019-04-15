@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="/static/bootstrap.min.css">
     <link rel="stylesheet" href="/static/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 </head>
 
@@ -24,7 +25,7 @@
             </p>
 
         <div class="panels_container">
-            <div class="preview_panel">
+            <!-- <div class="preview_panel">
                 <div class="prev_img"></div>
                 <div class="prev_info">
                     <h2 class="type">POPS</h2>
@@ -36,11 +37,10 @@
                     </ul>
                     <span class="tag preview_panel_loc">East Village</span>
                 </div>
-            </div>
-
+            </div> -->
             <div>
                 {%for i in range(0, results_len) %}
-                <div class="preview_panel">
+                <div class="preview_panel" onclick="showExpanded({{i}})">
                         <div class="prev_img" style="background-image: {{results[i].img}};"></div>
                         <div class="prev_info">
                             <h2 class="type">{{results[i].type}}</h2>
@@ -54,8 +54,6 @@
                             <span class="tag preview_panel_loc">{{results[i].area}}</span>
                         </div>
                     </div>
-
-                    <!-- {{results[i]}} -->
                 {%endfor%}
             </div>
         </div>
@@ -65,6 +63,18 @@
 
         </div>
     </div>
+
+    <script type="text/javascript">
+        function showExpanded(i){
+            var results = JSON.parse('{{results | tojson}}')
+            var name = results[i].name
+            var img = results[i].img
+            var area = results[i].area
+            var amenities = results[i].amenities
+
+            
+        }
+    </script>
 </body>
 
 </html>

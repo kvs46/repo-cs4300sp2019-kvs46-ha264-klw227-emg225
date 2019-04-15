@@ -21,14 +21,16 @@ def search():
 			'type':'POPS', 
 			'area':'East Village', 
 			'features':['Indoor', 'Plants', 'Walk'],
-			'img': "static/images/nyc.jpg"
+			'img': "static/images/nyc.jpg",
+			'amenities': ['Artwork', 'Bicycle', 'Parking']
 			},
 
 			{'name': '550 Madison Avenue', 
 			'type':'POPS', 
 			'area':'Chelsea', 
 			'features':['Indoor', 'Seating', 'Food'],
-			'img': "static/images/nyc.jpg"
+			'img': "static/images/nyc.jpg",
+			'amenities': ['Bathroom', 'Bicycle', 'Dogs']
 			}
 		]
 		return render_template('results.html', loc_len = len(location), location=location, feat_len = len(features), features=features, results_len = len(results), results=results)
