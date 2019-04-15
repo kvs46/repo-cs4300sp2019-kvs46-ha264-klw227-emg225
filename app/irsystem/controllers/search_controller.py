@@ -11,10 +11,13 @@ def search():
 	if not query:
 		data = []
 		output_message = ''
+		return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data)
 	else:
 		output_message = "Your search: " + query
-		data = range(5)
-	return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data)
-
+		location = ['East Village', 'Chelsea']
+		features = ['sunset', 'walk']
+		return render_template('results.html', loc_len = len(location), location=location, feat_len = len(features), features=features)
+	# return render_template('results.html', data=data)
+	
 
 

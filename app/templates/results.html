@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+</head>
+
+<body>
+    <div class="nav">
+        <img class="nav-img" src="static/images/Urban_Gems.png" />
+    </div>
+    
+    <div class="results_main">
+        <div class="results_overview">
+            <p>Urban gems in 
+                {%for i in range(0, loc_len)%} 
+                    <span class="tag">{{location[i]}}</span>
+                {%endfor%}
+                featuring
+                {%for i in range(0, feat_len)%} 
+                    <span class="tag">{{features[i]}}</span>
+                {%endfor%}
+            </p>
+        </div>
+
+        <div class="results_expanded">
+
+        </div>
+    </div>
+    <!-- <form class="form-inline global-search">
+        <h1 style="font-size: 55px; font-family:Futura; color: #4285F4">
+            RESULTS
+        </h1>
+
+        <br><br>
+
+        <div class="form-group">
+            <input id="input" type="text" name="search" class="form-control" placeholder="Your Input">
+        </div>
+        <button type="submit" class="btn btn-info"> Go! </button>
+    </form>
+    <form class="form-inline global-search">
+        {% if data %}
+        <h1>{{output_message}}</h1>
+        {% for d in data %}
+        <br>
+        <p>{{d}}</p>
+        {% endfor %} {% endif %}
+    </form> -->
+</body>
+
+</html>
