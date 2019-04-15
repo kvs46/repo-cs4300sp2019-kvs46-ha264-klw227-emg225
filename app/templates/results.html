@@ -61,23 +61,56 @@
 
         <div class="results_expanded">
             <div class="expanded_header">
-                <div class="expanded_title"></div>
-                <div class="amenities"></div>
+                <div class="expanded_title">
+                    
+                </div>
+            </div>
+            <div class="expanded_desc">
+                <div class="amenities expanded_desc_section">
+                    <div class="amenities_title"></div>
+                    <div class="amenities_items"></div>
+                </div>
+
+                <div class="reviews expanded_desc_section">
+                    <div class="reviews_title"></div>
+                    <div class="reviews_items"></div>
+                </div>
+
+                <div class="map expanded_desc_section">
+                        <div class="map_title"></div>
+                        <div class="map_items"></div>
+                </div>
             </div>
         </div>
     </div>
 
     <script type="text/javascript">
         function showExpanded(i){
+            $(".amenities_items").empty()
             var results = JSON.parse('{{results | tojson}}')
             var name = results[i].name
             var img = results[i].img
             var area = results[i].area
             var amenities = results[i].amenities
-            
+            var reviews = results[i].reviews
+
             $(".expanded_header").css("background-image", 'url('+img+')')
             $(".expanded_title").text(name)
+            $(".expanded_title").append('<span class="tag" style="float: right;">'+area+'</span>')
+            $(".amenities_title").text('Amenities')
+            
+            amenities.forEach(function(a){
+                $(".amenities_items").append('<span class="tag-inactive">'+a+'</span>')
+            })
+
+            $(".reviews_title").text('Reviews')
+            $(".reviews_items").text(reviews)
+
         }
+
+        $( document ).ready(function() {
+            showExpanded(0);
+        })
     </script>
 </body>
 
