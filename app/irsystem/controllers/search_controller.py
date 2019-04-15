@@ -21,7 +21,7 @@ def search():
 			'type':'POPS', 
 			'area':'East Village', 
 			'features':['Indoor', 'Plants', 'Walk'],
-			'img': "static/images/nyc.jpg",
+			'img': "static/images/city_background.png",
 			'amenities': ['Artwork', 'Bicycle', 'Parking'],
 			'rating': 4,
 			'address': '875 third avenue',
