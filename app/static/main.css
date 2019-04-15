@@ -22,7 +22,10 @@ p {
 }
 .nav {
     padding: 2%;
-    border-bottom: 1px solid #979797;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .3);
+    position: sticky;
+    background: rgba(255, 255, 255, .97);
+    top: 0;
 }
 .nav-img {
     max-width: 170px;
