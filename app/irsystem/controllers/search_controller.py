@@ -32,7 +32,7 @@ def search():
 			'type':'POPS', 
 			'area':'Chelsea', 
 			'features':['Indoor', 'Seating', 'Food'],
-			'img': "static/images/nyc.jpg",
+			'img': "static/images/city_background.png",
 			'amenities': ['Bathroom', 'Bicycle', 'Dogs'],
 			'reviews': 'Different review. Four well-coordinated public spaces join forces to invigorate this full blockfront office tower on the east side of Third Avenue between East 52nd and 53rd Streets. An open space occupies the triangular area at the southeast corner of Third Avenue and East 53rd Street. A public circulation space inside the building connects users from the open space to the three-level covered pedestrian space. Miniscule arcade spaces cover the entrances to the covered pedestrian space at the northeast corner of Third Avenue and East 52nd Street and on East 53rd Street east of Third Avenue.'
 			}

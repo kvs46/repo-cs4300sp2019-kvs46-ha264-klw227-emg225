@@ -19,6 +19,12 @@ p {
 .search-main {
     height: 100vh;
     width: 100vw;
+    background-image: url('images/city_background.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .nav {
     padding: 2%;
