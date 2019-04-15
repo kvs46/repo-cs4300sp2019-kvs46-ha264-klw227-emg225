@@ -37,6 +37,27 @@
                     <span class="tag preview_panel_loc">East Village</span>
                 </div>
             </div>
+
+            <div>
+                {%for i in range(0, results_len) %}
+                <div class="preview_panel">
+                        <div class="prev_img" style="background-image: {{results[i].img}};"></div>
+                        <div class="prev_info">
+                            <h2 class="type">{{results[i].type}}</h2>
+                            <h1 class="title">{{results[i].name}}</h1>
+                        
+                            <ul class="key_features">
+                                {%for j in range(0, results[i].features|length) %}
+                                    <li>{{results[i].features[j]}}</li><span aria-hidden="true"> · </span>
+                                {%endfor%}
+                            </ul>
+                            <span class="tag preview_panel_loc">{{results[i].area}}</span>
+                        </div>
+                    </div>
+
+                    <!-- {{results[i]}} -->
+                {%endfor%}
+            </div>
         </div>
         </div>
 
