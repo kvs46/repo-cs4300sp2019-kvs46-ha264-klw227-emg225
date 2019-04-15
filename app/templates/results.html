@@ -60,7 +60,9 @@
         </div>
 
         <div class="results_expanded">
-
+            <div class="expanded_header">
+                <div class="expanded_title"></div>
+            </div>
         </div>
     </div>
 
@@ -71,8 +73,11 @@
             var img = results[i].img
             var area = results[i].area
             var amenities = results[i].amenities
-
             
+            $(".expanded_header").css("background-image", 'url('+img+')')
+            // $(".expanded_header").css("background-image", 'linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url('+img+')')
+            
+            $(".expanded_title").text(name)
         }
     </script>
 </body>
