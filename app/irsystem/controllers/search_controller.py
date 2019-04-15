@@ -16,6 +16,7 @@ def search():
 		output_message = "Your search: " + query
 		location = ['East Village', 'Chelsea']
 		features = ['sunset', 'walk']
+
 		return render_template('results.html', loc_len = len(location), location=location, feat_len = len(features), features=features)
 	# return render_template('results.html', data=data)
 	
