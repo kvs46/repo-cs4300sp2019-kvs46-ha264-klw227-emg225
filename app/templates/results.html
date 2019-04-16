@@ -37,7 +37,7 @@
                                     <h2 class="type">{{value.type}}</h2>
                                     <h1 class="title">{{key}}</h1>
                                 
-                                   
+                                    <span class="rating">{{value.rating}}/5 stars</span>
                                     <span class="tag preview_panel_loc">{{value.boro}}</span>
                                 </div>
 
@@ -85,8 +85,7 @@
                 <div class="map expanded_desc_section">
                         <div class="map_title"></div>
                         <div class="map_items">
-                                <iframe width="600" height="450" frameborder="0" style="border:0"
-                                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJcaMjaeNYwokRktlOPpxH08A&key=AIzaSyBYcuFsV7KTFtJsVKVFcrOEhKYhqpv8V7Y" allowfullscreen></iframe>
+        
                         </div>
                 </div>
             </div>
@@ -96,12 +95,14 @@
     <script type="text/javascript">
 
         function showExpanded(i){
+            $(".map_items").empty()
             var name = Object.keys(i)[0]
             var result = i[name]
             var img = result.photo
             var area = result.boro
             var reviews = result.reviews
             var rating = result.rating
+            
 
             console.log(rating)
 
@@ -121,14 +122,11 @@
             $(".expanded_header").css("background-image", 'url('+img+')')
             $(".expanded_title").text(name)
             $(".expanded_title").append('<span class="tag" style="float: right;">'+area+'</span>')
-            // $(".amenities_title").text('Amenities')
-            
-            // // amenities.forEach(function(a){
-            // //     $(".amenities_items").append('<span class="tag-inactive">'+a+'</span>')
-            // // })
+       
 
             $(".reviews_title").text('Reviews')
             $(".reviews_items").text(reviews)
+            $(".map_items").append('<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBYcuFsV7KTFtJsVKVFcrOEhKYhqpv8V7Y&q= '+ result.address+', NY, NY" allowfullscreen></iframe>')
 
         }
         // function showExpanded(i){
