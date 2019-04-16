@@ -6,16 +6,22 @@ project_name = "Happy Campers"
 net_id = "Katie Schretter: kvs46, Emily Gyles: emg226, Hanna Arfine: ha264, Kyra Wisniewski: klw227 "
 
 @irsystem.route('/', methods=['GET'])
+
 def search():
 	query = request.args.get('search')
-	if not query:
+	areas = request.args.get('area')
+	keywords = request.args.get('keyword')
+	if not areas:
 		data = []
+		areas = ['manhattan', 'brooklyn', 'queens', 'bronx', 'staten+island']
+		keywords = ['dogs', 'new', 'space', 'sports', 'community', 'family', 'quiet', 'view', 'water', 'child friendly', 'pretty']
 		output_message = ''
-		return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data)
+		return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data, areas=areas, len_areas = len(areas), keywords=keywords, len_words=len(keywords))
 	else:
-		output_message = "Your search: " + query
-		location = ['East Village', 'Chelsea']
-		features = ['sunset', 'walk']
+		output_message = "Your search: " + areas + " " +keywords
+		location = [areas]
+		features = [keywords]
+		
 		results = [
 			{'name': '875 Third Avenue', 
 			'type':'POPS', 
@@ -37,7 +43,7 @@ def search():
 			'reviews': 'Different review. Four well-coordinated public spaces join forces to invigorate this full blockfront office tower on the east side of Third Avenue between East 52nd and 53rd Streets. An open space occupies the triangular area at the southeast corner of Third Avenue and East 53rd Street. A public circulation space inside the building connects users from the open space to the three-level covered pedestrian space. Miniscule arcade spaces cover the entrances to the covered pedestrian space at the northeast corner of Third Avenue and East 52nd Street and on East 53rd Street east of Third Avenue.'
 			}
 		]
-		return render_template('results.html', loc_len = len(location), location=location, feat_len = len(features), features=features, results_len = len(results), results=results)
+		return render_template('results.html', loc_len = len(location), location=location, feat_len = len(features), features=features, results_len = len(results), results=results, message=output_message)
 	# return render_template('results.html', data=data)
 	
 

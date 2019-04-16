@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="/static/bootstrap.min.css">
     <link rel="stylesheet" href="/static/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -23,10 +24,45 @@
 
         <br><br>
 
+        <div>
+        <div class="logo-main"><img src="static/images/Urban_Gems.png" id="logo-main"/></div>
         <div class="form-group">
-            <input id="input" type="text" name="search" class="form-control" placeholder="Your Input">
+            <input id="input" type="text" name="search" class="form-control" placeholder="Key word">
+            <button type="submit" class="btn-go"> GO </button>
         </div>
-        <button type="submit" class="btn btn-info"> Go! </button>
+        <div class="button-group">
+            <p>Borough</p>
+        {%for i in range(0, len_areas) %}
+            <div >
+                <input id={{areas[i]}} class="checkbox" type="checkbox" name="area" value={{areas[i]}}> 
+                <label for={{areas[i]}}>{{ areas[i] }}</label>
+            </div>
+        {%endfor%}
+        <hr>
+        <p>Features</p>
+            {%for i in range(0, len_words) %}
+                <div >
+                    <input id={{keywords[i]}} class="checkbox" type="checkbox" name="keyword" value={{keywords[i]}}> 
+                    <label for={{keywords[i]}}>{{ keywords[i] }}</label>
+                </div>
+            {%endfor%}
+        </div>
+
+        <!-- <div class="button-group">
+            {%for i in range(0, len_areas) %}
+            <div class="tag-inactive" name="location" onclick="addLoc({{i}})">{{areas[i]}}</div>
+            {%endfor%}
+            
+        </div> -->
+
+
+        <!-- <div class="form-group">
+                <input id="input" type="text" name="location" class="form-control" placeholder="Location">
+        </div> -->
+
+        
+        
+        </div>
     </form>
     <form class="form-inline global-search">
         {% if data %}
@@ -37,6 +73,14 @@
         {% endfor %} {% endif %}
     </form>
     </div>  
+
+    <script>
+        function addLoc(i){
+            var areas = JSON.parse('{{areas | tojson}}')
+            console.log(areas[i])
+
+        }
+    </script>
 </body>
 
 </html>

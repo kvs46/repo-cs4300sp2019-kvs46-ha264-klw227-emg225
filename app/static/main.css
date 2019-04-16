@@ -24,7 +24,50 @@ p {
     background-position: center;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+}
+.button-group {
+    display: block !important;
+    max-width: 475px;
+    background: rgba(255, 255, 255, .6);
+    border-radius: 6px;
+    margin: auto;
+    margin-top: 1%;
+    padding: 15px;
+    text-align: left;
+}
+#logo-main {
+    width: 400px;
+    display: block;
+    margin: auto;
+    padding: 100px 0 20px 0;
+}
+.logo-main {
+    display: block !important;
+}
+/* .form-group {
+    display: block !important;
+} */
+.form-control {
+    height: 55px;
+    border-radius: 50px;
+    border: none;
+    background: rgba(255, 255, 255, .6);
+    display: inline-block;
+}
+.form-control:focus, .form-control:active {
+    outline: none !important;
+}
+.btn-go {
+    height: 55px;
+    width: 55px;
+    background: black;
+    border-radius: 0 50% 50% 0;
+    color: yellow;
+    border: 0;
+    margin-left: -8%;
+    padding-right: 2%;
+    display: inline-block;
 }
 .nav {
     padding: 2%;
@@ -69,15 +112,54 @@ p {
     color: black;
     font-weight: 500;
     text-shadow: none;
+    text-transform: capitalize;
+}
+.checkbox {
+    opacity: 0;
+    width: 0;
+}
+input[type=checkbox]:checked + label {
+    background:  #FFF300;
+  } 
+hr {
+    width: 100%;
+    border: .5px solid rgba(0, 0, 0, .5);
+    margin-bottom: 10px !important;
+}
+label {
+    background: rgba(255, 255, 255, .75);
+    text-transform: capitalize !important;
+    padding: 8px 16px;
+    border-radius: 50px;
+    color: black;
+    margin: 6px 0;
+    text-transform: none;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+label:hover {
+    background:  #FFF300;
+    cursor: pointer;
 }
 .tag-inactive {
     background: rgba(255, 255, 255, .75);
     padding: 8px 16px;
     border-radius: 50px;
     color: black;
-    margin: 0 3px;
+    margin: 5px 3px;
     text-transform: none;
     letter-spacing: 0;
+}
+.button-group .tag-inactive:hover {
+    background: #FFF300;
+    cursor: pointer;
+}
+.button-group p {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 11px;
+    padding-bottom: 5px;
 }
 .panels_container {
     padding-top: 5%;
