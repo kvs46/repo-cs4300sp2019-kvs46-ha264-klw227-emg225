@@ -35,7 +35,10 @@ p {
     margin-top: 1%;
     padding: 15px;
     text-align: left;
+    position: relative;
+    backdrop-filter: blur(20px);
 }
+
 #logo-main {
     width: 400px;
     display: block;
@@ -48,6 +51,12 @@ p {
 /* .form-group {
     display: block !important;
 } */
+.form-group input:focus {
+    outline: none !important;
+}
+.form-group input:active {
+    outline: none !important;
+}
 .form-control {
     height: 55px;
     border-radius: 50px;
@@ -68,6 +77,10 @@ p {
     margin-left: -8%;
     padding-right: 2%;
     display: inline-block;
+}
+.btn-go:focus, .btn-go:active {
+    outline: none !important;
+    opacity: .7;
 }
 .nav {
     padding: 2%;
