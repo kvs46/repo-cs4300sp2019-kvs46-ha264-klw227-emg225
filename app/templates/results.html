@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="/static/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
 
 <body>
@@ -37,7 +39,19 @@
                                     <h2 class="type">{{value.type}}</h2>
                                     <h1 class="title">{{key}}</h1>
                                 
-                                    <span class="rating">{{value.rating}}/5 stars</span>
+                                    <span class="rating">
+                                        {%for i in range(0, (value.rating|float|round|int) ) %}
+                                            <span class="fa fa-star checked"></span>
+                                        {%endfor%}
+                                        {%for i in range(0, 5-(value.rating|float|round|int) )%}
+                                            <span class="fa fa-star"></span>
+                                        {%endfor%}
+                                    </span>
+                                    
+
+                                    
+
+
                                     <span class="tag preview_panel_loc">{{value.boro}}</span>
                                 </div>
 
@@ -68,19 +82,28 @@
         <div class="results_expanded">
             <div class="expanded_header">
                 <div class="expanded_title">
-                    
+                        
                 </div>
             </div>
             <div class="expanded_desc">
-                <div class="amenities expanded_desc_section">
+                <!-- <div class="amenities expanded_desc_section">
                     <div class="amenities_title"></div>
                     <div class="amenities_items"></div>
+                </div> -->
+
+                <div class="expanded_desc_section" style="border-bottom: none;">
+                        <div class="subtitle"></div>
+                        <div class="sub_items">
+        
+                        </div>
                 </div>
 
                 <div class="reviews expanded_desc_section">
                     <div class="reviews_title"></div>
                     <div class="reviews_items"></div>
                 </div>
+
+               
 
                 <div class="map expanded_desc_section">
                         <div class="map_title"></div>
@@ -96,65 +119,50 @@
 
         function showExpanded(i){
             $(".map_items").empty()
+            $(".expanded_title").empty()
+            $(".subtitle").empty()
             var name = Object.keys(i)[0]
             var result = i[name]
             var img = result.photo
             var area = result.boro
             var reviews = result.reviews
-            var rating = result.rating
-            
-
-            console.log(rating)
-
-
-
-            // $(".amenities_items").empty()
-            // var results = '{{proto_results[1] | tojson}}'
-            // console.log(results)
-            // var parsed = JSON.parse(results)[i]
-           
-            // var name = i
-            // var img = parsed.photo
-            // var area = parsed.boro
-            // // var amenities = results[i].amenities
-            // var reviews = parsed.reviews
+            var rating = Math.round(result.rating)
 
             $(".expanded_header").css("background-image", 'url('+img+')')
             $(".expanded_title").text(name)
-            $(".expanded_title").append('<span class="tag" style="float: right;">'+area+'</span>')
+
+            $(".expanded_title").append('<div class="star_rating"></div>')
+            for (i=0; i<rating; i++){
+                $(".star_rating").append('<span class="fa fa-star checked"></span>');
+            }
+            for(i=0; i<(5-rating); i++){
+                $(".star_rating").append('<span class="fa fa-star"></span>');
+            }
+            $(".subtitle").append('<span class="tag" style="float: right;">'+area+'</span>')
        
 
             $(".reviews_title").text('Reviews')
             $(".reviews_items").text(reviews)
-            $(".map_items").append('<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBYcuFsV7KTFtJsVKVFcrOEhKYhqpv8V7Y&q= '+ result.address+', NY, NY" allowfullscreen></iframe>')
+            $(".map_items").append('<iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBYcuFsV7KTFtJsVKVFcrOEhKYhqpv8V7Y&q= '+ result.address+', NY, NY" allowfullscreen></iframe>')
 
+           $()
         }
-        // function showExpanded(i){
-        //     $(".amenities_items").empty()
-        //     var results = JSON.parse('{{results | tojson}}')
-        //     var name = results[i].name
-        //     var img = results[i].img
-        //     var area = results[i].area
-        //     var amenities = results[i].amenities
-        //     var reviews = results[i].reviews
 
-        //     $(".expanded_header").css("background-image", 'url('+img+')')
-        //     $(".expanded_title").text(name)
-        //     $(".expanded_title").append('<span class="tag" style="float: right;">'+area+'</span>')
-        //     $(".amenities_title").text('Amenities')
-            
-        //     amenities.forEach(function(a){
-        //         $(".amenities_items").append('<span class="tag-inactive">'+a+'</span>')
-        //     })
-
-        //     $(".reviews_title").text('Reviews')
-        //     $(".reviews_items").text(reviews)
-
-        // }
+        function drawStars(rating){
+            for (i=0; i<rating; i++){
+                $(".rating").append('<span class="fa fa-star checked"></span>');
+            }
+            for(i=0; i<(5-rating); i++){
+                $(".rating").append('<span class="fa fa-star"></span>');
+            }
+        }
 
         $( document ).ready(function() {
-            // showExpanded(0);
-            // console.log('{{proto_results}}')
+            var json = '{{proto_results[0] | tojson}}'
+            var parsed = JSON.parse(json)
+            showExpanded(parsed)
+
+            
         })
     </script>
 </body>

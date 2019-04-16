@@ -91,6 +91,23 @@ p {
     position: fixed;
     left: 50%;
     z-index: 1;
+    padding-bottom: 5%;
+}
+.star_rating {
+    display: inline;
+    float: right;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 6px;
+    padding-top: 14px;
+}
+.checked {
+    color: #FFF300;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 1);
+}
+.star_rating .checked {
+    color: #FFF300;
+    text-shadow: 0 0 4px black;
 }
 .results_overview {
     width: 50%;
@@ -107,7 +124,7 @@ p {
 .rating {
     display: inline-block;
     position: absolute;
-    bottom: 5%;
+    bottom: 8%;
 }
 .tag {
     background: #FFF300;
