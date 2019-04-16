@@ -102,6 +102,7 @@ p {
     left: 0;
     overflow: scroll;
     padding: 2%;
+    padding-bottom: 10%;
 }
 .tag {
     background: #FFF300;
@@ -195,8 +196,9 @@ label:hover {
 }
 
 .type {
-    font-size: 12px;
-    letter-spacing: 1px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .8px;
     font-family: 'Montserrat', sans-serif;
     color: black;
     opacity: .75;

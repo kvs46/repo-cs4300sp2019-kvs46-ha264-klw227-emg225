@@ -15,7 +15,7 @@
     
     <div class="results_main">
         <div class="results_overview">
-            <p>Urban gems in
+            <p>Urban gems in 
                 {%for i in range(0, loc_len)%} 
                     <span class="tag">{{location[i]}}</span>
                 {%endfor%}
@@ -26,21 +26,26 @@
             </p>
 
         <div class="panels_container">
-            <!-- <div class="preview_panel">
-                <div class="prev_img"></div>
-                <div class="prev_info">
-                    <h2 class="type">POPS</h2>
-                    <h1 class="title">875 Third Avenue</h1>
-                    <ul class="key_features">
-                        <li>Indoor</li><span aria-hidden="true"> · </span>
-                        <li>Plants</li><span aria-hidden="true"> · </span>
-                        <li>Walk</li>
-                    </ul>
-                    <span class="tag preview_panel_loc">East Village</span>
-                </div>
-            </div> -->
+            
             <div>
-                {%for i in range(0, results_len) %}
+                {%for result in proto_results %}
+                <div class="preview_panel" onclick="showExpanded({{result}})">
+                        {% for key, value in result.items() %}
+                        
+                            <div class="prev_img" style="background-image: url({{value.photo}});"></div>
+                            <div class="prev_info">
+                                    <h2 class="type">{{value.type}}</h2>
+                                    <h1 class="title">{{key}}</h1>
+                                
+                                   
+                                    <span class="tag preview_panel_loc">{{value.boro}}</span>
+                                </div>
+
+                       
+                        {%endfor%}
+                    </div>
+                {%endfor%}
+                <!-- {%for i in range(0, results_len) %}
                 <div class="preview_panel" onclick="showExpanded({{i}})">
                         <div class="prev_img" style="background-image: url({{results[i].img}});"></div>
                         <div class="prev_info">
@@ -55,7 +60,7 @@
                             <span class="tag preview_panel_loc">{{results[i].area}}</span>
                         </div>
                     </div>
-                {%endfor%}
+                {%endfor%} -->
             </div>
         </div>
         </div>
@@ -89,31 +94,69 @@
     </div>
 
     <script type="text/javascript">
+
         function showExpanded(i){
-            $(".amenities_items").empty()
-            var results = JSON.parse('{{results | tojson}}')
-            var name = results[i].name
-            var img = results[i].img
-            var area = results[i].area
-            var amenities = results[i].amenities
-            var reviews = results[i].reviews
+            var name = Object.keys(i)[0]
+            var result = i[name]
+            var img = result.photo
+            var area = result.boro
+            var reviews = result.reviews
+            var rating = result.rating
+
+            console.log(rating)
+
+
+
+            // $(".amenities_items").empty()
+            // var results = '{{proto_results[1] | tojson}}'
+            // console.log(results)
+            // var parsed = JSON.parse(results)[i]
+           
+            // var name = i
+            // var img = parsed.photo
+            // var area = parsed.boro
+            // // var amenities = results[i].amenities
+            // var reviews = parsed.reviews
 
             $(".expanded_header").css("background-image", 'url('+img+')')
             $(".expanded_title").text(name)
             $(".expanded_title").append('<span class="tag" style="float: right;">'+area+'</span>')
-            $(".amenities_title").text('Amenities')
+            // $(".amenities_title").text('Amenities')
             
-            amenities.forEach(function(a){
-                $(".amenities_items").append('<span class="tag-inactive">'+a+'</span>')
-            })
+            // // amenities.forEach(function(a){
+            // //     $(".amenities_items").append('<span class="tag-inactive">'+a+'</span>')
+            // // })
 
             $(".reviews_title").text('Reviews')
             $(".reviews_items").text(reviews)
 
         }
+        // function showExpanded(i){
+        //     $(".amenities_items").empty()
+        //     var results = JSON.parse('{{results | tojson}}')
+        //     var name = results[i].name
+        //     var img = results[i].img
+        //     var area = results[i].area
+        //     var amenities = results[i].amenities
+        //     var reviews = results[i].reviews
+
+        //     $(".expanded_header").css("background-image", 'url('+img+')')
+        //     $(".expanded_title").text(name)
+        //     $(".expanded_title").append('<span class="tag" style="float: right;">'+area+'</span>')
+        //     $(".amenities_title").text('Amenities')
+            
+        //     amenities.forEach(function(a){
+        //         $(".amenities_items").append('<span class="tag-inactive">'+a+'</span>')
+        //     })
+
+        //     $(".reviews_title").text('Reviews')
+        //     $(".reviews_items").text(reviews)
+
+        // }
 
         $( document ).ready(function() {
-            showExpanded(0);
+            // showExpanded(0);
+            // console.log('{{proto_results}}')
         })
     </script>
 </body>
