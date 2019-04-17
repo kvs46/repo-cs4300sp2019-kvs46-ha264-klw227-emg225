@@ -14,12 +14,12 @@ def search():
 	boroughs = request.args.get('boroughs')
 	keywords = request.args.get('keyword')
 	if not boroughs:
-		keywords = ['dogs', 'new', 'space', 'sports', 'community', 'family', 'quiet', 'view', 'water', 'child friendly', 'pretty']
+		keywords = ['dogs', 'new', 'space', 'sports', 'community', 'family', 'quiet', 'view', 'water', 'child-friendly', 'pretty']
 		return render_template('map.html', keywords=keywords, len_words=len(keywords))
 	# if not keywords:
 	# 	data = []
 	# 	areas = ['manhattan', 'brooklyn', 'queens', 'bronx', 'staten+island']
-	# 	keywords = ['dogs', 'new', 'space', 'sports', 'community', 'family', 'quiet', 'view', 'water', 'child friendly', 'pretty']
+	# 	keywords = ['dogs', 'new', 'space', 'sports', 'community', 'family', 'quiet', 'view', 'water', 'child-friendly', 'pretty']
 		
 	# 	return render_template('search.html', name=project_name, netid=net_id, data=data, areas=areas, len_areas = len(areas), keywords=keywords, len_words=len(keywords))
 	# if not boroughs:
@@ -30,8 +30,9 @@ def search():
 		output_message = "Your search: " + boroughs + " " +keywords
 		# location = [areas]
 		location = boroughs.lower().split(",")
-		features = [keywords]
-		proto_results = get_results(location, keywords)
+		# features = [keywords]
+		features = keywords.lower().split(",")
+		proto_results = get_results(location, features)
 		results = [
 			{'name': '875 Third Avenue', 
 			'type':'POPS', 

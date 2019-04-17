@@ -207,6 +207,9 @@ label:hover {
     background: #FFF300;
     cursor: pointer;
 }
+.tag-active {
+    background: #FFF300;
+}
 .button-group p {
     display: block;
     text-transform: uppercase;

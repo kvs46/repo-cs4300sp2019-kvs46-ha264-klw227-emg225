@@ -91,7 +91,7 @@ def tuple_word_counts(good_types, review_words):
 #return list of {park:posting} dictionaries such that each park contains
 #the desired keyword in the reviews and is order so that index 0 has the highest rating. 
 
-def get_rankings(term, boros, data):
+def get_rankings(terms, boros, data):
     final = []
     rankings = []
     for park, posting in data.items():
@@ -101,34 +101,35 @@ def get_rankings(term, boros, data):
             if boro == current_boro:
                 #bool search of desired keyword
                 reviews = posting['reviews']
-                if term in reviews:
-                    rating = float(posting['rating'])
-                    num_reviews = float(posting['num_ratings'])
-                    overall_ranking = rating*num_reviews
-                    
-                    if len(rankings) > 0:
-                        name, ranks = zip(*rankings)
-                        #skip if already in ranking
-                        if overall_ranking in ranks:
-                            continue
-                            
-                        #not already in ranking- sort once new park added: 
-                        else:
-                            if len(rankings) < 11:
-                                rankings.append((park, overall_ranking))
-                                #
-                                rankings = sorted(rankings, key=lambda tup: tup[1])[::-1]
+                for term in terms:
+                    if term in reviews:
+                        rating = float(posting['rating'])
+                        num_reviews = float(posting['num_ratings'])
+                        overall_ranking = rating*num_reviews
+                        
+                        if len(rankings) > 0:
+                            name, ranks = zip(*rankings)
+                            #skip if already in ranking
+                            if overall_ranking in ranks:
+                                continue
                                 
+                            #not already in ranking- sort once new park added: 
                             else:
-                                if overall_ranking > rankings[4][1]:
-                                    rankings.pop(10)
+                                if len(rankings) < 11:
                                     rankings.append((park, overall_ranking))
-                                    #sort
+                                    #
                                     rankings = sorted(rankings, key=lambda tup: tup[1])[::-1]
-                    else:
-                        rankings.append((park, overall_ranking))
-                        #sort
-                        rankings = sorted(rankings, key=lambda tup: tup[1])[::-1]
+                                    
+                                else:
+                                    if overall_ranking > rankings[4][1]:
+                                        rankings.pop(10)
+                                        rankings.append((park, overall_ranking))
+                                        #sort
+                                        rankings = sorted(rankings, key=lambda tup: tup[1])[::-1]
+                        else:
+                            rankings.append((park, overall_ranking))
+                            #sort
+                            rankings = sorted(rankings, key=lambda tup: tup[1])[::-1]
             
     #add to dicitionary:
     for (p, rank) in rankings:

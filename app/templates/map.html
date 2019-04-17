@@ -35,10 +35,6 @@ path {
   <div id='neighborhoodPopover'> </div>
 
   <div class="search-main">
-    <!-- <div class="topcorner">
-        <p>Project Name: {{ name }}</p>
-        <p>Student Name: ({{ netid }})</p>
-    </div> -->
     <form class="form-inline global-search">
         <br><br>
         <div>
@@ -47,6 +43,7 @@ path {
         <div class="form-group">
             <input id="input" type="text" name="search" class="form-control" placeholder="Key word">
             <input type="hidden" name="boroughs" id="boroughs">
+            <input type="hidden" name="keyword" id="keyword">
             <div class="btn-go btn-next" onclick="submit_loc()" id="next"><div class="flex-center"><div>NEXT</div></div></div>
             <button class="btn-go" id="go"> GO </button>
         </div>
@@ -57,15 +54,13 @@ path {
           <p>Features</p>
             {%for i in range(0, len_words) %}
                 <div >
-                    <input id={{keywords[i]}} class="checkbox" type="checkbox" name="keyword" value={{keywords[i]}}> 
-                    <label for={{keywords[i]}}>{{ keywords[i] }}</label>
+                    <!-- <input id={{keywords[i]}} class="checkbox" type="checkbox" name="keyword" value={{keywords[i]}}> 
+                    <label for={{keywords[i]}}>{{ keywords[i] }}</label> -->
+                    <span class="tag-inactive" onclick="chooseWord('{{keywords[i]}}')" id="{{keywords[i]}}">{{keywords[i]}}</span>
                 </div>
             {%endfor%}
           </div>
         </div>
-
-        
-        
         </div>
     </form>
     <!-- <button class="btn-go" onclick="submit_loc()">NEXT</button> -->
@@ -138,6 +133,7 @@ d3.json("/static/nyc.json", function(error, nyc) {
 });
 
 var showGo = false;
+var features = [];
 
 function toggleButtons(){
   if(showGo == false){
@@ -160,7 +156,21 @@ function toggleButtons(){
     $("#map").css("display", "none");
   }
 }
-
+function chooseWord(w){
+  if(features.includes(w)){
+    features = features.filter(function(word){
+      return word != w
+    })
+    $("#"+w).removeClass('tag-active')
+    console.log(features)
+  }
+  else {
+    features.push(w)
+    $("#"+w).addClass('tag-active')
+    console.log(features)
+  }
+  $("#keyword").val(features)
+}
 function submit_loc(){
   console.log(selected)
   $("#boroughs").val(selected);
