@@ -74,6 +74,9 @@ p {
 .form-control:focus, .form-control:active {
     outline: none !important;
 }
+.btn-next:hover {
+    cursor: pointer;
+}
 .btn-go {
     height: 55px;
     width: 55px;
@@ -91,6 +94,9 @@ p {
 .btn-go:focus, .btn-go:active {
     outline: none !important;
     opacity: .7;
+}
+.btn-go:hover {
+    cursor: pointer;
 }
 .flex-center {
     display: flex !important   ;
@@ -231,6 +237,7 @@ label:hover {
     box-shadow: 0 0 3px rgba(0, 0, 0, .15);
     cursor: pointer;
 }
+
 .prev_img {
     width: 45%;
     height: 100%;
