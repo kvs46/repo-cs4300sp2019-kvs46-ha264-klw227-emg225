@@ -51,7 +51,7 @@ path {
             <button class="btn-go" id="go"> GO </button>
         </div>
         <div class="button-group">
-          <svg width="400" height="370" id="map"></svg>
+          <div id="map"><svg width="400" height="370" ></svg></div>
           
           <div id="features">
           <p>Features</p>
@@ -115,6 +115,9 @@ d3.json("/static/nyc.json", function(error, nyc) {
       .style("fill", "rgba(0, 0, 0, .95)")
       .style("stroke", "rgba(0, 0, 0, .95)")
       .style("stroke-width", .25)
+      d3.select("#neighborhoodPopover")
+      .transition()
+      .style("opacity", 0)
       d3.select("#cneighborhoodPopoverountyText")
       .transition()
       .style("opacity", 0);
