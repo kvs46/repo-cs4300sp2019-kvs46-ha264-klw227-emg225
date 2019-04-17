@@ -1,7 +1,6 @@
 from . import *  
 from app.irsystem.models.helpers import *
 from app.irsystem.models.helpers import NumpyEncoder as NumpyEncoder
-
 from .prototype1 import main as get_results
 
 project_name = "Happy Campers"
@@ -10,20 +9,30 @@ net_id = "Katie Schretter: kvs46, Emily Gyles: emg226, Hanna Arfine: ha264, Kyra
 @irsystem.route('/', methods=['GET'])
 
 def search():
-	query = request.args.get('search')
-	areas = request.args.get('area')
+	# query = request.args.get('search')
+	# areas = request.args.get('area')
+	boroughs = request.args.get('boroughs')
 	keywords = request.args.get('keyword')
-	if not areas:
-		data = []
-		areas = ['manhattan', 'brooklyn', 'queens', 'bronx', 'staten+island']
+	if not boroughs:
 		keywords = ['dogs', 'new', 'space', 'sports', 'community', 'family', 'quiet', 'view', 'water', 'child friendly', 'pretty']
-		output_message = ''
-		return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data, areas=areas, len_areas = len(areas), keywords=keywords, len_words=len(keywords))
+		return render_template('map.html', keywords=keywords, len_words=len(keywords))
+	# if not keywords:
+	# 	data = []
+	# 	areas = ['manhattan', 'brooklyn', 'queens', 'bronx', 'staten+island']
+	# 	keywords = ['dogs', 'new', 'space', 'sports', 'community', 'family', 'quiet', 'view', 'water', 'child friendly', 'pretty']
+		
+	# 	return render_template('search.html', name=project_name, netid=net_id, data=data, areas=areas, len_areas = len(areas), keywords=keywords, len_words=len(keywords))
+	# if not boroughs:
+	# 	return render_template('map.html')
+	# else:
+	# 	return render_template('map_results.html', results=boroughs)
 	else:
-		output_message = "Your search: " + areas + " " +keywords
-		location = [areas]
+		output_message = "Your search: " + boroughs + " " +keywords
+		# location = [areas]
+		location = [boroughs]
 		features = [keywords]
-		proto_results = get_results(areas, keywords)
+		# proto_results = get_results(areas, keywords)
+		proto_results = ['none']
 		results = [
 			{'name': '875 Third Avenue', 
 			'type':'POPS', 

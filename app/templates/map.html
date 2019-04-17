@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="/static/main.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+<style>
+path {
+  stroke: rgba(0, 0, 0, .95);
+  stroke-width: .5;
+  /* stroke-dasharray: 1; */
+  fill: rgba(0, 0, 0, .95);
+}
+#neighborhoodPopover { 
+  position: absolute;     
+  text-align: center;         
+  padding: 4px 6px;       
+  font: 12px sans-serif;    
+  background: white; 
+  color: black;
+  border: 0px;    
+  border-radius: 10px;     
+  pointer-events: none;
+  opacity: 0;     
+  z-index: 999;
+  font-family: 'Montserrat', sans-serif;
+}
+.active {
+  fill: yellow !important;
+}
+</style>
+
+<body>
+ 
+  <div id='neighborhoodPopover'> </div>
+
+  <div class="search-main">
+    <!-- <div class="topcorner">
+        <p>Project Name: {{ name }}</p>
+        <p>Student Name: ({{ netid }})</p>
+    </div> -->
+    <form class="form-inline global-search">
+        <br><br>
+        <div>
+        <div class="logo-main"><img src="static/images/Urban_Gems.png" id="logo-main"/></div>
+  
+        <div class="form-group">
+            <input id="input" type="text" name="search" class="form-control" placeholder="Key word">
+            <input type="hidden" name="boroughs" id="boroughs">
+            <div class="btn-go btn-next" onclick="submit_loc()" id="next"><div class="flex-center"><div>NEXT</div></div></div>
+            <button class="btn-go" id="go"> GO </button>
+        </div>
+        <div class="button-group">
+          <svg width="400" height="370" id="map"></svg>
+          <hr />
+          <div id="features">
+          <p>Features</p>
+            {%for i in range(0, len_words) %}
+                <div >
+                    <input id={{keywords[i]}} class="checkbox" type="checkbox" name="keyword" value={{keywords[i]}}> 
+                    <label for={{keywords[i]}}>{{ keywords[i] }}</label>
+                </div>
+            {%endfor%}
+          </div>
+        </div>
+
+        
+        
+        </div>
+    </form>
+    <!-- <button class="btn-go" onclick="submit_loc()">NEXT</button> -->
+    
+    <form class="form-inline global-search">
+        
+    </form>
+    </div>  
+
+
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/topojson.v1.min.js"></script>
+<script>
+var selected = []
+var isClicked = false;
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+// http://data.beta.nyc//dataset/0ff93d2d-90ba-457c-9f7e-39e47bf2ac5f/resource/35dd04fb-81b3-479b-a074-a27a37888ce7/download/d085e2f8d0b54d4590b1e7d1f35594c1pediacitiesnycneighborhoods.geojson
+d3.json("/static/nyc.json", function(error, nyc) {
+  if (error) throw error;
+  var path = d3.geoPath()
+      .projection(d3.geoConicConformal()
+      .parallels([33, 45])
+      .rotate([96, -39])
+      .fitSize([width, height], nyc));
+  svg.selectAll("path")
+      .data(nyc.features)
+      .enter().append("path")
+      .attr("d", path)
+      .on("mouseenter", function(d) {
+        // console.log(d);
+      d3.select(this)
+      .style("stroke-width", 1.1)
+      .style("stroke", "rgba(0, 0, 0, .95)")
+      .style("fill", "yellow")
+      d3.select("#neighborhoodPopover")
+      .transition()
+      .style("opacity", 1)
+      .style("left", (d3.event.pageX) + "px")
+      .style("top", (d3.event.pageY) + "px")
+      .text(d.properties.neighborhood)
+    })
+    .on("mouseleave", function(d) { 
+      d3.select(this)
+      .style("fill", "rgba(0, 0, 0, .95)")
+      .style("stroke", "rgba(0, 0, 0, .95)")
+      .style("stroke-width", .25)
+      d3.select("#cneighborhoodPopoverountyText")
+      .transition()
+      .style("opacity", 0);
+    })
+    .on("mousedown", function(d){
+      d3.select(this)
+      .classed("active", true)
+
+      var borough = d.properties.borough
+      if (selected.includes(borough) == false){
+        selected.push(borough)
+      }
+      console.log(selected)
+    })
+    ;
+    
+    console.log(nyc);
+});
+
+var showGo = false;
+
+function toggleButtons(){
+  if(showGo == false){
+    $("#go").css("visibility", "hidden");
+    $("#features").css("visibility", "hidden");
+    $("#features").css("display", "none");
+
+    $("#next").css("visibility", "visible");
+    $("#map").css("visibility", "visible");
+    $("#map").css("display", "block");
+    
+  }
+  else {
+    $("#go").css("visibility", "visible");
+    $("#features").css("visibility", "visible");
+    $("#features").css("display", "block");
+
+    $("#next").css("visibility", "hidden");
+    $("#map").css("visibility", "hidden");
+    $("#map").css("display", "none");
+  }
+}
+
+function submit_loc(){
+  console.log(selected)
+  $("#boroughs").val(selected);
+  showGo=true;
+  toggleButtons();
+}
+
+$(document).ready(function(){
+  toggleButtons();
+})
+</script>
+</body>
