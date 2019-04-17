@@ -28,7 +28,39 @@
             </p>
 
         <div class="panels_container">
-            
+                <div>
+                        {%for result in proto_results %}
+                        <div class="preview_panel" onclick="showExpanded({{result}})">
+                                {% for key, value in result.items() %}
+                                
+                                    <div class="prev_img" style="background-image: url({{value.photo}});"></div>
+                                    <div class="prev_info">
+                                            <h2 class="type">{{value.type}}</h2>
+                                            <h1 class="title">{{key}}</h1>
+                                        
+                                            <span class="rating">   
+                                                {%for i in range(0, (value.rating|float|round|int) ) %}
+                                                    <span class="fa fa-star checked"></span>
+                                                {%endfor%}
+                                                {%for i in range(0, 5-(value.rating|float|round|int) )%}
+                                                    <span class="fa fa-star"></span>
+                                                {%endfor%}
+                                            </span>
+                                            
+        
+                                            
+        
+        
+                                            <span class="tag preview_panel_loc">{{value.boro}}</span>
+                                        </div>
+        
+                               
+                                {%endfor%}
+                            </div>
+                        {%endfor%}
+                       
+                    </div>
+        
             
         </div>
         </div>

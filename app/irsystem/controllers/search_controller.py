@@ -29,10 +29,9 @@ def search():
 	else:
 		output_message = "Your search: " + boroughs + " " +keywords
 		# location = [areas]
-		location = [boroughs]
+		location = boroughs.lower().split(",")
 		features = [keywords]
-		# proto_results = get_results(areas, keywords)
-		proto_results = ['none']
+		proto_results = get_results(location, keywords)
 		results = [
 			{'name': '875 Third Avenue', 
 			'type':'POPS', 
