@@ -47,6 +47,10 @@ path {
             <div class="btn-go btn-next" onclick="submit_loc()" id="next"><div class="flex-center"><div>NEXT</div></div></div>
             <button class="btn-go" id="go"> GO </button>
         </div>
+        <div class="button-group" id="selected_areas">
+          <p>Areas</p>
+          <div class="flex"><img src="static/images/pin.svg" /><div id="selected_areas_text"></div></div>
+        </div>
         <div class="button-group">
           <div id="map">
             <svg width="400" height="370" ></svg>
@@ -56,20 +60,14 @@ path {
           <div id="features">
           <p>Features</p>
             {%for i in range(0, len_words) %}
-                <div >
-                    <!-- <input id={{keywords[i]}} class="checkbox" type="checkbox" name="keyword" value={{keywords[i]}}> 
-                    <label for={{keywords[i]}}>{{ keywords[i] }}</label> -->
-                    <span class="tag-inactive" onclick="chooseWord('{{keywords[i]}}')" id="{{keywords[i]}}">{{keywords[i]}}</span>
-                </div>
+              <span class="tag-inactive" onclick="chooseWord('{{keywords[i]}}')" id="{{keywords[i]}}">{{keywords[i]}}</span>
             {%endfor%}
           </div>
         </div>
         </div>
     </form>
-    <!-- <button class="btn-go" onclick="submit_loc()">NEXT</button> -->
     
     <form class="form-inline global-search">
-        
     </form>
     </div>  
 
@@ -143,6 +141,7 @@ function toggleButtons(){
     $("#go").css("visibility", "hidden");
     $("#features").css("visibility", "hidden");
     $("#features").css("display", "none");
+    $("#selected_areas").css("display", "none");
 
     $("#next").css("visibility", "visible");
     $("#map").css("visibility", "visible");
@@ -153,6 +152,9 @@ function toggleButtons(){
     $("#go").css("visibility", "visible");
     $("#features").css("visibility", "visible");
     $("#features").css("display", "block");
+    $("#selected_areas").css("display", "block");
+    $("#selected_areas_text").text(selected.join(', '))
+   
 
     $("#next").css("visibility", "hidden");
     $("#map").css("visibility", "hidden");

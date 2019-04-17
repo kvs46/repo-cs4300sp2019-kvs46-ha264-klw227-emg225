@@ -29,10 +29,9 @@
 
         <div class="panels_container">
                 <div>
-                        {%for result in proto_results %}
+                    {%for result in proto_results %}
                         <div class="preview_panel" onclick="showExpanded({{result}})">
                                 {% for key, value in result.items() %}
-                                
                                     <div class="prev_img" style="background-image: url({{value.photo}});"></div>
                                     <div class="prev_info">
                                             <h2 class="type">{{value.type}}</h2>
@@ -46,23 +45,13 @@
                                                     <span class="fa fa-star"></span>
                                                 {%endfor%}
                                             </span>
-                                            
-        
-                                            
-        
-        
                                             <span class="tag preview_panel_loc">{{value.boro}}</span>
                                         </div>
-        
-                               
                                 {%endfor%}
                             </div>
                         {%endfor%}
-                       
                     </div>
-        
-            
-        </div>
+        </div> 
         </div>
 
         <div class="results_expanded">

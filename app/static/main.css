@@ -28,7 +28,7 @@ p {
     /* align-items: center; */
 }
 .button-group {
-    display: block !important;
+    display: block ;
     max-width: 390px;
     background: rgba(255, 255, 255, .8);
     border-radius: 6px;
@@ -192,6 +192,15 @@ hr {
     border: .5px solid rgba(0, 0, 0, .5);
     margin-bottom: 10px !important;
 }
+.flex {
+    display: flex;
+}
+#selected_areas_text {
+    font-size: 14px;
+    opacity: .75;
+    font-weight: 500;
+    padding-left: 10px;
+}
 label {
     background: rgba(255, 255, 255, .75);
     text-transform: capitalize !important;
@@ -215,6 +224,7 @@ label:hover {
     margin: 5px 3px;
     text-transform: none;
     letter-spacing: 0;
+    display: inline-block;
 }
 .button-group .tag-inactive:hover {
     background: #FFF300;
@@ -229,6 +239,7 @@ label:hover {
     letter-spacing: 1px;
     font-size: 11px;
     padding-bottom: 5px;
+    margin-top: 0;
 }
 .panels_container {
     padding-top: 5%;
@@ -354,7 +365,7 @@ padding:10px;
 width:500px;
 }
 .global-search * {
-display:inline-block;
+/* display:inline-block; */
 margin-bottom:0;
 }
 }
