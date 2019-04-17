@@ -192,8 +192,16 @@ hr {
     border: .5px solid rgba(0, 0, 0, .5);
     margin-bottom: 10px !important;
 }
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
 .flex {
     display: flex;
+}
+#edit:hover {
+    opacity: .5;
+    cursor: pointer;
 }
 #selected_areas_text {
     font-size: 14px;
@@ -225,6 +233,7 @@ label:hover {
     text-transform: none;
     letter-spacing: 0;
     display: inline-block;
+    font-size: 14px;
 }
 .button-group .tag-inactive:hover {
     background: #FFF300;
