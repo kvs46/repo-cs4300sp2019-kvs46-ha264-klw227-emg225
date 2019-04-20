@@ -9,7 +9,7 @@ path {
   stroke: rgba(0, 0, 0, .95);
   stroke-width: .5;
   /* stroke-dasharray: 1; */
-  fill: rgba(0, 0, 0, .95);
+  /* fill: rgba(0, 0, 0, .95); */
 }
 #neighborhoodPopover { 
   position: absolute;     
@@ -85,6 +85,7 @@ path {
 <script src="https://d3js.org/topojson.v1.min.js"></script>
 <script>
 var selected = []
+var selected_neighborhood = []
 var isClicked = false;
 var svg = d3.select("svg"),
     width = +svg.attr("width"),
@@ -102,17 +103,16 @@ d3.json("/static/nyc.json", function(error, nyc) {
       .enter().append("path")
       .attr("d", path)
       .on("mouseenter", function(d) {
-        // console.log(d);
-      d3.select(this)
-      .style("stroke-width", 1.1)
-      .style("stroke", "rgba(0, 0, 0, .95)")
-      .style("fill", "yellow")
-      d3.select("#neighborhoodPopover")
-      .transition()
-      .style("opacity", 1)
-      .style("left", (d3.event.pageX) + "px")
-      .style("top", (d3.event.pageY) + "px")
-      .text(d.properties.neighborhood)
+        d3.select(this)
+        .style("stroke-width", 1.1)
+        .style("stroke", "rgba(0, 0, 0, .95)")
+        .style("fill", "yellow")
+        d3.select("#neighborhoodPopover")
+        .transition()
+        .style("opacity", 1)
+        .style("left", (d3.event.pageX) + "px")
+        .style("top", (d3.event.pageY) + "px")
+        .text(d.properties.neighborhood)
     })
     .on("mouseleave", function(d) { 
       d3.select(this)
@@ -127,16 +127,30 @@ d3.json("/static/nyc.json", function(error, nyc) {
       .style("opacity", 0);
     })
     .on("mousedown", function(d){
-      d3.select(this)
-      .classed("active", true)
-      
-
+  
       var borough = d.properties.borough
+      var neighborhood = d.properties.neighborhood
       if (selected.includes(borough) == false){
         selected.push(borough)
       }
-    })
-    ;
+      else {
+        selected = selected.filter(function(b){
+            return borough != b
+          })
+      }
+  
+      if(selected_neighborhood.includes(neighborhood)==false){
+       d3.select(this).classed("active", true)
+        selected_neighborhood.push(neighborhood)
+      }
+      else {
+        d3.select(this).classed("active", false)
+        selected_neighborhood = selected_neighborhood.filter(function(n){
+            return neighborhood != n
+          })
+      }
+      console.log(selected)
+    }); 
     
     console.log(nyc);
 });
