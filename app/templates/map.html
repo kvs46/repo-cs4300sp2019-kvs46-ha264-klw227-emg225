@@ -211,8 +211,10 @@ function submit_loc(){
 
 function addVal(){
   value = $("#input").val()
-  $("#features").append('<span class="tag-inactive" onclick="chooseWord('+"'"+value+"'"+')" id="'+value+'">'+value+'</span>')
-  // $("#features").append("<span class='tag-inactive' onclick='chooseWord(" + value + ")' id="+value+">"+value+"</span>")
+  $("#features").append('<span class="tag" onclick="chooseWord('+"'"+value+"'"+')" id="'+value+'">'+value+'</span>')
+  features.push(value)
+  console.log(features)
+  $("#keyword").val(features)
   
 }
 $(document).ready(function(){
