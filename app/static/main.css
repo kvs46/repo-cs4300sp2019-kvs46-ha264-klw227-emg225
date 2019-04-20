@@ -73,11 +73,12 @@ p {
     border: none;
     background: linear-gradient(rgba(255, 255, 255, .45), rgba(255, 255, 255, .45)), url('images/background-blur.png') no-repeat fixed;
     display: inline-block;
+    transition: all ease-in-out .2s;
 }
 .form-control:focus, .form-control:active {
     outline: none !important;
-
-    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    transition: all ease-in-out .2s;
+    background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url('images/background-blur.png') no-repeat fixed;
 }
 .btn-next:hover {
     cursor: pointer;
@@ -89,15 +90,29 @@ p {
     font-style: italic;
     opacity: .8;
 }
+.btn-add {
+    height: 57px;
+    width: 50px;
+    background: white;
+    border-radius: 50% 0% 0% 50%;
+    color: black;
+    border: 0;
+    margin-left: -18%;
+    padding-left: 1%;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
 .btn-go {
-    height: 55px;
-    width: 55px;
+    height: 56px;
+    width: 50px;
     background: black;
-    border-radius: 0 50% 50% 0;
+    border-radius: 0 100% 100% 0;
     color: yellow;
     border: 0;
     margin-left: -8%;
-    padding-right: 2%;
+    padding: 0 2% 0 1%;
     display: inline-block;
     font-size: 14px;
     letter-spacing: 1px;

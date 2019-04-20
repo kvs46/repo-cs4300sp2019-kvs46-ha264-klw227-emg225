@@ -45,6 +45,7 @@ path {
             <input type="hidden" name="boroughs" id="boroughs">
             <input type="hidden" name="keyword" id="keyword">
             <div class="btn-go btn-next" onclick="submit_loc()" id="next"><div class="flex-center"><div>NEXT</div></div></div>
+            <div class="btn-add" id="add" onclick="addVal()"> <div class="flex-center"><div>ADD</div></div> </div>
             <button class="btn-go" id="go"> GO </button>
         </div>
         <div class="button-group" id="selected_areas">
@@ -157,10 +158,12 @@ d3.json("/static/nyc.json", function(error, nyc) {
 
 var showGo = false;
 var features = [];
+var custom_fields = [];
 
 function toggleButtons(){
   if(showGo == false){
     $("#go").css("visibility", "hidden");
+    $("#add").css("visibility", "hidden");
     $("#features").css("visibility", "hidden");
     $("#features").css("display", "none");
     $("#selected_areas").css("display", "none");
@@ -172,6 +175,8 @@ function toggleButtons(){
   }
   else {
     $("#go").css("visibility", "visible");
+    $("#go").css("margin-left", "-1%");
+    $("#add").css("visibility", "visible");
     $("#features").css("visibility", "visible");
     $("#features").css("display", "block");
     $("#selected_areas").css("display", "block");
@@ -196,6 +201,7 @@ function chooseWord(w){
     $("#"+w).addClass('tag-active')
   }
   $("#keyword").val(features)
+  console.log(w)
 }
 function submit_loc(){
   $("#boroughs").val(selected);
@@ -203,6 +209,12 @@ function submit_loc(){
   toggleButtons();
 }
 
+function addVal(){
+  value = $("#input").val()
+  $("#features").append('<span class="tag-inactive" onclick="chooseWord('+"'"+value+"'"+')" id="'+value+'">'+value+'</span>')
+  // $("#features").append("<span class='tag-inactive' onclick='chooseWord(" + value + ")' id="+value+">"+value+"</span>")
+  
+}
 $(document).ready(function(){
   toggleButtons();
 })
