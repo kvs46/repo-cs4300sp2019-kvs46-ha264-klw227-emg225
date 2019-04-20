@@ -92,13 +92,13 @@ p {
 }
 .btn-add {
     height: 57px;
-    width: 50px;
+    /* width: 50px; */
     background: white;
     border-radius: 50% 0% 0% 50%;
     color: black;
     border: 0;
-    margin-left: -18%;
-    padding-left: 1%;
+    margin-left: -20%;
+    padding: 0 2%;
     display: inline-block;
     font-size: 14px;
     letter-spacing: 1px;
@@ -106,13 +106,13 @@ p {
 }
 .btn-go {
     height: 56px;
-    width: 50px;
+    /* width: 50px; */
     background: black;
     border-radius: 0 100% 100% 0;
     color: yellow;
     border: 0;
-    margin-left: -8%;
-    padding: 0 2% 0 1%;
+    margin-left: -7%;
+    padding: 0 2%;
     display: inline-block;
     font-size: 14px;
     letter-spacing: 1px;
@@ -193,11 +193,12 @@ p {
     background: #FFF300;
     padding: 8px 16px;
     border-radius: 50px;
-    margin: 0 3px;
+    margin: 5px 3px;
     font-size: 13px;
     color: black;
-    font-weight: 500;
+    font-weight: 400;
     text-shadow: none;
+    display: inline-block;
     text-transform: capitalize;
 }
 .checkbox {
@@ -254,6 +255,7 @@ label:hover {
     letter-spacing: 0;
     display: inline-block;
     font-size: 14px;
+    text-transform: capitalize;
 }
 .button-group .tag-inactive:hover {
     background: #FFF300;

@@ -41,7 +41,7 @@ path {
         <div class="logo-main"><img src="static/images/Urban_Gems.png" id="logo-main"/></div>
   
         <div class="form-group">
-            <input id="input" type="text" name="search" class="form-control" placeholder="Key word">
+            <input id="input" type="text" name="search" class="form-control" placeholder="search destinations">
             <input type="hidden" name="boroughs" id="boroughs">
             <input type="hidden" name="keyword" id="keyword">
             <div class="btn-go btn-next" onclick="submit_loc()" id="next"><div class="flex-center"><div>NEXT</div></div></div>
@@ -167,10 +167,10 @@ var custom_fields = [];
 function toggleButtons(){
   if(showGo == false){
     $("#go").css("visibility", "hidden");
-    // $("#add").css("visibility", "hidden");
     $("#features").css("visibility", "hidden");
     $("#features").css("display", "none");
     $("#selected_areas").css("display", "none");
+    $(".form-control").attr("placeholder", "Search destinations");
 
     $("#next").css("visibility", "visible");
     $("#map").css("visibility", "visible");
@@ -180,7 +180,7 @@ function toggleButtons(){
   else {
     $("#go").css("visibility", "visible");
     $("#go").css("margin-left", "-1%");
-    // $("#add").css("visibility", "visible");
+    $(".form-control").attr("placeholder", "Search features");
     $("#features").css("visibility", "visible");
     $("#features").css("display", "block");
     $("#selected_areas").css("display", "block");
@@ -209,6 +209,7 @@ function chooseWord(w){
 }
 function submit_loc(){
   $("#boroughs").val(selected);
+  $(".form-control").val("");
   showGo=true;
   toggleButtons();
 }
