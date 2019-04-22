@@ -28,55 +28,30 @@
             </p>
 
         <div class="panels_container">
-            
-            <div>
-                {%for result in proto_results %}
-                <div class="preview_panel" onclick="showExpanded({{result}})">
-                        {% for key, value in result.items() %}
-                        
-                            <div class="prev_img" style="background-image: url({{value.photo}});"></div>
-                            <div class="prev_info">
-                                    <h2 class="type">{{value.type}}</h2>
-                                    <h1 class="title">{{key}}</h1>
-                                
-                                    <span class="rating">   
-                                        {%for i in range(0, (value.rating|float|round|int) ) %}
-                                            <span class="fa fa-star checked"></span>
-                                        {%endfor%}
-                                        {%for i in range(0, 5-(value.rating|float|round|int) )%}
-                                            <span class="fa fa-star"></span>
-                                        {%endfor%}
-                                    </span>
-                                    
-
-                                    
-
-
-                                    <span class="tag preview_panel_loc">{{value.boro}}</span>
-                                </div>
-
-                       
+                <div>
+                    {%for result in proto_results %}
+                        <div class="preview_panel" onclick="showExpanded({{result}})">
+                                {% for key, value in result.items() %}
+                                    <div class="prev_img" style="background-image: url({{value.photo}});"></div>
+                                    <div class="prev_info">
+                                            <h2 class="type">{{value.type}}</h2>
+                                            <h1 class="title">{{key}}</h1>
+                                        
+                                            <span class="rating">   
+                                                {%for i in range(0, (value.rating|float|round|int) ) %}
+                                                    <span class="fa fa-star checked"></span>
+                                                {%endfor%}
+                                                {%for i in range(0, 5-(value.rating|float|round|int) )%}
+                                                    <span class="fa fa-star"></span>
+                                                {%endfor%}
+                                            </span>
+                                            <span class="tag preview_panel_loc">{{value.boro}}</span>
+                                        </div>
+                                {%endfor%}
+                            </div>
                         {%endfor%}
                     </div>
-                {%endfor%}
-                <!-- {%for i in range(0, results_len) %}
-                <div class="preview_panel" onclick="showExpanded({{i}})">
-                        <div class="prev_img" style="background-image: url({{results[i].img}});"></div>
-                        <div class="prev_info">
-                            <h2 class="type">{{results[i].type}}</h2>
-                            <h1 class="title">{{results[i].name}}</h1>
-                        
-                            <ul class="key_features">
-                                {%for j in range(0, results[i].features|length) %}
-                                    <li>{{results[i].features[j]}}</li><span aria-hidden="true"> · </span>
-                                {%endfor%}
-                            </ul>
-                            <span class="tag preview_panel_loc">{{results[i].area}}</span>
-                        </div>
-                    </div>
-                {%endfor%} -->
-            </div>
-        </div>
+        </div> 
         </div>
 
         <div class="results_expanded">

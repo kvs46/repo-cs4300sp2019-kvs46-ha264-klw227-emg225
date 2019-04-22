@@ -91,43 +91,45 @@ def tuple_word_counts(good_types, review_words):
 #return list of {park:posting} dictionaries such that each park contains
 #the desired keyword in the reviews and is order so that index 0 has the highest rating. 
 
-def get_rankings(term, boro, data):
+def get_rankings(terms, boros, data):
     final = []
     rankings = []
     for park, posting in data.items():
         current_boro = posting['boro']
-        #only want specified boro
-        if boro == current_boro:
-            #bool search of desired keyword
-            reviews = posting['reviews']
-            if term in reviews:
-                rating = float(posting['rating'])
-                num_reviews = float(posting['num_ratings'])
-                overall_ranking = rating*num_reviews
-                
-                if len(rankings) > 0:
-                    name, ranks = zip(*rankings)
-                    #skip if already in ranking
-                    if overall_ranking in ranks:
-                        continue
+        #only want specified boros
+        for boro in boros:
+            if boro == current_boro:
+                #bool search of desired keyword
+                reviews = posting['reviews']
+                for term in terms:
+                    if term in reviews:
+                        rating = float(posting['rating'])
+                        num_reviews = float(posting['num_ratings'])
+                        overall_ranking = rating*num_reviews
                         
-                    #not already in ranking- sort once new park added: 
-                    else:
-                        if len(rankings) < 5:
-                            rankings.append((park, overall_ranking))
-                            #
-                            rankings = sorted(rankings, key=lambda tup: tup[1])[::-1]
-                            
+                        if len(rankings) > 0:
+                            name, ranks = zip(*rankings)
+                            #skip if already in ranking
+                            if overall_ranking in ranks:
+                                continue
+                                
+                            #not already in ranking- sort once new park added: 
+                            else:
+                                if len(rankings) < 11:
+                                    rankings.append((park, overall_ranking))
+                                    #
+                                    rankings = sorted(rankings, key=lambda tup: tup[1])[::-1]
+                                    
+                                else:
+                                    if overall_ranking > rankings[4][1]:
+                                        rankings.pop(10)
+                                        rankings.append((park, overall_ranking))
+                                        #sort
+                                        rankings = sorted(rankings, key=lambda tup: tup[1])[::-1]
                         else:
-                            if overall_ranking > rankings[4][1]:
-                                rankings.pop(4)
-                                rankings.append((park, overall_ranking))
-                                #sort
-                                rankings = sorted(rankings, key=lambda tup: tup[1])[::-1]
-                else:
-                    rankings.append((park, overall_ranking))
-                    #sort
-                    rankings = sorted(rankings, key=lambda tup: tup[1])[::-1]
+                            rankings.append((park, overall_ranking))
+                            #sort
+                            rankings = sorted(rankings, key=lambda tup: tup[1])[::-1]
             
     #add to dicitionary:
     for (p, rank) in rankings:
@@ -145,6 +147,8 @@ def main(boro, feature):
     word_counts = dict_word_count(parks_and_gardens, distinct)
     good_types = output_good_types(word_counts)
     tuple_counts = tuple_word_counts(good_types, review_words)
+    
     results = get_rankings(feature, boro, parks_and_gardens)
+    
     return results
 
