@@ -88,6 +88,18 @@ def tuple_word_counts(good_types, review_words):
     tuple_counts.reverse()
     return tuple_counts
 
+def reviews_to_array(all_reviews):
+    tuples_array = []
+    first_split = all_reviews.split('/AUTHOR')
+    for count in range(1, len(first_split)):
+        second_split = first_split[count].split('/RATING:')
+        third_split=second_split[1].split('/TEXT: ')
+        rating = third_split[0]
+        review = third_split[1]
+        # tuples_array.append((review, rating))
+        tuples_array.append(review)
+    return tuples_array
+
 #return list of {park:posting} dictionaries such that each park contains
 #the desired keyword in the reviews and is order so that index 0 has the highest rating. 
 

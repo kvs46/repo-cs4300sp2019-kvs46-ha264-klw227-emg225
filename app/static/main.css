@@ -245,6 +245,10 @@ label:hover {
     background:  #FFF300;
     cursor: pointer;
 }
+.reviews_items p{
+    color: white !important;
+    font-weight: 400;
+}
 .tag-inactive {
     background: rgba(255, 255, 255, .75);
     padding: 8px 16px;

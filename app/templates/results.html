@@ -30,7 +30,7 @@
         <div class="panels_container">
                 <div>
                     {%for result in proto_results %}
-                        <div class="preview_panel" onclick="showExpanded({{result}})">
+                        <div class="preview_panel" onclick="showExpanded({{result}})"> 
                                 {% for key, value in result.items() %}
                                     <div class="prev_img" style="background-image: url({{value.photo}});"></div>
                                     <div class="prev_info">
@@ -93,16 +93,18 @@
     <script type="text/javascript">
 
         function showExpanded(i){
+           
             $(".map_items").empty()
             $(".expanded_title").empty()
             $(".subtitle").empty()
+            $(".reviews_items").empty()
             var name = Object.keys(i)[0]
             var result = i[name]
             var img = result.photo
             var area = result.boro
             var reviews = result.reviews
+           
             var rating = Math.round(result.rating)
-
             $(".expanded_header").css("background-image", 'url('+img+')')
             $(".expanded_title").text(name)
 
@@ -114,13 +116,12 @@
                 $(".star_rating").append('<span class="fa fa-star"></span>');
             }
             $(".subtitle").append('<span class="tag" style="float: right;">'+area+'</span>')
-       
-
             $(".reviews_title").text('Reviews')
-            $(".reviews_items").text(reviews)
+            // $(".reviews_items").text(reviews)
+            reviews.forEach(function(r){
+                $(".reviews_items").append('<p>'+r+"</p>")
+            })
             $(".map_items").append('<iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBYcuFsV7KTFtJsVKVFcrOEhKYhqpv8V7Y&q= '+ result.address+', NY, NY" allowfullscreen></iframe>')
-
-           $()
         }
 
         function drawStars(rating){
@@ -136,8 +137,7 @@
             var json = '{{proto_results[0] | tojson}}'
             var parsed = JSON.parse(json)
             showExpanded(parsed)
-
-            
+            console.log(parsed)
         })
     </script>
 </body>
