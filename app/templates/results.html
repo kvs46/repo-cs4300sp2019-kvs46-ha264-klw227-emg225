@@ -6,8 +6,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/slick/slick-theme.css"/>
 </head>
 
 <body>
@@ -31,9 +31,9 @@
         <div class="panels_container">
                 <div>
                     {%for result in proto_results %}
-                        <div class="preview_panel" onclick="showExpanded({{result}})"> 
+                        <div class="preview_panel" onclick="showExpanded({{result}},  {{ loop.index0 }})"> 
                                 {% for key, value in result.items() %}
-                                    <div class="prev_img" style="background-image: url({{value.photo}});"></div>
+                                    <!-- <div class="prev_img" style="background-image: url({{value.photo}});"></div> -->
                                     <div class="prev_info">
                                             <h2 class="type">{{value.type}}</h2>
                                             <h1 class="title">{{key}}</h1>
@@ -75,8 +75,11 @@
                 </div>
 
                 <div class="reviews expanded_desc_section">
-                    <div class="reviews_title"></div>
-                    <div class="reviews_items"></div>
+                    <div class="reviews_title">Reviews</div>
+                    <div class="reviews_section">
+                        <div class="reviews_items"></div>
+                    </div>
+                   
                 </div>
 
                
@@ -93,24 +96,24 @@
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="/static/slick/slick.min.js"></script>
 
     <script type="text/javascript">
 
-        function showExpanded(i){
-           
+        function showExpanded(i, index){
+            var result_all = '{{proto_results | tojson}}'
+            var parsed = JSON.parse(result_all)
             $(".map_items").empty()
             $(".expanded_title").empty()
             $(".subtitle").empty()
-            $(".reviews_items").empty()
+            $(".reviews_items").remove()
+           
             var name = Object.keys(i)[0]
+        
             var result = i[name]
             var img = result.photo
             var area = result.boro
-            var reviews = result.reviews
-            console.log(result.reviews)
-            console.log(result.text)
-           
+            var reviews = parsed[index][name].reviews
             var rating = Math.round(result.rating)
             $(".expanded_header").css("background-image", 'url('+img+')')
             $(".expanded_title").text(name)
@@ -123,10 +126,25 @@
                 $(".star_rating").append('<span class="fa fa-star"></span>');
             }
             $(".subtitle").append('<span class="tag" style="float: right;">'+area+'</span>')
-            $(".reviews_title").text('Reviews')
-            $(".reviews_items").text(result.text)
+            $(".reviews_section").append('<div class="reviews_items"></div>')
+            
+            if(reviews.length>0){
+                reviews.forEach(function(r){
+                    console.log(r[0])
+                    $(".reviews_items").append('<div>'+r[0]+'</div>')
+                })
+            }
+            else {
+                $(".reviews_items").text(result.text)
+            }
            
             $(".map_items").append('<iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBYcuFsV7KTFtJsVKVFcrOEhKYhqpv8V7Y&q= '+ result.address+', NY, NY" allowfullscreen></iframe>')
+            $('.reviews_items').slick({
+                dots: true,
+                autoplay: true,
+                arrows: false,
+                autoplaySpeed: 5000
+            });
         }
 
         function drawStars(rating){
@@ -141,8 +159,8 @@
         $( document ).ready(function() {
             var json = '{{proto_results[0] | tojson}}'
             var parsed = JSON.parse(json)
-            showExpanded(parsed)
-
+            showExpanded(parsed, 0)
+           
         })
 
       

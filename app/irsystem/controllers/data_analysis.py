@@ -22,19 +22,19 @@ def to_dict(data):
        
         all_data={}
         for rows in reader:
-            name = rows[0]
+            name = rows[0].replace('"', '')
             all_data[name]={}
-            all_data[name]['address']=rows[1]
-            all_data[name]['summary']=rows[2]
+            all_data[name]['address']=rows[1].replace('"', '')
+            all_data[name]['summary']=rows[2].replace('"', '')
             all_data[name]['long']=rows[3]
             all_data[name]['num_ratings']=rows[4]
             all_data[name]['zip']=rows[5]
             all_data[name]['photo']=rows[6]
             all_data[name]['lat']=rows[7]
-            all_data[name]['reviews']=rows[8]
+            all_data[name]['reviews']=rows[8].replace('"', '')
             all_data[name]['boro']=rows[9].lower().replace("+", " ")
             all_data[name]['rating']=rows[10]
-            all_data[name]['amenities']=rows[11]
+            all_data[name]['amenities']=rows[11].replace('"', '')
             all_data[name]['type']=rows[12]
             all_data[name]['hours']=rows[13]
     return all_data
@@ -50,6 +50,7 @@ def review_to_array(all_reviews):
         third_split=second_split[1].split('/TEXT: ')
         rating = third_split[0]
         review = third_split[1]
+        review = review.replace('"', '')
         tuples_array.append((review, rating))
     return tuples_array
 

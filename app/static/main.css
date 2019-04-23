@@ -379,6 +379,9 @@ label:hover {
     border-bottom: 1px solid #fff;
     margin-bottom: 3%;
 }
+.reviews_section{
+    font-weight: 300;
+}
 .amenities_title {
     margin-bottom: 3%;
 }
@@ -391,7 +394,12 @@ label:hover {
 }
 
 
-
+.slick-list {
+    height: 25% !important;
+}
+.slick-dots li button:before {
+    color: white !important;
+}
 .global-search {
 text-align:center;
 padding:10px;
