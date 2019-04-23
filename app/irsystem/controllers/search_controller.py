@@ -3,6 +3,7 @@ from app.irsystem.models.helpers import *
 from app.irsystem.models.helpers import NumpyEncoder as NumpyEncoder
 from .prototype1 import main as get_results
 from .prototype1 import reviews_to_array
+from .data_analysis import main as get_results_updated
 
 project_name = "Happy Campers"
 net_id = "Katie Schretter: kvs46, Emily Gyles: emg226, Hanna Arfine: ha264, Kyra Wisniewski: klw227 "
@@ -19,16 +20,13 @@ def search():
 	else:
 		location = boroughs.lower().split(",")
 		features = keywords.lower().split(",")
-		proto_results = get_results(location, features)
+		proto_results = get_results_updated(location, features)
+		# proto_results = get_results_updated(location, features)
 		for result in proto_results:
 			for key in result:
-				print(key)
 				# print(result[key]['reviews'])
 				# print(reviews_to_array(result[key]['reviews']))
 				# result[key]['reviews'] = reviews_to_array(result[key]['reviews'])
-				print(result[key]['reviews'])
-				print(reviews_to_array(result[key]['reviews']))
-				print(" ")
 				result[key]['reviews'] = reviews_to_array(result[key]['reviews'])
 				# reviews_array.append(reviews_to_array(result[key]['reviews']))
 		
