@@ -67,8 +67,8 @@ def clean_data(data):
         if(data[facility]['reviews']!=''):
             array = review_to_array(data[facility]['reviews'])
             first = [i[0] for i in array]
-            data[facility]['reviews']=" ".join(first)
-            data[facility]['text'] = " ".join(first)
+            data[facility]['reviews']= array
+            data[facility]['text'] = "  ".join(first)
         else:
             data[facility]['text'] = data[facility]['summary']
         if data[facility]['boro'] == 'staten is':
@@ -86,6 +86,8 @@ def make_document_list(data_dic):
         amenities = data_dic[facility]['amenities']
         summary = data_dic[facility]['summary']
         reviews = data_dic[facility]['reviews']
+        first = [i[0] for i in reviews]
+        reviews = "  ".join(first)
         combined = amenities + summary + reviews
         documents.append((combined, facility))
     return documents
@@ -283,6 +285,7 @@ def main(boro, termlist):
     words_compressed = normalize(words_compressed, axis = 1)
     
     results = get_rankings(words_compressed, word_to_index, index_to_word,termlist, boro, all_data)
+   
    
     return results
 
