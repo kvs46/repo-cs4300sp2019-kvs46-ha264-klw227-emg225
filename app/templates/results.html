@@ -114,6 +114,8 @@
             var img = result.photo
             var area = result.boro
             var reviews = parsed[index][name].reviews
+
+            console.log(parsed[index][name].amenities)
             var rating = Math.round(result.rating)
             $(".expanded_header").css("background-image", 'url('+img+')')
             $(".expanded_title").text(name)
@@ -135,7 +137,6 @@
                     $(".review_rating").empty()
                     for (i=0; i<parseInt(r[1]); i++){
                         $(".review_rating").append('<span class="fa fa-star checked"></span>');
-                        console.log(r, 'star')
                     }
                     for(i=0; i<(5-parseInt(r[1])); i++){
                          $(".review_rating").append('<span class="fa fa-star"></span>');
