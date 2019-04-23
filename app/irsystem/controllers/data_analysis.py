@@ -264,7 +264,7 @@ def get_rankings(words_compressed, word_to_index, index_to_word,termlist, boros,
             for boro in boros:
                 if posting['boro'] == boro and posting['text'] not in seen:  
                     final.append(data_list[doc])
-                    seen.append(posting['reviews'])
+                seen.append(posting['text'])
             
     return final
 
