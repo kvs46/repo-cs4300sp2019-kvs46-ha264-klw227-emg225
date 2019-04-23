@@ -392,7 +392,24 @@ label:hover {
     text-transform: none;
     letter-spacing: 0;
 }
-
+.review_text {
+    width: 85%;
+    display: inline-block;
+    float: left;
+}
+.review_rating {
+    width: 15%;
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+.review_rating .checked {
+    margin: 0 2%;
+}
+.flex-end {
+    display: flex;
+    justify-content: space-between;
+}
 
 .slick-list {
     height: 25% !important;
