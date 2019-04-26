@@ -62,10 +62,7 @@
                 </div>
             </div>
             <div class="expanded_desc">
-                <!-- <div class="amenities expanded_desc_section">
-                    <div class="amenities_title"></div>
-                    <div class="amenities_items"></div>
-                </div> -->
+                
 
                 <div class="expanded_desc_section" style="border-bottom: none;">
                         <div class="subtitle"></div>
@@ -80,6 +77,11 @@
                         <div class="reviews_items"></div>
                     </div>
                    
+                </div>
+
+                <div class="amenities expanded_desc_section">
+                    <div class="amenities_title"></div>
+                    <div ><p class="amenities_items"></p></div>
                 </div>
 
                
@@ -106,21 +108,21 @@
         function showExpanded(i, index){
             var result_all = '{{proto_results | tojson}}'
             var parsed = JSON.parse(result_all)
-            
+            $(".amenities_title").empty()
+            $(".amenities_items").empty()
             $(".map_items").empty()
             $(".expanded_title").empty()
             $(".subtitle").empty()
             $(".reviews_items").remove()
            
             var name = Object.keys(i)[0]
-            console.log(parsed[index][name].amenities)
             var result = i[name]
             var img = result.photo
             var area = result.boro
             var reviews = parsed[index][name].reviews
-
-            console.log(parsed[index][name].amenities)
+            var amenities = parsed[index][name].amenities
             var rating = Math.round(result.rating)
+            console.log(amenities)
             $(".expanded_header").css("background-image", 'url('+img+')')
             $(".expanded_title").text(name)
 
@@ -159,6 +161,11 @@
                 arrows: false,
                 autoplaySpeed: 5000
             });
+
+            if(amenities != '' && amenities != 'No required amenities'){
+                $(".amenities_title").text('Amenities');
+                $(".amenities_items").text(amenities)
+            }
         }
 
         function drawStars(rating){

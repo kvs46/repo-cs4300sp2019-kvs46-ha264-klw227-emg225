@@ -66,6 +66,7 @@ def clean_data(data):
             after = re.sub(r"(\w)([A-Z])", r"\1 \2", before)
             after2 = after.replace(".", ". ")
             data[facility]['amenities']=after2
+            print(data[facility]['amenities'])
         if(data[facility]['reviews']!=''):
             array = review_to_array(data[facility]['reviews'])
             first = [i[0] for i in array]

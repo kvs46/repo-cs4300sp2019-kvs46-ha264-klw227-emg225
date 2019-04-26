@@ -201,6 +201,13 @@ p {
     background:  #FFF300;
     cursor: pointer;
 }
+.amenities_items {
+    color: #fff !important;
+    text-transform: none;
+    font-weight: 300;
+    letter-spacing: 0;
+    font-size: 13px;
+}
 .tag {
     background: #FFF300;
     padding: 8px 16px;
