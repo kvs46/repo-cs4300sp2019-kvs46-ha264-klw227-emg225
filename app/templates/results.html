@@ -12,8 +12,7 @@
 
 <body>
     <div class="nav">
-        <img class="nav-img" src="static/images/Urban_Gems.png" />
-       
+        <img class="nav-img" src="static/images/Urban_Gems.png" onclick="goHome()"/>
     </div>
     
     <div class="results_main">
@@ -99,7 +98,10 @@
     <script type="text/javascript" src="/static/slick/slick.min.js"></script>
 
     <script type="text/javascript">
-
+        function goHome(){
+            window.history.pushState({}, document.title, "/");
+            location.reload();
+        }
         function showExpanded(i, index){
             var result_all = '{{proto_results | tojson}}'
             var parsed = JSON.parse(result_all)
