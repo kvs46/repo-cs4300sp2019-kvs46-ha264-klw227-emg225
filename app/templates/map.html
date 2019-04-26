@@ -25,7 +25,7 @@
             <input type="hidden" name="boroughs" id="boroughs">
             <input type="hidden" name="keyword" id="keyword">
             <div class="btn-go btn-next" onclick="submit_loc()" id="next"><div class="flex-center"><div>NEXT</div></div></div>
-            <div class="btn-add" id="add" onclick="addVal()"> <div class="flex-center"><div>ADD</div></div> </div>
+            <!-- <div class="btn-add" id="add" onclick="addVal()"> <div class="flex-center"><div>ADD</div></div> </div> -->
             <button class="btn-go" id="go"> GO </button>
         </div>
         <div class="button-group" id="selected_areas">
@@ -161,10 +161,6 @@ function toggleButtons(){
 
       select: function(event, ui) {
         addNeighborhood(ui.item.value)
-        // if(ui.item){
-        //     $('#vsearch').val(ui.item.value);
-        // }
-        // $('#search').submit();
       }
      });
     });
@@ -172,20 +168,22 @@ function toggleButtons(){
   }
   else {
     $("#go").css("visibility", "visible");
-    $("#go").css("margin-left", "-1%");
+    $("#go").css("margin-left", "-11%");
     $(".form-control").attr("placeholder", "Search features");
     $("#features").css("visibility", "visible");
     $("#features").css("display", "block");
     $("#selected_areas").css("display", "block");
     $("#selected_areas_text").text(selected.join(', '))
-   
 
     $("#next").css("visibility", "hidden");
     $("#map").css("visibility", "hidden");
     $("#map").css("display", "none");
     $( function() {
     $( "#input" ).autocomplete({
-      source: good_types
+      source: good_types,
+      select: function(event, ui){
+        addKeyword(ui.item.value)
+      }
      });
     });
   }
@@ -234,6 +232,13 @@ function addNeighborhood(n){
           }
           console.log(selected)
         });
+}
+
+function addKeyword(w){
+  value = w.toLowerCase()
+  $("#features").append('<span class="tag" onclick="chooseWord('+"'"+value+"'"+')" id="'+value+'">'+value+'</span>')
+  features.push(value)
+  $("#keyword").val(features)
 }
 function addVal(){
   
