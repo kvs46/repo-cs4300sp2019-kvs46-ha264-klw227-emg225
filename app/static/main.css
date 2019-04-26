@@ -220,8 +220,11 @@ p {
 #close_icon img{
     max-width: 30px;
 }
+#info-bottom {
+    margin-top: 85%;
+}
 #close_icon {
-    margin-top: 100%;
+    margin-top: 10%;
 }
 #close_icon:hover {
     cursor: pointer;
