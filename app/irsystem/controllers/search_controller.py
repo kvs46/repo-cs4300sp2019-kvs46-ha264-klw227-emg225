@@ -24,7 +24,5 @@ def search():
 		return render_template('results.html', loc_len = len(location), location=location, feat_len = len(features), features=features, proto_results=proto_results, len_results=len(proto_results))
 	else:
 		return render_template('map.html', keywords=keywords, len_words=len(keywords))
-	
-@irsystem.route('/')
-def index(): pass
+
 

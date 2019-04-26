@@ -58,6 +58,22 @@
     
     <form class="form-inline global-search">
     </form>
+    <div class="info flex" onclick="toggleInfo()"><div>Info</div> <div><img src="static/images/chevron.svg"></div></div>
+    <div class="info-expanded">
+      <p>
+        Urban Gems helps you find parks, gardens, and POPS (privately-owned public spaces) within New York based on your personal preferences. Select what areas you want to explore then tell us your ideal features to see what gems are in store for you! 
+      </p>
+      <div>
+      <p>
+        <span id="by_title">Created by</span><br />
+        Hanna Arfine <br />
+        Kyra Wisniewski <br />
+        Katie Schretter <br />
+        Emily Gyles <br />
+      </p>
+      <div id="close_icon" onclick="closeInfo()"><img src="static/images/x.svg" /></div>
+    </div>
+    </div>
     </div>  
 
 
@@ -277,7 +293,12 @@ function addVal(){
   
 }
 
-
+function toggleInfo(){
+  $(".info-expanded").css("left", "0");
+}
+function closeInfo(){
+  $(".info-expanded").css("left", "-50%");
+}
 
 $(document).ready(function(){
   toggleButtons();
