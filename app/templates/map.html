@@ -165,7 +165,6 @@ $(function() {
         $(':submit').click(function(e) {
                 $('#keyword').each(function() {
                         if ($(this).val().length == 0) {
-                              console.log('no values')
                               $("#error-message").addClass("show-error")
                                 e.preventDefault();
                         }
