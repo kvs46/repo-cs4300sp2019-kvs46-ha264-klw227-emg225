@@ -157,7 +157,15 @@ function toggleButtons(){
     $("#map").css("display", "block");
     $( function() {
     $( "#input" ).autocomplete({
-      source: all_neighborhoods
+      source: all_neighborhoods,
+
+      select: function(event, ui) {
+        addNeighborhood(ui.item.value)
+        // if(ui.item){
+        //     $('#vsearch').val(ui.item.value);
+        // }
+        // $('#search').submit();
+      }
      });
     });
     
@@ -195,7 +203,6 @@ function chooseWord(w){
     $("#"+w).addClass('tag-active')
   }
   $("#keyword").val(features)
-  console.log(w)
 }
 function submit_loc(){
   $("#boroughs").val(selected);
@@ -203,7 +210,31 @@ function submit_loc(){
   showGo=true;
   toggleButtons();
 }
+function addNeighborhood(n){
+  value = n.toLowerCase()
+    var theSearch = d3.selectAll("path")
+        .filter(function(d) { 
+          return d.properties.neighborhood.toLowerCase() === value 
+        }).each(function(d){
+          var borough = d.properties.borough
+          var neighborhood = d.properties.neighborhood
+          if (selected.includes(borough) == false){
+            selected.push(borough)
+          }
 
+          if(selected_neighborhood.includes(neighborhood)==false){
+            d3.select(this).classed("active", true)
+            selected_neighborhood.push(neighborhood)
+          }
+          else {
+            d3.select(this).classed("active", false)
+            selected_neighborhood = selected_neighborhood.filter(function(n){
+                return neighborhood != n
+              })
+          }
+          console.log(selected)
+        });
+}
 function addVal(){
   
   if(showGo == false){
@@ -240,6 +271,9 @@ function addVal(){
   }
   
 }
+
+
+
 $(document).ready(function(){
   toggleButtons();
 
