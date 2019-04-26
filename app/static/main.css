@@ -189,6 +189,18 @@ p {
     position: absolute;
     bottom: 8%;
 }
+#new_search {
+    float: right;
+    padding: 7px 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 12px;
+}
+#new_search:hover {
+    background:  #FFF300;
+    cursor: pointer;
+}
 .tag {
     background: #FFF300;
     padding: 8px 16px;
