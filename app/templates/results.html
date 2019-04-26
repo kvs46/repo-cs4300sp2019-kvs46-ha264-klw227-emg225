@@ -103,13 +103,14 @@
         function showExpanded(i, index){
             var result_all = '{{proto_results | tojson}}'
             var parsed = JSON.parse(result_all)
+            
             $(".map_items").empty()
             $(".expanded_title").empty()
             $(".subtitle").empty()
             $(".reviews_items").remove()
            
             var name = Object.keys(i)[0]
-        
+            console.log(parsed[index][name].amenities)
             var result = i[name]
             var img = result.photo
             var area = result.boro
@@ -170,7 +171,6 @@
             var json = '{{proto_results[0] | tojson}}'
             var parsed = JSON.parse(json)
             showExpanded(parsed, 0)
-           
         })
 
       

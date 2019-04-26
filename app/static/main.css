@@ -392,6 +392,31 @@ label:hover {
     text-transform: none;
     letter-spacing: 0;
 }
+.ui-widget-content {
+    background: rgba(255, 255, 255, .75) !important;
+    border: none !important;
+    border-radius: 10px;
+}
+.ui-menu .ui-menu-item{
+    padding: 2%;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.ui-menu .ui-menu-item:hover {
+    border-radius: 10px;
+}
+.ui-menu .ui-menu-item:hover .ui-menu-item-wrapper {
+    background: white !important;
+    color: black !important;
+    border: 1px solid white !important;
+}
+.ui-menu-item-wrapper:hover {
+    background: white !important;
+    color: black !important;
+    border: none !important;
+}
+.ui-menu .ui-menu-item:hover {
+    background: white !important;
+}
 .review_text {
     width: 85%;
     display: inline-block;
@@ -441,3 +466,25 @@ border: none
 .step-links a{
 color: #4285F4;
 }
+
+path {
+    stroke: rgba(0, 0, 0, .95);
+    stroke-width: .5;
+  }
+  #neighborhoodPopover { 
+    position: absolute;     
+    text-align: center;         
+    padding: 4px 6px;       
+    font: 12px sans-serif;    
+    background: white; 
+    color: black;
+    border: 0px;    
+    border-radius: 10px;     
+    pointer-events: none;
+    opacity: 0;     
+    z-index: 999;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .active {
+    fill: yellow !important;
+  }

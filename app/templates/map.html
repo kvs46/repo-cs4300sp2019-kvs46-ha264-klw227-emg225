@@ -3,31 +3,11 @@
 <link rel="stylesheet" href="/static/main.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <style>
-path {
-  stroke: rgba(0, 0, 0, .95);
-  stroke-width: .5;
-  /* stroke-dasharray: 1; */
-  /* fill: rgba(0, 0, 0, .95); */
-}
-#neighborhoodPopover { 
-  position: absolute;     
-  text-align: center;         
-  padding: 4px 6px;       
-  font: 12px sans-serif;    
-  background: white; 
-  color: black;
-  border: 0px;    
-  border-radius: 10px;     
-  pointer-events: none;
-  opacity: 0;     
-  z-index: 999;
-  font-family: 'Montserrat', sans-serif;
-}
-.active {
-  fill: yellow !important;
-}
 </style>
 
 <body>
@@ -88,6 +68,7 @@ path {
 var selected = []
 var selected_neighborhood = []
 var isClicked = false;
+var all_neighborhoods = []
 var svg = d3.select("svg"),
     width = +svg.attr("width"),
     height = +svg.attr("height");
@@ -103,7 +84,9 @@ d3.json("/static/nyc.json", function(error, nyc) {
       .data(nyc.features)
       .enter().append("path")
       .attr("d", path)
-      .attr("id", function(d){ return d.properties.neighborhood})
+      .attr("id", function(d){ 
+        all_neighborhoods.push(d.properties.neighborhood) 
+      return d.properties.neighborhood})
      
       .on("mouseenter", function(d) {
         d3.select(this)
@@ -154,10 +137,7 @@ d3.json("/static/nyc.json", function(error, nyc) {
             return neighborhood != n
           })
       }
-      console.log(selected)
     }); 
-    
-    console.log(nyc);
 });
 
 var showGo = false;
@@ -175,6 +155,11 @@ function toggleButtons(){
     $("#next").css("visibility", "visible");
     $("#map").css("visibility", "visible");
     $("#map").css("display", "block");
+    $( function() {
+    $( "#input" ).autocomplete({
+      source: all_neighborhoods
+     });
+    });
     
   }
   else {
@@ -190,6 +175,11 @@ function toggleButtons(){
     $("#next").css("visibility", "hidden");
     $("#map").css("visibility", "hidden");
     $("#map").css("display", "none");
+    $( function() {
+    $( "#input" ).autocomplete({
+      source: good_types
+     });
+    });
   }
   showGo = !showGo;
 }
@@ -215,18 +205,16 @@ function submit_loc(){
 }
 
 function addVal(){
+  
   if(showGo == false){
     value = $("#input").val()
     $("#features").append('<span class="tag" onclick="chooseWord('+"'"+value+"'"+')" id="'+value+'">'+value+'</span>')
     features.push(value)
-    console.log(features)
     $("#keyword").val(features)
   }
   else {
-    value = $("#input").val()
-    // value = value.charAt(0).toUpperCase() + value.slice(1)
-    console.log(value)
-
+    
+    value = $("#input").val().toLowerCase()
     var theSearch = d3.selectAll("path")
         .filter(function(d) { 
           return d.properties.neighborhood.toLowerCase() === value 
@@ -254,15 +242,17 @@ function addVal(){
 }
 $(document).ready(function(){
   toggleButtons();
+
 })
 
 $(document).ready(function() {
+  good_types = JSON.parse('{{goodtypes | tojson }}')
   $(window).keydown(function(event){
     if(event.keyCode == 13) {
       event.preventDefault();
       return false;
     }
   });
-});
+})
 </script>
 </body>

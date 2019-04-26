@@ -37,6 +37,7 @@ def to_dict(data):
             all_data[name]['amenities']=rows[11].replace('"', '')
             all_data[name]['type']=rows[12]
             all_data[name]['hours']=rows[13]
+        
     return all_data
 
 
@@ -271,6 +272,22 @@ def get_rankings(words_compressed, word_to_index, index_to_word,termlist, boros,
 
 
 # In[16]:
+def good_types():
+    print('in good types')
+    all_data = to_dict('final_data.csv')
+    all_data = clean_data(all_data)
+    documents = make_document_list(all_data)
+    vectorizer = create_vectorizer(0.6, 5)
+    term_doc = create_term_doc(vectorizer, documents)
+    words_compressed, _, docs_compressed = svds(term_doc, k=40)
+    docs_compressed = docs_compressed.transpose()
+    word_to_index = vectorizer.vocabulary_
+    index_to_word = {i:t for t,i in word_to_index.items()}
+
+    good_types = []
+    for item in index_to_word.items():
+        good_types.append(item[1])
+    return good_types
 
 def main(boro, termlist):
     all_data = to_dict('final_data.csv')
@@ -282,7 +299,6 @@ def main(boro, termlist):
     docs_compressed = docs_compressed.transpose()
     word_to_index = vectorizer.vocabulary_
     index_to_word = {i:t for t,i in word_to_index.items()}
-
     words_compressed = normalize(words_compressed, axis = 1)
     
     results = get_rankings(words_compressed, word_to_index, index_to_word,termlist, boro, all_data)
