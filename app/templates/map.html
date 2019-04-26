@@ -28,6 +28,7 @@
             <!-- <div class="btn-add" id="add" onclick="addVal()"> <div class="flex-center"><div>ADD</div></div> </div> -->
             <button class="btn-go" id="go"> GO </button>
         </div>
+        <div class="button-group" id="error-message">Please choose a keyword to continue</div>
         <div class="button-group" id="selected_areas">
           <p>Areas</p>
           <div class="flex-between">
@@ -62,6 +63,7 @@
     <div class="info-expanded">
       <p>
         Urban Gems helps you find parks, gardens, and POPS (privately-owned public spaces) within New York based on your personal preferences. Select what areas you want to explore then tell us your ideal features to see what gems are in store for you! 
+        
       </p>
       <div id="info-bottom">
       <p>
@@ -159,7 +161,24 @@ d3.json("/static/nyc.json", function(error, nyc) {
 var showGo = false;
 var features = [];
 var custom_fields = [];
-
+$(function() { 
+        $(':submit').click(function(e) {
+                $('#keyword').each(function() {
+                        if ($(this).val().length == 0) {
+                              console.log('no values')
+                              $("#error-message").addClass("show-error")
+                                e.preventDefault();
+                        }
+                });
+                $('#boroughs').each(function() {
+                        if ($(this).val().length == 0) {
+                              $("#error-message").addClass("show-error")
+                              $("#error-message").text("Please choose an area to continue")
+                                e.preventDefault();
+                        }
+                });
+        });
+});
 function toggleButtons(){
   if(showGo == false){
     $("#go").css("visibility", "hidden");

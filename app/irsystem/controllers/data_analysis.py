@@ -66,7 +66,6 @@ def clean_data(data):
             after = re.sub(r"(\w)([A-Z])", r"\1 \2", before)
             after2 = after.replace(".", ". ")
             data[facility]['amenities']=after2
-            print(data[facility]['amenities'])
         if(data[facility]['reviews']!=''):
             array = review_to_array(data[facility]['reviews'])
             first = [i[0] for i in array]
@@ -274,7 +273,6 @@ def get_rankings(words_compressed, word_to_index, index_to_word,termlist, boros,
 
 # In[16]:
 def good_types():
-    print('in good types')
     all_data = to_dict('final_data.csv')
     all_data = clean_data(all_data)
     documents = make_document_list(all_data)

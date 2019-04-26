@@ -211,6 +211,21 @@ p {
     letter-spacing: 0;
     font-size: 13px;
 }
+#error-message {
+    height: 0 ;
+    padding: 0;
+    opacity: 0;
+    font-size: 13px;
+    font-style: italic;
+    background: rgba(255, 243, 0, .75);
+    transition: all ease-in-out .2s;
+}
+.show-error {
+    height: auto !important;
+    padding: 15px !important;
+    opacity: 1 !important; 
+    transition: all ease-in-out .2s;
+}
 #by_title {
     text-transform: uppercase;
     font-weight: 600;
