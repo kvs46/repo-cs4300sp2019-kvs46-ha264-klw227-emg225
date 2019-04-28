@@ -14,11 +14,20 @@
  
   <div id='neighborhoodPopover'> </div>
 
+  
   <div class="search-main">
-    <form class="form-inline global-search">
+    <div class="choose_search">
+    <div class="logo-main"><img src="static/images/Urban_Gems.png" id="logo-main"/></div>
+    <div class=" button-group" style="text-align: center;">
+      <p>Choose your search method</p>
+      <div onclick="chooseSearch('search')" class="tag tag-active">Search</div>
+      <div onclick="chooseSearch('similar')" class="tag tag-active">Explore Similar</div>
+    </div>
+  </div>
+    <form class="form-inline global-search search_search">
         <br><br>
         <div>
-        <div class="logo-main"><img src="static/images/Urban_Gems.png" id="logo-main"/></div>
+            <div class="logo-main"><img src="static/images/Urban_Gems.png" id="logo-main"/></div>
   
         <div class="form-group">
             <input id="input" type="text" name="search" class="form-control" placeholder="search destinations">
@@ -56,6 +65,23 @@
         </div>
         </div>
     </form>
+
+    <form class="form-inline global-search search_similar">
+        <br><br>
+        <div>
+            <div class="logo-main"><img src="static/images/Urban_Gems.png" id="logo-main"/></div>
+  
+        <div class="form-group">
+            <input id="input-similar" type="text" name="search" class="form-control" placeholder="Search parks">
+            <input type="hidden" name="boroughs" id="boroughs">
+            <input type="hidden" name="keyword" id="keyword">
+            <button class="btn-go" id="go" style="margin-left: -9%;"> GO </button>
+        </div>
+        <div class="button-group" id="error-message">Please choose a keyword to continue</div>
+        
+        
+        </div>
+    </form>
     
     <form class="form-inline global-search">
     </form>
@@ -83,6 +109,7 @@
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="https://d3js.org/topojson.v1.min.js"></script>
 <script>
+var search_type = ''
 var selected = []
 var selected_neighborhood = []
 var isClicked = false;
@@ -157,7 +184,10 @@ d3.json("/static/nyc.json", function(error, nyc) {
       }
     }); 
 });
-
+function chooseSearch(i){
+  search_type = i;
+  showOptions()
+}
 var showGo = false;
 var features = [];
 var custom_fields = [];
@@ -178,6 +208,32 @@ $(function() {
                 });
         });
 });
+function showOptions(){
+  if(search_type == ''){
+    $(".choose_search").css("display", "block")
+    $(".search_search").css("display", "none")
+    $(".search_similar").css("display", "none")
+  }
+  else if (search_type == 'search'){
+    $(".choose_search").css("display", "none")
+    $(".search_similar").css("display", "none")
+    $(".search_search").css("display", 'block')
+  }
+  else if (search_type == 'similar'){
+    showGo = true
+    $("#input-similar").attr("placeholder", "Search parks")
+    $(".choose_search").css("display", "none")
+    $(".search_similar").css("display", "block")
+    $(".search_search").css("display", "none")
+    $( "#input-similar" ).autocomplete({
+      source: park_names,
+
+      // select: function(event, ui) {
+      //   addNeighborhood(ui.item.value)
+      // }
+     });
+  }
+}
 function toggleButtons(){
   if(showGo == false){
     $("#go").css("visibility", "hidden");
@@ -312,6 +368,7 @@ function addVal(){
 }
 
 function toggleInfo(){
+  console.log('toggle')
   $(".info-expanded").css("left", "0");
 }
 function closeInfo(){
@@ -320,11 +377,14 @@ function closeInfo(){
 
 $(document).ready(function(){
   toggleButtons();
-
+  showOptions();
 })
 
 $(document).ready(function() {
   good_types = JSON.parse('{{goodtypes | tojson }}')
+  park_names = JSON.parse('{{parknames | tojson }}')
+  // console.log(park_names)
+  console.log('{{parknames }}')
   $(window).keydown(function(event){
     if(event.keyCode == 13) {
       event.preventDefault();

@@ -3,6 +3,7 @@ from app.irsystem.models.helpers import *
 from app.irsystem.models.helpers import NumpyEncoder as NumpyEncoder
 from .data_analysis import main as get_results_updated
 from .data_analysis import good_types
+from .data_analysis import names_array
 
 project_name = "Urban Gems"
 net_id = "Katie Schretter: kvs46, Emily Gyles: emg226, Hanna Arfine: ha264, Kyra Wisniewski: klw227 "
@@ -15,7 +16,8 @@ def search():
 	if not boroughs:
 		goodtypes = good_types()
 		keywords = ['dogs', 'new', 'space', 'sports', 'community', 'family', 'quiet', 'view', 'water', 'child-friendly', 'pretty']
-		return render_template('map.html', keywords=keywords, len_words=len(keywords), goodtypes=goodtypes)
+		names = names_array()
+		return render_template('map.html', keywords=keywords, len_words=len(keywords), goodtypes=goodtypes, parknames=names)
 	if boroughs and keywords:
 		location = boroughs.lower().split(",")
 		features = keywords.lower().split(",")

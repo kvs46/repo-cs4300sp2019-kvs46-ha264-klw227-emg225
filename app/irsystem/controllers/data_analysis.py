@@ -37,11 +37,19 @@ def to_dict(data):
             all_data[name]['amenities']=rows[11].replace('"', '')
             all_data[name]['type']=rows[12]
             all_data[name]['hours']=rows[13]
-        
     return all_data
 
 
 # In[3]:
+def names_array():
+    names = []
+    with open('final_data.csv', mode='r') as file:
+        reader = csv.reader(file)
+        for rows in reader:
+            name = rows[0].replace('"', '')
+            names.append(name)
+    print(names)
+    return names
 
 def review_to_array(all_reviews):
     tuples_array = []
@@ -79,7 +87,8 @@ def clean_data(data):
         
     return data
 
-
+def parks_array():
+    print()
 # In[5]:
 
 def make_document_list(data_dic): 
