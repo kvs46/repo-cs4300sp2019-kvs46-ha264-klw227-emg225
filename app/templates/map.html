@@ -187,32 +187,36 @@ d3.json("/static/nyc.json", function(error, nyc) {
 });
 function chooseSearch(i){
   search_type = i;
+  console.log(search_type)
   showOptions()
 }
 var showGo = false;
 var features = [];
 var custom_fields = [];
 
-if(search_type=='search'){
+
   $(function() { 
+    
         $(':submit').click(function(e) {
+          if(search_type!='similar'){
                 $('#keyword').each(function() {
-                        if ($(this).val().length == 0) {
+                        if ($(this).val().length == 0 )  {
                               $("#error-message").addClass("show-error")
                                 e.preventDefault();
                         }
                 });
                 $('#boroughs').each(function() {
-                        if ($(this).val().length == 0) {
+                        if ($(this).val().length == 0 ) {
                               $("#error-message").addClass("show-error")
                               $("#error-message").text("Please choose an area to continue")
                                 e.preventDefault();
                         }
                 });
-        });
-});
-}
 
+        }
+        });
+
+});
 function showOptions(){
   if(search_type == ''){
     $(".choose_search").css("display", "block")
