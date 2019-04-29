@@ -24,11 +24,11 @@ def search():
 		names = names_array()
 		return render_template('map.html', keywords=keywords, len_words=len(keywords), goodtypes=goodtypes, parknames=names)
 	if boroughs and keywords:
-		location = boroughs
+		location = boroughs.lower().split(",")
 		features = keywords.lower().split(",")
 		total_boros = ["queens", "manhattan", "staten island", "brooklyn", "bronx"]
 		nlist = []
-		for b in boroughs:
+		for b in location:
 			if b not in total_boros:
 				nlist.append(b)
 
