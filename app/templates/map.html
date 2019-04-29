@@ -173,11 +173,14 @@ d3.json("/static/nyc.json", function(error, nyc) {
       if (selected.includes(borough) == false){
         selected.push(borough)
       }
-      // else {
-      //   selected = selected.filter(function(b){
-      //       return borough != b
-      //     })
-      // }
+      if (selected.includes(neighborhood) == false){
+        selected.push(neighborhood)
+      }
+      else if (selected.includes(neighborhood) == true){
+        selected = selected.filter(function(n){
+            return neighborhood != n
+          })
+      }
   
       if(selected_neighborhood.includes(neighborhood)==false){
        d3.select(this).classed("active", true)
@@ -285,13 +288,20 @@ function toggleButtons(){
     
   }
   else {
+    total_boros = ["Queens", "Manhattan", "Staten Island", "Brooklyn", "Bronx"]
+    selected_neighborhoods = []
     $("#go").css("visibility", "visible");
     $("#go").css("margin-left", "-11%");
     $(".form-control").attr("placeholder", "Search features");
     $("#features").css("visibility", "visible");
     $("#features").css("display", "block");
     $("#selected_areas").css("display", "block");
-    $("#selected_areas_text").text(selected.join(', '))
+    selected.forEach(function(i){
+      if(total_boros.includes(i) == false){
+        selected_neighborhoods.push(i)
+      }
+    })
+    $("#selected_areas_text").text(selected_neighborhoods.join(', '))
 
     $("#next").css("visibility", "hidden");
     $("#map").css("visibility", "hidden");
@@ -337,6 +347,9 @@ function addNeighborhood(n){
           if (selected.includes(borough) == false){
             selected.push(borough)
           }
+          if (selected.includes(neighborhood) == false){
+            selected.push(neighborhood)
+          }
 
           if(selected_neighborhood.includes(neighborhood)==false){
             d3.select(this).classed("active", true)
@@ -375,20 +388,26 @@ function addVal(){
         }).each(function(d){
           var borough = d.properties.borough
           var neighborhood = d.properties.neighborhood
-          if (selected.includes(borough) == false){
+
+          if (selected.includes(borough) == false && selected.includes(neighborhood) == false){
             selected.push(borough)
+            selected.push(neighborhood)
           }
 
-          if(selected_neighborhood.includes(neighborhood)==false){
-            d3.select(this).classed("active", true)
-            selected_neighborhood.push(neighborhood)
-          }
-          else {
-            d3.select(this).classed("active", false)
-            selected_neighborhood = selected_neighborhood.filter(function(n){
-                return neighborhood != n
-              })
-          }
+          // if(selected_neighborhood.includes(neighborhood)==false){
+          //   d3.select(this).classed("active", true)
+          //   selected.push(neighborhood)
+          //   selected_neighborhood.push(neighborhood)
+          // }
+          // else {
+          //   d3.select(this).classed("active", false)
+          //   selected_neighborhood = selected_neighborhood.filter(function(n){
+          //       return neighborhood != n
+          //     })
+          //   selected = selected.filter(function(n){
+          //     return neighborhood != n
+          //   })
+          // }
           console.log(selected)
         });
   }

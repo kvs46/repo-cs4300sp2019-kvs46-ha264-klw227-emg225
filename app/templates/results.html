@@ -22,8 +22,8 @@
            <p>Urban Gems similar to <span class="tag">{{simto}}</span></p> 
             {% else %}
             <p>Urban gems in 
-                    {%for i in range(0, loc_len)%} 
-                        <span class="tag">{{location[i]}}</span>
+                    {%for i in range(0, nlen)%} 
+                        <span class="tag">{{nlist[i]}}</span>
                     {%endfor%}
                     featuring
                     {%for i in range(0, feat_len)%} 
@@ -38,7 +38,7 @@
                     {%for result in proto_results %}
                         <div class="preview_panel" onclick="showExpanded({{result}},  {{ loop.index0 }})"> 
                                 {% for key, value in result.items() %}
-                                    <!-- <div class="prev_img" style="background-image: url({{value.photo}});"></div> -->
+                                    <div class="prev_img" style="background-image: url({{value.photos}});"></div>
                                     <div class="prev_info">
                                             <h2 class="type">{{value.type}}</h2>
                                             <h1 class="title">{{key}}</h1>
@@ -113,6 +113,7 @@
         function showExpanded(i, index){
             var result_all = '{{proto_results | tojson}}'
             var parsed = JSON.parse(result_all)
+            console.log(i)
             $(".map_items").empty()
             $(".expanded_title").empty()
             $(".subtitle").empty()
@@ -120,9 +121,10 @@
            
             var name = Object.keys(i)[0]
             var result = i[name]
-            var img = result.photo
+            var img = result.photos
             var area = result.boro
             var reviews = parsed[index][name].reviews
+            console.log(reviews)
             //var amenities = parsed[index][name].amenities
             var rating = Math.round(result.rating)
             $(".expanded_header").css("background-image", 'url('+img+')')
