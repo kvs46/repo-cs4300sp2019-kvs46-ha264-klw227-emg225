@@ -20,7 +20,7 @@ def search():
 
 	if not boroughs:
 		goodtypes = good_types()
-		keywords = ['dogs', 'new', 'space', 'sports', 'community', 'family', 'quiet', 'view', 'water', 'child-friendly', 'pretty']
+		keywords = ['dogs', 'new', 'space', 'sports', 'community', 'family', 'quiet', 'view', 'water', 'pretty']
 		names = names_array()
 		return render_template('map.html', keywords=keywords, len_words=len(keywords), goodtypes=goodtypes, parknames=names)
 	if boroughs and keywords:
