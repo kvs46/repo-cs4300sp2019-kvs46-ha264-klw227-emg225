@@ -19,36 +19,42 @@ from sklearn.manifold import TSNE
 def to_dict(data):
     with open(data, mode='r') as file:
         reader = csv.reader(file)
-       
+
         all_data={}
         for rows in reader:
-            name = rows[0].replace('"', '')
-            all_data[name]={}
-            all_data[name]['address']=rows[1].replace('"', '')
-            all_data[name]['summary']=rows[2].replace('"', '')
-            all_data[name]['long']=rows[3]
-            all_data[name]['num_ratings']=rows[4]
-            all_data[name]['zip']=rows[5]
-            all_data[name]['photo']=rows[6]
-            all_data[name]['lat']=rows[7]
-            all_data[name]['reviews']=rows[8].replace('"', '')
-            all_data[name]['boro']=rows[9].lower().replace("+", " ")
-            all_data[name]['rating']=rows[10]
-            all_data[name]['amenities']=rows[11].replace('"', '')
-            all_data[name]['type']=rows[12]
-            all_data[name]['hours']=rows[13]
+            if len(rows)!=0:
+                name = rows[0].replace('"', '')
+                all_data[name]={}
+                all_data[name]['address']=rows[6].replace('"', '')
+                all_data[name]['summary']=rows[1].replace('"', '')
+                all_data[name]['long']=rows[8]
+                all_data[name]['num_ratings']=rows[3]
+                all_data[name]['neighborhood']=rows[4]
+                all_data[name]['zip']=rows[15]
+                all_data[name]['photo']=rows[13]
+                all_data[name]['lat']=rows[2]
+                all_data[name]['reviews']=rows[12].replace('"', '')
+                all_data[name]['boro']=rows[14].lower().replace("+", " ")
+                all_data[name]['rating']=rows[7]
+                all_data[name]['amenities']=rows[9].replace('"', '')
+                all_data[name]['type']=rows[10]
+                all_data[name]['hours']=rows[5]
+                all_data[name]['score']=rows[11]    
+                
+               
     return all_data
 
 
 # In[3]:
 def names_array():
     names = []
-    with open('final_data.csv', mode='r') as file:
+    with open('final_data_updated.csv', mode='r') as file:
         reader = csv.reader(file)
         for rows in reader:
-            name = rows[0].replace('\\', '')
-            name = name.replace('"', '')
-            names.append(name)
+            if len(rows)!=0:
+                name = rows[0].replace('\\', '')
+                name = name.replace('"', '')
+                names.append(name)
     return names
 
 def review_to_array(all_reviews):
@@ -280,7 +286,7 @@ def get_rankings(words_compressed, word_to_index, index_to_word,termlist, boros,
 
 # In[16]:
 def good_types():
-    all_data = to_dict('final_data.csv')
+    all_data = to_dict('final_data_updated.csv')
     all_data = clean_data(all_data)
     documents = make_document_list(all_data)
     vectorizer = create_vectorizer(0.6, 5)
@@ -296,7 +302,7 @@ def good_types():
     return good_types
 
 def main(boro, termlist):
-    all_data = to_dict('final_data.csv')
+    all_data = to_dict('final_data_updated.csv')
     all_data = clean_data(all_data)
     documents = make_document_list(all_data)
     vectorizer = create_vectorizer(0.6, 5)
@@ -326,7 +332,7 @@ def main(boro, termlist):
 
 # In[ ]:
 def similar_parks(park):
-    all_data = to_dict('final_data.csv')
+    all_data = to_dict('final_data_updated.csv')
     all_data = clean_data(all_data)
     data_list = dict_to_list(all_data)
     final = []
