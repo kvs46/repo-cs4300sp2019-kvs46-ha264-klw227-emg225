@@ -84,10 +84,10 @@
                    
                 </div>
 
-                <div class="amenities expanded_desc_section">
+                <!-- <div class="amenities expanded_desc_section">
                     <div class="amenities_title"></div>
                     <div ><p class="amenities_items"></p></div>
-                </div>
+                </div> -->
 
                
 
@@ -113,8 +113,6 @@
         function showExpanded(i, index){
             var result_all = '{{proto_results | tojson}}'
             var parsed = JSON.parse(result_all)
-            $(".amenities_title").empty()
-            $(".amenities_items").empty()
             $(".map_items").empty()
             $(".expanded_title").empty()
             $(".subtitle").empty()
@@ -125,7 +123,7 @@
             var img = result.photo
             var area = result.boro
             var reviews = parsed[index][name].reviews
-            var amenities = parsed[index][name].amenities
+            //var amenities = parsed[index][name].amenities
             var rating = Math.round(result.rating)
             $(".expanded_header").css("background-image", 'url('+img+')')
             $(".expanded_title").text(name)
@@ -166,10 +164,10 @@
                 autoplaySpeed: 5000
             });
 
-            if(amenities != '' && amenities != 'No required amenities'){
-                $(".amenities_title").text('Amenities');
-                $(".amenities_items").text(amenities)
-            }
+            // if(amenities != '' && amenities != 'No required amenities'){
+            //     $(".amenities_title").text('Amenities');
+            //     $(".amenities_items").text(amenities)
+            // }
         }
 
         function drawStars(rating){
