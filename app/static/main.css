@@ -48,7 +48,6 @@ p {
     cursor: pointer;
 }
 .choose_search {
-
     padding-top: 100px;
 }
 #logo-main {
@@ -56,6 +55,33 @@ p {
     display: block;
     margin: auto;
     padding: 0px 0 20px 0;
+}
+.show {
+    height: auto !important;
+    opacity: 1 !important;
+    padding: 15px !important;
+    opacity: 1 !important; 
+    transition: all ease-in-out .2s;
+}
+#search_hover {
+    height: 0 ;
+    opacity: 0;
+
+    padding: 0 15px;
+    font-size: 13px;
+    font-style: italic;
+    background: rgba(255, 243, 0, .75);
+    transition: all ease-in-out .2s;
+}
+#similar_hover {
+    height: 0 ;
+    opacity: 0;
+
+    padding: 0 15px;
+    font-size: 13px;
+    font-style: italic;
+    background: rgba(255, 243, 0, .75);
+    transition: all ease-in-out .2s;
 }
 #toggleTag:hover {
     background: black;

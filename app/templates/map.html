@@ -20,9 +20,15 @@
     <div class="logo-main"><img src="static/images/Urban_Gems.png" id="logo-main"/></div>
     <div class=" button-group" style="text-align: center;">
       <p>Choose your search method</p>
-      <div onclick="chooseSearch('search')" class="tag tag-active">Search</div>
-      <div onclick="chooseSearch('similar')" class="tag tag-active">Explore Similar</div>
+      <div onclick="chooseSearch('search')" class="tag tag-active" id="search_option">Search</div>
+      <div onclick="chooseSearch('similar')" class="tag tag-active" id="similar_option">Explore Similar</div>
     </div>
+    <div class="button-group" id="search_hover">
+      Search for parks by neighborhood and keyword
+    </div>
+    <div class="button-group" id="similar_hover">
+        Find parks similar to a specific park
+      </div>
   </div>
     <form class="form-inline global-search search_search">
         <br><br>
@@ -216,6 +222,19 @@ var custom_fields = [];
         });
 
 });
+$("#search_option").mouseover(function(){
+  $("#search_hover").addClass("show");
+})
+$("#search_option").mouseout(function(){
+  $("#search_hover").removeClass("show");
+})
+$("#similar_option").mouseover(function(){
+  $("#similar_hover").addClass("show");
+})
+$("#similar_option").mouseout(function(){
+  $("#similar_hover").removeClass("show");
+})
+
 function showOptions(){
   if(search_type == ''){
     $(".choose_search").css("display", "block")
