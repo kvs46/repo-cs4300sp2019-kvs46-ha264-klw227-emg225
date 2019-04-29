@@ -41,7 +41,7 @@ def to_dict(data):
                 all_data[name]['amenities']=rows[9].lower().replace("+", " ").replace('"', '')
                 all_data[name]['type']=rows[10]
                 all_data[name]['score']=rows[11]
-                all_data[name]['reviews']=rows[12].replace('"', '')
+                all_data[name]['reviews']=rows[12].replace('"', '').replace("\\", "")
                 all_data[name]['photos']=rows[13]
                 all_data[name]['boro']=rows[14]
                 all_data[name]['zip']=rows[15]
