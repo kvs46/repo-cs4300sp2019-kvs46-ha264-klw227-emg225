@@ -55,7 +55,12 @@ p {
     width: 400px;
     display: block;
     margin: auto;
-    padding: 40px 0 20px 0;
+    padding: 0px 0 20px 0;
+}
+#toggleTag:hover {
+    background: black;
+    color: yellow;
+    cursor: pointer;
 }
 .logo-main {
     display: block !important;

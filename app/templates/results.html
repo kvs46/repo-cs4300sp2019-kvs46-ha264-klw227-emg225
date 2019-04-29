@@ -18,15 +18,20 @@
     
     <div class="results_main">
         <div class="results_overview">
+          {% if location[0] == 'none' %}
+           <p>Urban Gems similar to <span class="tag">{{simto}}</span></p> 
+            {% else %}
             <p>Urban gems in 
-                {%for i in range(0, loc_len)%} 
-                    <span class="tag">{{location[i]}}</span>
-                {%endfor%}
-                featuring
-                {%for i in range(0, feat_len)%} 
-                    <span class="tag">{{features[i]}}</span>
-                {%endfor%}
-            </p>
+                    {%for i in range(0, loc_len)%} 
+                        <span class="tag">{{location[i]}}</span>
+                    {%endfor%}
+                    featuring
+                    {%for i in range(0, feat_len)%} 
+                        <span class="tag">{{features[i]}}</span>
+                    {%endfor%}
+                </p>
+          {% endif %}
+            
 
         <div class="panels_container">
                 <div>
@@ -122,7 +127,6 @@
             var reviews = parsed[index][name].reviews
             var amenities = parsed[index][name].amenities
             var rating = Math.round(result.rating)
-            console.log(amenities)
             $(".expanded_header").css("background-image", 'url('+img+')')
             $(".expanded_title").text(name)
 

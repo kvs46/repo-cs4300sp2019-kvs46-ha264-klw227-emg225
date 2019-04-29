@@ -46,9 +46,9 @@ def names_array():
     with open('final_data.csv', mode='r') as file:
         reader = csv.reader(file)
         for rows in reader:
-            name = rows[0].replace('"', '')
+            name = rows[0].replace('\\', '')
+            name = name.replace('"', '')
             names.append(name)
-    print(names)
     return names
 
 def review_to_array(all_reviews):
@@ -87,8 +87,6 @@ def clean_data(data):
         
     return data
 
-def parks_array():
-    print()
 # In[5]:
 
 def make_document_list(data_dic): 
@@ -276,7 +274,7 @@ def get_rankings(words_compressed, word_to_index, index_to_word,termlist, boros,
                 if posting['boro'] == boro and posting['text'] not in seen:  
                     final.append(data_list[doc])
                 seen.append(posting['text'])
-            
+
     return final
 
 
@@ -317,10 +315,30 @@ def main(boro, termlist):
 
 # In[ ]:
 
-
-
+# def similar_parks():
+#     with open('sim_dict.csv', mode='r') as file:
+#         similar={}
+#         reader = csv.reader(file)
+#         for row in reader:
+#             if len(row)!=0:
+#                 similar[row[0]]=[row[1], row[2], row[3], row[4], row[5]]
+#     return similar
 
 # In[ ]:
-
-
-
+def similar_parks(park):
+    all_data = to_dict('final_data.csv')
+    all_data = clean_data(all_data)
+    data_list = dict_to_list(all_data)
+    final = []
+    with open('sim_dict.csv', mode='r') as file:
+        similar={}
+        reader = csv.reader(file)
+        for row in reader:
+            if len(row)!=0:
+                similar[row[0]]=[row[1], row[2], row[3], row[4], row[5]]
+    
+    for p in similar[park]:
+        entry = {}
+        entry[p] = all_data[p]
+        final.append(entry)
+    return final

@@ -34,7 +34,6 @@
             <input type="hidden" name="boroughs" id="boroughs">
             <input type="hidden" name="keyword" id="keyword">
             <div class="btn-go btn-next" onclick="submit_loc()" id="next"><div class="flex-center"><div>NEXT</div></div></div>
-            <!-- <div class="btn-add" id="add" onclick="addVal()"> <div class="flex-center"><div>ADD</div></div> </div> -->
             <button class="btn-go" id="go"> GO </button>
         </div>
         <div class="button-group" id="error-message">Please choose a keyword to continue</div>
@@ -63,6 +62,7 @@
             {%endfor%}
           </div>
         </div>
+        <div class="button-group" style="text-align: center; padding: 10px 15px;">Or <div onclick="chooseSearch('similar')" class="tag tag-active" id="toggleTag">Explore Similar</div></div>
         </div>
     </form>
 
@@ -73,12 +73,13 @@
   
         <div class="form-group">
             <input id="input-similar" type="text" name="search" class="form-control" placeholder="Search parks">
-            <input type="hidden" name="boroughs" id="boroughs">
-            <input type="hidden" name="keyword" id="keyword">
+            <input type="hidden" name="boroughs" id="boroughs_sim">
+            <input type="hidden" name="keyword" id="keyword_sim">
+            <input type="hidden" name= "simto" id="simto">
             <button class="btn-go" id="go" style="margin-left: -9%;"> GO </button>
         </div>
         <div class="button-group" id="error-message">Please choose a keyword to continue</div>
-        
+        <div class="button-group" style="text-align: center; padding: 10px 15px;">Or <div onclick="chooseSearch('search')" class="tag tag-active" id="toggleTag">Search by Keyword</div></div>
         
         </div>
     </form>
@@ -191,7 +192,9 @@ function chooseSearch(i){
 var showGo = false;
 var features = [];
 var custom_fields = [];
-$(function() { 
+
+if(search_type=='search'){
+  $(function() { 
         $(':submit').click(function(e) {
                 $('#keyword').each(function() {
                         if ($(this).val().length == 0) {
@@ -208,6 +211,8 @@ $(function() {
                 });
         });
 });
+}
+
 function showOptions(){
   if(search_type == ''){
     $(".choose_search").css("display", "block")
@@ -227,10 +232,11 @@ function showOptions(){
     $(".search_search").css("display", "none")
     $( "#input-similar" ).autocomplete({
       source: park_names,
-
-      // select: function(event, ui) {
-      //   addNeighborhood(ui.item.value)
-      // }
+      select: function(event, ui) {
+        $("#simto").val(ui.item.value)
+        $("#keyword_sim").val('none')
+        $("#boroughs_sim").val('none')
+      }
      });
   }
 }
@@ -368,7 +374,6 @@ function addVal(){
 }
 
 function toggleInfo(){
-  console.log('toggle')
   $(".info-expanded").css("left", "0");
 }
 function closeInfo(){
@@ -383,8 +388,6 @@ $(document).ready(function(){
 $(document).ready(function() {
   good_types = JSON.parse('{{goodtypes | tojson }}')
   park_names = JSON.parse('{{parknames | tojson }}')
-  // console.log(park_names)
-  console.log('{{parknames }}')
   $(window).keydown(function(event){
     if(event.keyCode == 13) {
       event.preventDefault();
