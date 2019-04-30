@@ -97,7 +97,7 @@
                     <div class="score_title">Similarity Score
                         <img src="static/images/i.png" id="info-icon"/>
                         <div class="score_info">
-                                The score is a weighted combination of cosine similarity of an expanded query using SVD, location, sentiment analysis and rating.
+                                The score is a weighted combination of cosine similarity of an expanded query using SVD, location, sentiment analysis and rating. It is on a scale of 0 (least similar) to 1 (most similar).
                             </div>
                     </div>
                     <div class="score_num">
@@ -138,7 +138,6 @@
             $(".expanded_title").empty()
             $(".subtitle").empty()
             $(".reviews_items").remove()
-           console.log(i)
             var name = Object.keys(i)[0]
             var result = i[name]
             var img = result.photos
@@ -153,11 +152,8 @@
             else {
                 $(".score").remove()
                 score = result.score
-                console.log(score)
             }
             
-            
-            console.log(score)
             //var amenities = parsed[index][name].amenities
             var rating = Math.round(result.rating)
             $(".expanded_header").css("background-image", 'url('+img+')')
