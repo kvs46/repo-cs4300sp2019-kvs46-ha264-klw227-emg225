@@ -328,6 +328,8 @@ function toggleButtons(){
   showGo = !showGo;
 }
 function chooseWord(w){
+  console.log(w)
+  console.log(features)
   if(features.includes(w)){
     features = features.filter(function(word){
       return word != w
@@ -338,6 +340,7 @@ function chooseWord(w){
     features.push(w)
     $("#"+w).addClass('tag-active')
   }
+  
   $("#keyword").val(features)
 }
 function submit_loc(){
@@ -377,10 +380,12 @@ function addNeighborhood(n){
 }
 
 function addKeyword(w){
+  console.log(w)
   value = w.toLowerCase()
-  $("#features").append('<span class="tag" onclick="chooseWord('+"'"+value+"'"+')" id="'+value+'">'+value+'</span>')
+  $("#features").append('<span class="tag-inactive tag-active" onclick="chooseWord('+"'"+value+"'"+')" id="'+value+'">'+value+'</span>')
   features.push(value)
   $("#keyword").val(features)
+  console.log(features)
 }
 function addVal(){
   
