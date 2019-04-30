@@ -318,12 +318,13 @@ p {
     padding: 60px 30px;
     left: -50%;
     top: 0;
+    
     overflow-y: scroll !important;
     /* opacity: 0; */
 }
 .info-expanded p {
     font-weight: 400;
-    font-size: 14px;
+    font-size: .75em;
     line-height: 22px;
 }
 .info {
