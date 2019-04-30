@@ -60,7 +60,7 @@
                                                     <span class="fa fa-star"></span>
                                                 {%endfor%}
                                             </span>
-                                            <span class="tag preview_panel_loc">{{value.boro}}</span>
+                                            <span class="tag preview_panel_loc">{{value.neighborhood}}</span>
                                         </div>
                                 {%endfor%}
                             </div>
@@ -142,7 +142,7 @@
             var name = Object.keys(i)[0]
             var result = i[name]
             var img = result.photos
-            var area = result.boro
+            var area = result.neighborhood
             var reviews = parsed[index][name].reviews
             var score = result.weighted_score
             score = parseFloat(score).toFixed(3)
