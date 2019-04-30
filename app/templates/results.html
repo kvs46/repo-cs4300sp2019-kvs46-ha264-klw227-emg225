@@ -138,21 +138,31 @@
             $(".expanded_title").empty()
             $(".subtitle").empty()
             $(".reviews_items").remove()
-           
+           console.log(i)
             var name = Object.keys(i)[0]
             var result = i[name]
             var img = result.photos
             var area = result.neighborhood
             var reviews = parsed[index][name].reviews
+            
             var score = result.weighted_score
-            score = parseFloat(score).toFixed(3)
+            if(score){
+                score = parseFloat(score).toFixed(3)
+                $(".score_num").text(score)
+            }
+            else {
+                $(".score").remove()
+                score = result.score
+                console.log(score)
+            }
+            
             
             console.log(score)
             //var amenities = parsed[index][name].amenities
             var rating = Math.round(result.rating)
             $(".expanded_header").css("background-image", 'url('+img+')')
             $(".expanded_title").text(name)
-            $(".score_num").text(score)
+            
             $(".expanded_title").append('<div class="star_rating"></div>')
             for (i=0; i<rating; i++){
                 $(".star_rating").append('<span class="fa fa-star checked"></span>');
