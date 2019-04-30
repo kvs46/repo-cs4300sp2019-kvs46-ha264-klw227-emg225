@@ -56,9 +56,12 @@
               <img src="static/images/pin.svg" />
               <div id="selected_areas_text"></div>
             </div>
-            <div id="edit" onclick="toggleButtons()">
+            <!-- <div id="edit" onclick="toggleButtons()">
               <p>Edit</p>
-            </div>
+            </div> -->
+            <div id="edit" onclick="resetMap()">
+                <p>Reset</p>
+              </div>
           </div>
         </div>
         <div class="button-group">
@@ -275,6 +278,10 @@ function showOptions(){
      });
   }
 }
+function resetMap(){
+  window.history.pushState({}, document.title, "/");
+  location.reload();
+}
 function toggleButtons(){
   if(showGo == false){
     $("#go").css("visibility", "hidden");
@@ -380,12 +387,10 @@ function addNeighborhood(n){
 }
 
 function addKeyword(w){
-  console.log(w)
   value = w.toLowerCase()
   $("#features").append('<span class="tag-inactive tag-active" onclick="chooseWord('+"'"+value+"'"+')" id="'+value+'">'+value+'</span>')
   features.push(value)
   $("#keyword").val(features)
-  console.log(features)
 }
 function addVal(){
   
