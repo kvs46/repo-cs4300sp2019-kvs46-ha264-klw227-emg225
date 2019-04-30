@@ -277,6 +277,32 @@ p {
 #info-bottom {
     margin-top: 20%;
 }
+.score_num {
+    padding-top: 2%;
+}
+.score_info {
+    text-transform: none;
+    font-size: 13px;
+    letter-spacing: 0;
+    font-weight: 300;
+    font-style: italic;
+    padding-top: 2%;
+    opacity: 0;
+    height: 0;
+    transition: all ease-in-out .2s;
+}
+.score_title img {
+    max-width: 19px;
+    float: right;
+}
+#info-icon:hover {
+    cursor: pointer;
+}
+#info-icon:hover + .score_info {
+    opacity: 1 !important;
+    height: auto !important;
+    transition: all ease-in-out .2s;
+}
 #close_icon {
     margin-top: 10%;
 }

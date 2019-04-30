@@ -93,6 +93,18 @@
                    
                 </div>
 
+                <div class="score expanded_desc_section">
+                    <div class="score_title">Similarity Score
+                        <img src="static/images/i.png" id="info-icon"/>
+                        <div class="score_info">
+                                The score is a weighted combination of cosine similarity of an expanded query using SVD, location, sentiment analysis and rating.
+                            </div>
+                    </div>
+                    <div class="score_num">
+                        
+                    </div>
+                    
+                </div>
                 <!-- <div class="amenities expanded_desc_section">
                     <div class="amenities_title"></div>
                     <div ><p class="amenities_items"></p></div>
@@ -122,7 +134,6 @@
         function showExpanded(i, index){
             var result_all = '{{proto_results | tojson}}'
             var parsed = JSON.parse(result_all)
-            console.log(i)
             $(".map_items").empty()
             $(".expanded_title").empty()
             $(".subtitle").empty()
@@ -133,12 +144,15 @@
             var img = result.photos
             var area = result.boro
             var reviews = parsed[index][name].reviews
-            console.log(reviews)
+            var score = result.weighted_score
+            score = parseFloat(score).toFixed(3)
+            
+            console.log(score)
             //var amenities = parsed[index][name].amenities
             var rating = Math.round(result.rating)
             $(".expanded_header").css("background-image", 'url('+img+')')
             $(".expanded_title").text(name)
-
+            $(".score_num").text(score)
             $(".expanded_title").append('<div class="star_rating"></div>')
             for (i=0; i<rating; i++){
                 $(".star_rating").append('<span class="fa fa-star checked"></span>');
