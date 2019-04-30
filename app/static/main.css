@@ -311,13 +311,14 @@ p {
 }
 .info-expanded {
     background: #FFF300;
-    height: 100vh;
+    height: calc(100vh - 120px);
     width: 20vw;
     position: absolute;
     transition: all ease-in-out .5s;
     padding: 60px 30px;
     left: -50%;
     top: 0;
+    overflow-y: scroll !important;
     /* opacity: 0; */
 }
 .info-expanded p {
