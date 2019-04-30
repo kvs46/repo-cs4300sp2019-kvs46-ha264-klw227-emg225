@@ -29,6 +29,8 @@ def to_dict(data):
                 continue
             if len(rows)!=0: 
                 name = rows[0]
+                if name == "Parks/Plot":
+                    continue
                 all_data[name]={}
                 all_data[name]['summary']=rows[1].replace('"', '')
                 all_data[name]['lat']=rows[2]
