@@ -33,11 +33,13 @@ def search():
 				nlist.append(b)
 
 		if simto:
+
 			similar = similar_parks(simto)
 			location = ['none']
 			features = ['none']
 			proto_results = similar
-			return render_template('results.html', loc_len = len(location), location=location, feat_len = len(features), features=features, proto_results=proto_results, len_results=len(proto_results), simto=simto)
+			highlights = []
+			return render_template('results.html', loc_len = len(location), location=location, feat_len = len(features), features=features, proto_results=proto_results, len_results=len(proto_results), simto=simto, highlights=highlights)
 		else:
 			all_results = get_results_updated(location, features)
 			proto_results = all_results[0]
