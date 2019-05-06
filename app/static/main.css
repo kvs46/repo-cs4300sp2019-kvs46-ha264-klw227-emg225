@@ -333,7 +333,7 @@ p {
     text-align: center;
     padding: 5px 0;
     border-radius: 6px;
-    content: 'Relevant word in your search';
+    content: 'This word was relevant to your search';
     position: absolute;
     width: 120px;
     top: 105%;
