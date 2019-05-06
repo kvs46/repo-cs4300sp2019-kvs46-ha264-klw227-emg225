@@ -46,6 +46,8 @@
             <input type="hidden" name="boroughs" id="boroughs">
             <input type="hidden" name="keyword" id="keyword">
             <div class="btn-go btn-next" onclick="submit_loc()" id="next"><div class="flex-center"><div>NEXT</div></div></div>
+            
+            <div class="btn-add" onclick="addFreeform()" id="addword"><div>Add</div></div>
             <button class="btn-go" id="go"> GO </button>
         </div>
         <div class="button-group" id="error-message">Please choose a keyword to continue</div>
@@ -256,11 +258,15 @@ function showOptions(){
     $(".choose_search").css("display", "block")
     $(".search_search").css("display", "none")
     $(".search_similar").css("display", "none")
+    $("#addword").css("visibility", "hidden")
   }
   else if (search_type == 'search'){
     $(".choose_search").css("display", "none")
     $(".search_similar").css("display", "none")
     $(".search_search").css("display", 'block')
+    // if(showGo == false){
+    //   $("#addword").css("visibility", "visible")
+    // }
   }
   else if (search_type == 'similar'){
     showGo = true
@@ -268,6 +274,8 @@ function showOptions(){
     $(".choose_search").css("display", "none")
     $(".search_similar").css("display", "block")
     $(".search_search").css("display", "none")
+
+    $("#addword").css("visibility", "hidden")
     $( "#input-similar" ).autocomplete({
       source: park_names,
       select: function(event, ui) {
@@ -291,6 +299,7 @@ function toggleButtons(){
     $(".form-control").attr("placeholder", "Search destinations");
 
     $("#next").css("visibility", "visible");
+    $("#addword").css("visibility", "hidden")
     $("#map").css("visibility", "visible");
     $("#map").css("display", "block");
     $( function() {
@@ -307,8 +316,9 @@ function toggleButtons(){
   else {
     total_boros = ["Queens", "Manhattan", "Staten Island", "Brooklyn", "Bronx"]
     selected_neighborhoods = []
+    $("#addword").css("visibility", "visible")
     $("#go").css("visibility", "visible");
-    $("#go").css("margin-left", "-11%");
+    $("#go").css("margin-left", "-1%");
     $(".form-control").attr("placeholder", "Search features");
     $("#features").css("visibility", "visible");
     $("#features").css("display", "block");
@@ -385,7 +395,10 @@ function addNeighborhood(n){
           console.log(selected)
         });
 }
-
+function addFreeform(){
+  value = $("#input").val()
+  addKeyword(value)
+}
 function addKeyword(w){
   value = w.toLowerCase()
   $("#features").append('<span class="tag-inactive tag-active" onclick="chooseWord('+"'"+value+"'"+')" id="'+value+'">'+value+'</span>')

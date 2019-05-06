@@ -275,9 +275,10 @@ def get_rankings(words_compressed, word_to_index, index_to_word,termlist, boroli
     
     #expand query based on ML
     for word in termlist:
-        close_words = closest_words(words_compressed,word_to_index, index_to_word,word.lower(), k=10)
-        terms, closeness = zip(*close_words)
-        query = query + list(terms)
+        if word in word_to_index:
+            close_words = closest_words(words_compressed,word_to_index, index_to_word,word.lower(), k=10)
+            terms, closeness = zip(*close_words)
+            query = query + list(terms)
     
     #compute cosine sim
     output = index_search(query, index, idf, doc_norms) #(score, doc index )list
