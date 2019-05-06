@@ -173,14 +173,12 @@
             
             if(reviews.length>0){
                 reviews.forEach(function(r,i){
-                    console.log(i)
                     $(".reviews_title").text('Reviews')
                     $(".reviews_items").append('<div><div class="review_text" id="text_'+i+'">'+r[0]+'</div><div class="review_rating">'+r[1]+'</div></div>')
                     var text = $("#text_"+i).text()
                     highlights.forEach(function(h){
                         text = text.replace(h, "<span class='highlight'>"+h+"</span>")
                     })
-                    console.log(text)
                     $("#text_"+i).html(text)
                    
                     $(".review_rating").empty()
@@ -194,8 +192,17 @@
                 
             }
             else {
-                $(".reviews_items").text(result.text)
+             //   $(".reviews_items").text(result.text)
+                $(".reviews_items").append("<div id='sum_text'>"+result.text+"</div>")
                 $(".reviews_title").text('Summary')
+
+                var text = $("#sum_text").text()
+                
+                highlights.forEach(function(h){
+                    text = text.replace(h, "<span class='highlight'>"+h+"</span>")
+                })
+                $("#sum_text").html(text)
+                // $(".reviews_items").html(text)
             }
            
             $(".map_items").append('<iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBYcuFsV7KTFtJsVKVFcrOEhKYhqpv8V7Y&q= '+ result.address+', NY, NY" allowfullscreen></iframe>')

@@ -325,6 +325,10 @@ p {
     color: yellow;
     position: relative;
 }
+.highlight-sum {
+    color: yellow;
+    position: relative;
+}
 .highlight::after {
     visibility: hidden;
     width: 120px;
@@ -621,6 +625,8 @@ label:hover {
 
 .slick-list {
     height: 25% !important;
+
+    overflow-y: scroll !important;
 }
 .slick-dots li button:before {
     color: white !important;
