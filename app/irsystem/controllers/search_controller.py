@@ -39,9 +39,10 @@ def search():
 			proto_results = similar
 			return render_template('results.html', loc_len = len(location), location=location, feat_len = len(features), features=features, proto_results=proto_results, len_results=len(proto_results), simto=simto)
 		else:
-			proto_results = get_results_updated(location, features)
-
-			return render_template('results.html', loc_len = len(location), location=location, feat_len = len(features), features=features, proto_results=proto_results, len_results=len(proto_results), nlist=nlist, nlen = len(nlist))
+			all_results = get_results_updated(location, features)
+			proto_results = all_results[0]
+			highlights = all_results[1]
+			return render_template('results.html', loc_len = len(location), location=location, feat_len = len(features), features=features, proto_results=proto_results, len_results=len(proto_results), nlist=nlist, nlen = len(nlist), highlights=highlights)
 	else:
 		return render_template('map.html', keywords=keywords, len_words=len(keywords))
 

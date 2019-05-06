@@ -342,7 +342,7 @@ def get_rankings(words_compressed, word_to_index, index_to_word,termlist, boroli
     totals, final = zip(*final_ranking)
     
     #return top 10
-    return final[:10]
+    return (final[:10], query)
 
 
 # In[16]:

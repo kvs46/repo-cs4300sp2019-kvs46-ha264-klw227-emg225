@@ -320,8 +320,32 @@ p {
     top: 0;
     
     overflow-y: scroll !important;
-    /* opacity: 0; */
 }
+.highlight {
+    color: yellow;
+    position: relative;
+}
+.highlight::after {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(255, 243, 0, 1);
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    content: 'Relevant word in your search';
+    position: absolute;
+    width: 120px;
+    top: 105%;
+    left: 50%; 
+    margin-left: -60px; 
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .highlight:hover::after {
+    visibility: visible !important;
+  }
+
 .info-expanded p {
     font-weight: 400;
     font-size: .75em;
